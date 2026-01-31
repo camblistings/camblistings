@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T20:45:47.158091",
+  "last_updated": "2026-01-31T20:52:21.473429",
   "cinemas": [
     {
       "name": "The Light Cambridge - Regular Screens",
@@ -576,9 +576,9 @@
       "is_imax": false,
       "films": [
         {
-          "title": "FAMILY SPECIAL: PIP AND POSY AND FRIENDS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "U",
+          "duration": "60 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -588,19 +588,8 @@
         },
         {
           "title": "Toddler Time",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "11:00"
-          ]
-        },
-        {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -610,20 +599,21 @@
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
             "11:10",
-            "17:00"
+            "17:00",
+            "20:10"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -634,30 +624,20 @@
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "13:50"
-          ]
-        },
-        {
-          "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
+            "13:50",
             "14:00"
           ]
         },
         {
           "title": "I'M NO ANGEL",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "U",
+          "duration": "84 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -666,121 +646,95 @@
           ]
         },
         {
-          "title": "reDiscover",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "12:00"
-          ]
-        },
-        {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "14:40",
-            "17:40"
-          ]
-        },
-        {
-          "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
             "12:00",
-            "15:00"
+            "14:40"
+          ]
+        },
+        {
+          "title": "HAMNET",
+          "rating": "12A",
+          "duration": "126 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "saturday",
+          "showtimes": [
+            "14:40",
+            "17:40",
+            "20:30"
+          ]
+        },
+        {
+          "title": "H IS FOR HAWK",
+          "rating": "12A",
+          "duration": "115 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "saturday",
+          "showtimes": [
+            "12:00",
+            "15:00",
+            "17:40"
           ]
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "20:00"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
+            "20:00",
             "12:15"
           ]
         },
         {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "14:45"
+            "14:45",
+            "17:30"
           ]
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "17:40"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "1984",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -789,20 +743,9 @@
           ]
         },
         {
-          "title": "MY FATHER'S SHADOW IN ASSOCIATION WITH WE ARE PARABLE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "17:30"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "Discover",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -812,98 +755,93 @@
         },
         {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "12:00"
-          ]
-        },
-        {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "11:45",
+            "12:00",
             "14:30"
           ]
         },
         {
-          "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "HAMNET",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
             "11:45",
-            "17:20"
+            "14:30",
+            "17:30"
           ]
         },
         {
-          "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "H IS FOR HAWK",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
+            "11:45",
             "17:20"
           ]
         },
         {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "15:00"
+            "15:00",
+            "20:30"
           ]
         },
         {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "15:00"
+            "15:00",
+            "20:00"
           ]
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "17:40"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "133 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -912,31 +850,21 @@
           ]
         },
         {
-          "title": "R.E.M. X BUSTER KEATON'S SHERLOCK JR.",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "18:15"
-          ]
-        },
-        {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "12:30"
+            "12:30",
+            "20:10"
           ]
         },
         {
           "title": "THE 400 BLOWS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "PG",
+          "duration": "95 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -946,8 +874,8 @@
         },
         {
           "title": "FAHRENHEIT 451",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "113 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -956,78 +884,58 @@
           ]
         },
         {
-          "title": "IF I HAD LEGS I'D KICK YOU",
+          "title": "Discover",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "140 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "20:00"
+            "17:00"
           ]
         },
         {
           "title": "WUTHERING HEIGHTS",
           "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "17:00",
-            "19:00"
-          ]
-        },
-        {
-          "title": "WUTHERING HEIGHTS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "duration": "140 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
             "14:00",
-            "16:00"
+            "16:00",
+            "17:00"
           ]
         },
         {
           "title": "PILLION",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "20:30"
-          ]
-        },
-        {
-          "title": "BREATHLESS",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
+            "20:30",
             "14:00"
           ]
         },
         {
           "title": "WUTHERING HEIGHTS",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "140 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
             "13:45",
-            "16:45"
+            "16:45",
+            "19:45"
           ]
         },
         {
           "title": "THRONE OF BLOOD",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "110 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1037,8 +945,8 @@
         },
         {
           "title": "WASTEMAN",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "90 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1048,19 +956,20 @@
         },
         {
           "title": "IF I HAD LEGS I'D KICK YOU",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "113 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "20:30"
+            "20:30",
+            "20:00"
           ]
         },
         {
           "title": "THE SECRET AGENT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "161 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1070,30 +979,8 @@
         },
         {
           "title": "THE SECRET AGENT",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "20:00"
-          ]
-        },
-        {
-          "title": "CLEO FROM 5 TO 7",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "13:45"
-          ]
-        },
-        {
-          "title": "THE SECRET AGENT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "161 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1102,20 +989,9 @@
           ]
         },
         {
-          "title": "FRENZY",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "13:00"
-          ]
-        },
-        {
           "title": "SIRÂT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1125,8 +1001,8 @@
         },
         {
           "title": "EYES WITHOUT A FACE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "91 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1135,20 +1011,20 @@
           ]
         },
         {
-          "title": "MOLLY VS THE MACHINES + RECORDED Q&A",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "Picturehouse Docs",
+          "rating": "12A",
+          "duration": "180 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "19:40"
+            "14:00"
           ]
         },
         {
           "title": "ROCCO AND HIS BROTHERS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "178 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1158,8 +1034,8 @@
         },
         {
           "title": "SOUND OF FALLING",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "155 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1170,7 +1046,7 @@
         {
           "title": "OTHELLO (2026)",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "165 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1179,31 +1055,21 @@
           ]
         },
         {
-          "title": "OTHELLO (2026)",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "TBC 165 MIN",
+          "rating": "18",
+          "duration": "145 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
           "showtimes": [
-            "13:00"
-          ]
-        },
-        {
-          "title": "THE HANDMAIDEN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
+            "13:00",
             "19:45"
           ]
         },
         {
           "title": "LATE SHIFT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "91 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1213,8 +1079,8 @@
         },
         {
           "title": "STOKER",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "99 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1223,20 +1089,9 @@
           ]
         },
         {
-          "title": "PLAYTIME",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "13:00"
-          ]
-        },
-        {
           "title": "DECISION TO LEAVE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1246,8 +1101,8 @@
         },
         {
           "title": "OLDBOY",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "120 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1258,7 +1113,7 @@
         {
           "title": "TBC 130 MIN",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "130 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1268,19 +1123,8 @@
         },
         {
           "title": "TBC 130 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "13:00"
-          ]
-        },
-        {
-          "title": "TBC 130 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "210 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1302,7 +1146,7 @@
         {
           "title": "TBC 150 MIN",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "150 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1313,18 +1157,7 @@
         {
           "title": "TBC 150 MIN",
           "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "14:00"
-          ]
-        },
-        {
-          "title": "TBC 150 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
+          "duration": "150 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "saturday",
@@ -1344,20 +1177,9 @@
           ]
         },
         {
-          "title": "TBC 150 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "saturday",
-          "showtimes": [
-            "19:30"
-          ]
-        },
-        {
-          "title": "FAMILY SPECIAL: PIP AND POSY AND FRIENDS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "U",
+          "duration": "60 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1367,19 +1189,8 @@
         },
         {
           "title": "Toddler Time",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "11:00"
-          ]
-        },
-        {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1389,20 +1200,21 @@
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
           "showtimes": [
             "11:10",
-            "17:00"
+            "17:00",
+            "20:10"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1413,30 +1225,20 @@
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
           "showtimes": [
-            "13:50"
-          ]
-        },
-        {
-          "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
+            "13:50",
             "14:00"
           ]
         },
         {
           "title": "I'M NO ANGEL",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "U",
+          "duration": "84 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1445,31 +1247,9 @@
           ]
         },
         {
-          "title": "reDiscover",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
           "title": "FAMILY SPECIAL: PIP AND POSY AND FRIENDS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "U",
+          "duration": "60 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1478,43 +1258,22 @@
           ]
         },
         {
-          "title": "Toddler Time",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "11:00"
-          ]
-        },
-        {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "11:00"
-          ]
-        },
-        {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
           "showtimes": [
             "11:10",
-            "17:00"
+            "17:00",
+            "20:10"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1525,30 +1284,20 @@
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
           "showtimes": [
-            "13:50"
-          ]
-        },
-        {
-          "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
+            "13:50",
             "14:00"
           ]
         },
         {
           "title": "I'M NO ANGEL",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "U",
+          "duration": "84 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "sunday",
@@ -1557,43 +1306,9 @@
           ]
         },
         {
-          "title": "reDiscover",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "sunday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
-          "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "monday",
-          "showtimes": [
-            "12:00",
-            "15:00"
-          ]
-        },
-        {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "monday",
@@ -1602,89 +1317,95 @@
           ]
         },
         {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "monday",
-          "showtimes": [
-            "12:15"
-          ]
-        },
-        {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "monday",
-          "showtimes": [
-            "14:40",
-            "17:40"
-          ]
-        },
-        {
-          "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "monday",
-          "showtimes": [
-            "20:00"
-          ]
-        },
-        {
-          "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "NO OTHER CHOICE",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "monday",
           "showtimes": [
             "12:00",
-            "15:00"
-          ]
-        },
-        {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "monday",
-          "showtimes": [
-            "12:00"
+            "14:40"
           ]
         },
         {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "monday",
           "showtimes": [
-            "12:15"
+            "12:15",
+            "17:30"
           ]
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "monday",
           "showtimes": [
             "14:40",
-            "17:40"
+            "17:40",
+            "20:30"
           ]
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "monday",
+          "showtimes": [
+            "20:00",
+            "12:00"
+          ]
+        },
+        {
+          "title": "NO OTHER CHOICE",
+          "rating": "15",
+          "duration": "139 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "monday",
+          "showtimes": [
+            "12:00",
+            "14:40"
+          ]
+        },
+        {
+          "title": "NOUVELLE VAGUE",
+          "rating": "12A",
+          "duration": "106 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "monday",
+          "showtimes": [
+            "12:15",
+            "17:30"
+          ]
+        },
+        {
+          "title": "HAMNET",
+          "rating": "12A",
+          "duration": "126 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "monday",
+          "showtimes": [
+            "14:40",
+            "17:40",
+            "20:30"
+          ]
+        },
+        {
+          "title": "MARTY SUPREME",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "monday",
@@ -1693,9 +1414,9 @@
           ]
         },
         {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
@@ -1705,19 +1426,20 @@
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "1984",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
@@ -1726,31 +1448,21 @@
           ]
         },
         {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "tuesday",
-          "showtimes": [
-            "14:45"
-          ]
-        },
-        {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
           "showtimes": [
-            "15:10"
+            "15:10",
+            "20:30"
           ]
         },
         {
           "title": "MY FATHER'S SHADOW IN ASSOCIATION WITH WE ARE PARABLE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "93 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
@@ -1760,30 +1472,32 @@
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "17:40"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "1984",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
@@ -1792,31 +1506,21 @@
           ]
         },
         {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "tuesday",
-          "showtimes": [
-            "14:45"
-          ]
-        },
-        {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
           "showtimes": [
-            "15:10"
+            "15:10",
+            "20:30"
           ]
         },
         {
           "title": "MY FATHER'S SHADOW IN ASSOCIATION WITH WE ARE PARABLE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "93 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "tuesday",
@@ -1825,21 +1529,20 @@
           ]
         },
         {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
           "showtimes": [
-            "11:45",
-            "14:30"
+            "11:45"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
@@ -1849,54 +1552,33 @@
           ]
         },
         {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "wednesday",
-          "showtimes": [
-            "12:00"
-          ]
-        },
-        {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
           "showtimes": [
-            "15:00"
+            "15:00",
+            "20:30"
           ]
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
           "showtimes": [
-            "17:20"
-          ]
-        },
-        {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "wednesday",
-          "showtimes": [
-            "11:45",
-            "14:30"
+            "17:20",
+            "11:45"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
@@ -1906,31 +1588,21 @@
           ]
         },
         {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "wednesday",
-          "showtimes": [
-            "12:00"
-          ]
-        },
-        {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
           "showtimes": [
-            "15:00"
+            "15:00",
+            "20:30"
           ]
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "wednesday",
@@ -1939,9 +1611,9 @@
           ]
         },
         {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
@@ -1951,30 +1623,32 @@
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
           "showtimes": [
-            "12:30"
+            "12:30",
+            "20:10"
           ]
         },
         {
           "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "133 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
@@ -1983,20 +1657,9 @@
           ]
         },
         {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "thursday",
-          "showtimes": [
-            "15:00"
-          ]
-        },
-        {
           "title": "R.E.M. X BUSTER KEATON'S SHERLOCK JR.",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "72 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
@@ -2005,42 +1668,33 @@
           ]
         },
         {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "thursday",
-          "showtimes": [
-            "12:00"
-          ]
-        },
-        {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
           "showtimes": [
-            "12:30"
+            "12:30",
+            "20:10"
           ]
         },
         {
           "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "133 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
@@ -2049,20 +1703,9 @@
           ]
         },
         {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "thursday",
-          "showtimes": [
-            "15:00"
-          ]
-        },
-        {
           "title": "R.E.M. X BUSTER KEATON'S SHERLOCK JR.",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "72 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "thursday",
@@ -2071,9 +1714,9 @@
           ]
         },
         {
-          "title": "FAMILY SPECIAL: PIP AND POSY AND FRIENDS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "31 MAR",
+          "rating": "U",
+          "duration": "60 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2083,19 +1726,8 @@
         },
         {
           "title": "Toddler Time",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "11:00"
-          ]
-        },
-        {
-          "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2105,20 +1737,21 @@
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
             "11:10",
-            "17:00"
+            "17:00",
+            "20:10"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2129,30 +1762,20 @@
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "13:50"
-          ]
-        },
-        {
-          "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
+            "13:50",
             "14:00"
           ]
         },
         {
           "title": "I'M NO ANGEL",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "U",
+          "duration": "84 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2161,121 +1784,95 @@
           ]
         },
         {
-          "title": "reDiscover",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "18:35"
-          ]
-        },
-        {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "12:00"
-          ]
-        },
-        {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "14:40",
-            "17:40"
-          ]
-        },
-        {
-          "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
             "12:00",
-            "15:00"
+            "14:40"
+          ]
+        },
+        {
+          "title": "HAMNET",
+          "rating": "12A",
+          "duration": "126 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "friday",
+          "showtimes": [
+            "14:40",
+            "17:40",
+            "20:30"
+          ]
+        },
+        {
+          "title": "H IS FOR HAWK",
+          "rating": "12A",
+          "duration": "115 m",
+          "format": "2D",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
+          "day": "friday",
+          "showtimes": [
+            "12:00",
+            "15:00",
+            "17:40"
           ]
         },
         {
           "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "149 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "20:00"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
+            "20:00",
             "12:15"
           ]
         },
         {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "14:45"
+            "14:45",
+            "17:30"
           ]
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "17:40"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "1984",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2284,20 +1881,9 @@
           ]
         },
         {
-          "title": "MY FATHER'S SHADOW IN ASSOCIATION WITH WE ARE PARABLE",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "17:30"
-          ]
-        },
-        {
-          "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "Discover",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2307,98 +1893,93 @@
         },
         {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "12:00"
-          ]
-        },
-        {
-          "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "11:45",
+            "12:00",
             "14:30"
           ]
         },
         {
-          "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "HAMNET",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
             "11:45",
-            "17:20"
+            "14:30",
+            "17:30"
           ]
         },
         {
-          "title": "MARTY SUPREME",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "H IS FOR HAWK",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
+            "11:45",
             "17:20"
           ]
         },
         {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "15:00"
+            "15:00",
+            "20:30"
           ]
         },
         {
           "title": "NO OTHER CHOICE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "15:00"
+            "15:00",
+            "20:00"
           ]
         },
         {
           "title": "HAMNET",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "126 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "17:40"
           ]
         },
         {
           "title": "H IS FOR HAWK",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "12:00"
+            "12:00",
+            "14:45"
           ]
         },
         {
           "title": "SENTIMENTAL VALUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "133 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2407,31 +1988,21 @@
           ]
         },
         {
-          "title": "R.E.M. X BUSTER KEATON'S SHERLOCK JR.",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "18:15"
-          ]
-        },
-        {
           "title": "NOUVELLE VAGUE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "12:30"
+            "12:30",
+            "20:10"
           ]
         },
         {
           "title": "THE 400 BLOWS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "PG",
+          "duration": "95 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2441,8 +2012,8 @@
         },
         {
           "title": "FAHRENHEIT 451",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "113 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2451,78 +2022,58 @@
           ]
         },
         {
-          "title": "IF I HAD LEGS I'D KICK YOU",
+          "title": "Discover",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "140 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "20:00"
+            "17:00"
           ]
         },
         {
           "title": "WUTHERING HEIGHTS",
           "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "17:00",
-            "19:00"
-          ]
-        },
-        {
-          "title": "WUTHERING HEIGHTS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "duration": "140 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
             "14:00",
-            "16:00"
+            "16:00",
+            "17:00"
           ]
         },
         {
           "title": "PILLION",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "106 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "20:30"
-          ]
-        },
-        {
-          "title": "BREATHLESS",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
+            "20:30",
             "14:00"
           ]
         },
         {
           "title": "WUTHERING HEIGHTS",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "140 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
             "13:45",
-            "16:45"
+            "16:45",
+            "19:45"
           ]
         },
         {
           "title": "THRONE OF BLOOD",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "110 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2532,8 +2083,8 @@
         },
         {
           "title": "WASTEMAN",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "90 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2543,19 +2094,20 @@
         },
         {
           "title": "IF I HAD LEGS I'D KICK YOU",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "113 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "20:30"
+            "20:30",
+            "20:00"
           ]
         },
         {
           "title": "THE SECRET AGENT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "161 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2565,30 +2117,8 @@
         },
         {
           "title": "THE SECRET AGENT",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "20:00"
-          ]
-        },
-        {
-          "title": "CLEO FROM 5 TO 7",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "13:45"
-          ]
-        },
-        {
-          "title": "THE SECRET AGENT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "161 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2597,20 +2127,9 @@
           ]
         },
         {
-          "title": "FRENZY",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "13:00"
-          ]
-        },
-        {
           "title": "SIRÂT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "115 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2620,8 +2139,8 @@
         },
         {
           "title": "EYES WITHOUT A FACE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "91 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2630,20 +2149,20 @@
           ]
         },
         {
-          "title": "MOLLY VS THE MACHINES + RECORDED Q&A",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "Picturehouse Docs",
+          "rating": "12A",
+          "duration": "180 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "19:40"
+            "14:00"
           ]
         },
         {
           "title": "ROCCO AND HIS BROTHERS",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "178 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2653,8 +2172,8 @@
         },
         {
           "title": "SOUND OF FALLING",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "155 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2665,7 +2184,7 @@
         {
           "title": "OTHELLO (2026)",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "165 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2674,31 +2193,21 @@
           ]
         },
         {
-          "title": "OTHELLO (2026)",
-          "rating": "TBC",
-          "duration": "TBC",
+          "title": "TBC 165 MIN",
+          "rating": "18",
+          "duration": "145 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
-            "13:00"
-          ]
-        },
-        {
-          "title": "THE HANDMAIDEN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
+            "13:00",
             "19:45"
           ]
         },
         {
           "title": "LATE SHIFT",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "91 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2708,8 +2217,8 @@
         },
         {
           "title": "STOKER",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "99 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2718,20 +2227,9 @@
           ]
         },
         {
-          "title": "PLAYTIME",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "13:00"
-          ]
-        },
-        {
           "title": "DECISION TO LEAVE",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "15",
+          "duration": "139 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2741,8 +2239,8 @@
         },
         {
           "title": "OLDBOY",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "18",
+          "duration": "120 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2753,7 +2251,7 @@
         {
           "title": "TBC 130 MIN",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "130 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2763,19 +2261,8 @@
         },
         {
           "title": "TBC 130 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "13:00"
-          ]
-        },
-        {
-          "title": "TBC 130 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
+          "rating": "12A",
+          "duration": "210 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2797,7 +2284,7 @@
         {
           "title": "TBC 150 MIN",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "150 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
@@ -2808,34 +2295,12 @@
         {
           "title": "TBC 150 MIN",
           "rating": "TBC",
-          "duration": "TBC",
+          "duration": "150 m",
           "format": "2D",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
           "day": "friday",
           "showtimes": [
             "14:00"
-          ]
-        },
-        {
-          "title": "TBC 150 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "14:00"
-          ]
-        },
-        {
-          "title": "TBC 150 MIN",
-          "rating": "TBC",
-          "duration": "TBC",
-          "format": "2D",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
-          "day": "friday",
-          "showtimes": [
-            "19:30"
           ]
         },
         {
