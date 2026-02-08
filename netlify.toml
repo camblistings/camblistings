@@ -1,4 +1,0 @@
-[build]
-  # This command tells Netlify to check what changed. 
-  # If ONLY the json file changed, it returns '0' (exit code for "do nothing").
-  ignore = "git diff --quiet HEAD^ HEAD website_data_by_cinema.json"
