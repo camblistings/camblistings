@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T07:01:22.182485",
+  "last_updated": "2026-02-12T06:53:39.155564",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -19,6 +19,7 @@
             "19:40"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -32,6 +33,7 @@
             "19:10"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -39,12 +41,12 @@
           "rating": "15",
           "duration": "2h 11m",
           "showtimes": [
-            "11:20",
             "14:00",
             "16:50",
             "19:45"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -52,21 +54,12 @@
           "rating": "15",
           "duration": "1h 47m",
           "showtimes": [
-            "15:15",
-            "17:45",
-            "20:15"
+            "14:40",
+            "17:10",
+            "19:40"
           ],
           "format": "Standard",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "28 Years Later: The Bone Temple",
-          "rating": "18",
-          "duration": "1h 49m",
-          "showtimes": [
-            "14:40"
-          ],
-          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -74,9 +67,21 @@
           "rating": "18",
           "duration": "1h 29m",
           "showtimes": [
-            "20:30"
+            "20:50"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -84,10 +89,22 @@
           "rating": "12A",
           "duration": "1h 46m",
           "showtimes": [
-            "11:30",
-            "17:00"
+            "12:00",
+            "17:40"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -95,9 +112,10 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "14:30"
+            "10:40"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -105,9 +123,59 @@
           "rating": "15",
           "duration": "2h 19m",
           "showtimes": [
-            "16:00"
+            "12:40"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -115,21 +183,57 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "13:00"
+            "14:30",
+            "16:00"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Avatar: Fire and Ash",
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
           "rating": "12A",
           "duration": "3h 17m",
           "showtimes": [
-            "12:00",
-            "16:00",
-            "19:00"
+            "13:00",
+            "20:00"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -137,30 +241,24 @@
           "rating": "15",
           "duration": "2h 29m",
           "showtimes": [
-            "11:10",
-            "17:20"
+            "15:00",
+            "19:00"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Sense and Sensibility (30th Anniversary)",
-          "rating": "U",
-          "duration": "2h 16m",
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
           "showtimes": [
-            "12:00"
+            "10:20",
+            "12:40",
+            "15:00"
           ],
           "format": "Standard",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Scarecrows' Wedding",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:30"
-          ],
-          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -168,9 +266,43 @@
           "rating": "18",
           "duration": "2h 18m",
           "showtimes": [
-            "19:30"
+            "11:30"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -178,9 +310,3412 @@
           "rating": "15",
           "duration": "2h 15m",
           "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
             "20:00"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 6m",
+          "showtimes": [
+            "10:45",
+            "13:30",
+            "16:20",
+            "19:10"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 11m",
+          "showtimes": [
+            "14:00",
+            "16:50",
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shelter",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:40",
+            "17:10",
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Primate",
+          "rating": "18",
+          "duration": "1h 29m",
+          "showtimes": [
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nouvelle Vague",
+          "rating": "12A",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "12:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Song Sung Blue",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "14:30",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 29m",
+          "showtimes": [
+            "15:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:20",
+            "12:40",
+            "15:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shutter Island",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "11:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 6m",
+          "showtimes": [
+            "10:45",
+            "13:30",
+            "16:20",
+            "19:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 11m",
+          "showtimes": [
+            "14:00",
+            "16:50",
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shelter",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:40",
+            "17:10",
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Primate",
+          "rating": "18",
+          "duration": "1h 29m",
+          "showtimes": [
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nouvelle Vague",
+          "rating": "12A",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "12:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Song Sung Blue",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "14:30",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 29m",
+          "showtimes": [
+            "15:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:20",
+            "12:40",
+            "15:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shutter Island",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "11:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 6m",
+          "showtimes": [
+            "10:45",
+            "13:30",
+            "16:20",
+            "19:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 11m",
+          "showtimes": [
+            "14:00",
+            "16:50",
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shelter",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:40",
+            "17:10",
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Primate",
+          "rating": "18",
+          "duration": "1h 29m",
+          "showtimes": [
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nouvelle Vague",
+          "rating": "12A",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "12:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Song Sung Blue",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "14:30",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 29m",
+          "showtimes": [
+            "15:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:20",
+            "12:40",
+            "15:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shutter Island",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "11:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 6m",
+          "showtimes": [
+            "10:45",
+            "13:30",
+            "16:20",
+            "19:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 11m",
+          "showtimes": [
+            "14:00",
+            "16:50",
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shelter",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:40",
+            "17:10",
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Primate",
+          "rating": "18",
+          "duration": "1h 29m",
+          "showtimes": [
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nouvelle Vague",
+          "rating": "12A",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "12:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Song Sung Blue",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "14:30",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 29m",
+          "showtimes": [
+            "15:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:20",
+            "12:40",
+            "15:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shutter Island",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "11:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 6m",
+          "showtimes": [
+            "10:45",
+            "13:30",
+            "16:20",
+            "19:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 11m",
+          "showtimes": [
+            "14:00",
+            "16:50",
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shelter",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:40",
+            "17:10",
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Primate",
+          "rating": "18",
+          "duration": "1h 29m",
+          "showtimes": [
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nouvelle Vague",
+          "rating": "12A",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "12:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Song Sung Blue",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "14:30",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 29m",
+          "showtimes": [
+            "15:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:20",
+            "12:40",
+            "15:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shutter Island",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "11:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 6m",
+          "showtimes": [
+            "10:45",
+            "13:30",
+            "16:20",
+            "19:10"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 11m",
+          "showtimes": [
+            "14:00",
+            "16:50",
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shelter",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:40",
+            "17:10",
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Primate",
+          "rating": "18",
+          "duration": "1h 29m",
+          "showtimes": [
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Stitch Head",
+          "rating": "U",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:45"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nouvelle Vague",
+          "rating": "12A",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kangaroo",
+          "rating": "PG",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "12:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Sentimental Value",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Spongebob Movie: Search For Squarepants",
+          "rating": "PG",
+          "duration": "1h 36m",
+          "showtimes": [
+            "10:00",
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Another World (Subbed)",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "12:20",
+            "18:15"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:00",
+            "12:20",
+            "15:30",
+            "17:50"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Song Sung Blue",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "14:30",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Ballad Of Wallis Island",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "11:45"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 47m",
+          "showtimes": [
+            "11:40",
+            "14:10"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wicked: For Good",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 29m",
+          "showtimes": [
+            "15:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Looney Tunes: The Day The Earth Blew Up",
+          "rating": "PG",
+          "duration": "1h 31m",
+          "showtimes": [
+            "10:20",
+            "12:40",
+            "15:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Shutter Island",
+          "rating": "18",
+          "duration": "2h 18m",
+          "showtimes": [
+            "11:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Scarecrows' Wedding",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "11:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Rbo: Woolf Works",
+          "rating": "12A",
+          "duration": "3h 30m",
+          "showtimes": [
+            "14:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wasteman",
+          "rating": "18",
+          "duration": "1h 30m",
+          "showtimes": [
+            "20:15"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "rating": "12A",
+          "duration": "1h 38m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "10:10",
+            "11:00",
+            "13:30",
+            "14:50",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "19:30",
+            "20:15",
+            "21:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "It\u2019S Never Over, Jeff Buckley",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Smeds And The Smoos",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Secret Agent",
+          "rating": "15",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "O' Romeo (Hindi)",
+          "rating": "18",
+          "duration": "2h 57m",
+          "showtimes": [
+            "19:45"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "National Theatre Live: The Fifth Step",
+          "rating": "15",
+          "duration": "1h 26m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dalej Jazda 2",
+          "rating": "12A",
+          "duration": "1h 43m",
+          "showtimes": [
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Great Gatsby",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Night King (Cantonese)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "17:00",
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lupin The Iiird The Movie: The Immortal Bloodline (Subbed)",
+          "rating": "15",
+          "duration": "1h 32m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "A Knight'S Tale (25Th Anniversary, 4K Restoration)",
+          "rating": "12A",
+          "duration": "2h 12m",
+          "showtimes": [
+            "19:50"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Scare Out (Mandarin)",
+          "rating": "Unknown",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Pinkfong Wonderstar",
+          "rating": "U",
+          "duration": "1h 6m",
+          "showtimes": [
+            "10:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Tu Yaa Main (Hindi)",
+          "rating": "Unknown",
+          "duration": "2h 40m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Hey Bhagawan! (Telugu)",
+          "rating": "15",
+          "duration": "2h 15m",
+          "showtimes": [
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Cold Storage",
+          "rating": "15",
+          "duration": "1h 38m",
+          "showtimes": [
+            "15:30",
+            "17:50",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Once Upon A Time In... Hollywood",
+          "rating": "18",
+          "duration": "2h 41m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         }
       ]
@@ -192,14 +3727,26 @@
       "url": "https://cambridge.thelight.co.uk/imax",
       "films": [
         {
-          "title": "Avatar: Fire and Ash",
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
           "rating": "12A",
           "duration": "3h 17m",
           "showtimes": [
-            "12:00",
-            "16:00"
+            "13:00",
+            "20:00"
           ],
           "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         },
         {
@@ -207,9 +3754,470 @@
           "rating": "15",
           "duration": "2h 15m",
           "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
             "20:00"
           ],
           "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Mercy",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:40"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Avatar: Fire And Ash",
+          "rating": "12A",
+          "duration": "3h 17m",
+          "showtimes": [
+            "13:00",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Wuthering Heights",
+          "rating": "15",
+          "duration": "2h 20m",
+          "showtimes": [
+            "13:30",
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Epic: Elvis Presley In Concert",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:30",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Twenty One Pilots: More Than We Ever Imagined",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "Inception",
+          "rating": "12A",
+          "duration": "2h 28m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         }
       ]
@@ -220,150 +4228,13 @@
       "address": "Unit 42, Grand Arcade, Cambridge, CB2 3BJ",
       "films": [
         {
-          "title": "Send Help",
-          "rating": "15",
-          "duration": "1h 54m",
-          "showtimes": [
-            "12:30",
-            "16:00",
-            "21:15"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Is This Thing On?",
-          "rating": "15",
-          "duration": "2h 4m",
-          "showtimes": [
-            "11:15",
-            "18:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Housemaid",
-          "rating": "15",
-          "duration": "2h 13m",
-          "showtimes": [
-            "11:45",
-            "20:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Zootropolis 2",
-          "rating": "PG",
-          "duration": "1h 48m",
-          "showtimes": [
-            "09:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Hamnet",
-          "rating": "12A",
-          "duration": "2h 5m",
-          "showtimes": [
-            "10:45",
-            "15:30",
-            "20:20"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Marty Supreme",
-          "rating": "15",
-          "duration": "2h 30m",
-          "showtimes": [
-            "17:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Avatar: Fire and Ash",
-          "rating": "12A",
-          "duration": "3h 17m",
-          "showtimes": [
-            "13:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "No Other Choice",
-          "rating": "15",
-          "duration": "2h 19m",
-          "showtimes": [
-            "12:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Shelter",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "14:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Nouvelle Vague",
-          "rating": "12A",
-          "duration": "1h 46m",
-          "showtimes": [
-            "09:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Hamlet",
-          "rating": "15",
-          "duration": "1h 54m",
-          "showtimes": [
-            "16:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Scarecrows' Wedding & The Smeds and the Smoos",
-          "rating": "U",
-          "duration": "0h 52m",
-          "showtimes": [
-            "09:30",
-            "14:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Throwback: There Will Be Blood",
-          "rating": "15",
-          "duration": "2h 38m",
-          "showtimes": [
-            "19:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Members' Preview: Wasteman",
           "rating": "18",
           "duration": "1h 30m",
           "showtimes": [
             "19:00"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -373,7 +4244,7 @@
           "showtimes": [
             "18:15"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -384,7 +4255,7 @@
             "12:00",
             "20:30"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -395,7 +4266,7 @@
             "14:45",
             "20:00"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -405,7 +4276,7 @@
           "showtimes": [
             "09:00"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -417,7 +4288,7 @@
             "15:15",
             "19:30"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -427,17 +4298,17 @@
           "showtimes": [
             "15:45"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Avatar: Fire and Ash",
+          "title": "Avatar: Fire And Ash",
           "rating": "12A",
           "duration": "3h 17m",
           "showtimes": [
             "11:45"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -447,7 +4318,7 @@
           "showtimes": [
             "11:15"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -458,7 +4329,7 @@
             "09:15",
             "17:45"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -469,7 +4340,7 @@
             "14:15",
             "21:00"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -479,7 +4350,7 @@
           "showtimes": [
             "13:45"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -489,7 +4360,7 @@
           "showtimes": [
             "10:00"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -499,15 +4370,106 @@
           "showtimes": [
             "17:15"
           ],
-          "day": "tomorrow",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Scarecrows' Wedding & The Smeds and the Smoos",
+          "title": "The Scarecrows' Wedding & The Smeds And The Smoos",
           "rating": "U",
           "duration": "0h 52m",
           "showtimes": [
             "09:30"
+          ],
+          "day": "today",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "\"Wuthering Heights\"",
+          "rating": "15",
+          "duration": "2h 16m",
+          "showtimes": [
+            "10:30",
+            "12:00",
+            "13:45",
+            "15:00",
+            "17:00",
+            "18:15"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Goat",
+          "rating": "PG",
+          "duration": "1h 40m",
+          "showtimes": [
+            "09:30",
+            "12:30",
+            "15:15",
+            "17:15"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Crime 101",
+          "rating": "15",
+          "duration": "2h 19m",
+          "showtimes": [
+            "11:00",
+            "20:45"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Send Help",
+          "rating": "15",
+          "duration": "1h 54m",
+          "showtimes": [
+            "16:30"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Housemaid",
+          "rating": "15",
+          "duration": "2h 13m",
+          "showtimes": [
+            "14:15"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Zootropolis 2",
+          "rating": "PG",
+          "duration": "1h 48m",
+          "showtimes": [
+            "09:15"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Hamnet",
+          "rating": "12A",
+          "duration": "2h 5m",
+          "showtimes": [
+            "10:00",
+            "17:45"
+          ],
+          "day": "tomorrow",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Marty Supreme",
+          "rating": "15",
+          "duration": "2h 30m",
+          "showtimes": [
+            "09:00",
+            "13:00"
           ],
           "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -521,387 +4483,520 @@
       "url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
       "films": [
         {
-          "title": "ANDR\u00c9 IS AN IDIOT",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
+          "showtimes": [
+            "11:40",
+            "14:30",
+            "20:15"
+          ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
+          "showtimes": [
+            "11:40",
+            "14:30",
+            "17:15",
+            "20:20"
+          ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "Marty Supreme",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
+          "showtimes": [
+            "17:10"
+          ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "MARTY SUPREME",
+          "title": "No Other Choice",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
+          "showtimes": [
+            "14:15",
+            "20:00"
+          ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NO OTHER CHOICE",
+          "title": "Nouvelle Vague",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
+          "showtimes": [
+            "12:00"
+          ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NOUVELLE VAGUE",
+          "title": "Sentimental Value",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
+          "showtimes": [
+            "17:15"
+          ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "ONE BATTLE AFTER ANOTHER",
+          "title": "\"Wuthering Heights\"",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "today",
+          "showtimes": [
+            "13:00",
+            "14:00",
+            "16:00",
+            "17:00",
+            "19:00",
+            "20:10"
+          ],
+          "day": "friday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "thu 12 feb",
+          "showtimes": [
+            "11:30",
+            "17:40"
+          ],
+          "day": "friday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "thu 12 feb",
+          "showtimes": [
+            "12:30"
+          ],
+          "day": "friday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "MARTY SUPREME",
+          "title": "No Other Choice",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "thu 12 feb",
+          "showtimes": [
+            "20:15"
+          ],
+          "day": "friday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NO OTHER CHOICE",
+          "title": "The President'S Cake",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "thu 12 feb",
+          "showtimes": [
+            "15:15"
+          ],
+          "day": "friday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NOUVELLE VAGUE",
+          "title": "\"Wuthering Heights\"",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "thu 12 feb",
+          "showtimes": [
+            "11:00",
+            "13:00",
+            "14:00",
+            "16:00",
+            "17:00",
+            "19:00",
+            "20:00"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "SENTIMENTAL VALUE",
+          "title": "Casablanca",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "thu 12 feb",
+          "showtimes": [
+            "13:00"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "\"WUTHERING HEIGHTS\"",
+          "title": "Gabby\u2019S Dollhouse: The Movie",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "fri 13 feb",
+          "showtimes": [
+            "10:40"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "fri 13 feb",
+          "showtimes": [
+            "18:00"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "fri 13 feb",
+          "showtimes": [
+            "15:20"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NO OTHER CHOICE",
+          "title": "Pillion",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "fri 13 feb",
+          "showtimes": [
+            "20:30"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE PRESIDENT'S CAKE",
+          "title": "The President'S Cake",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "fri 13 feb",
+          "showtimes": [
+            "10:30"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "\"WUTHERING HEIGHTS\"",
+          "title": "The Scarecrows' Wedding",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "10:00"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "CASABLANCA",
+          "title": "\"Wuthering Heights\"",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "10:40",
+            "12:30",
+            "13:45",
+            "15:30",
+            "16:45",
+            "18:30",
+            "19:45"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "GABBY\u2019S DOLLHOUSE: THE MOVIE",
+          "title": "Breathless",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "14:00"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "16:15"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "10:15"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "PILLION",
+          "title": "No Other Choice",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "11:00"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE PRESIDENT'S CAKE",
+          "title": "The President'S Cake",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "19:00"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE SCARECROWS' WEDDING",
+          "title": "The Scarecrows' Wedding",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sat 14 feb",
+          "showtimes": [
+            "10:00"
+          ],
+          "day": "sunday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "\"WUTHERING HEIGHTS\"",
+          "title": "\"Wuthering Heights\"",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "12:00",
+            "15:00",
+            "17:30",
+            "20:30"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "BREATHLESS",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "17:45"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "20:30"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "Marty Supreme",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "20:20"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NO OTHER CHOICE",
+          "title": "No Other Choice",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "14:45"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE PRESIDENT'S CAKE",
+          "title": "Nouvelle Vague",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "12:15"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE SCARECROWS' WEDDING",
+          "title": "Rbo Encore: Woolf Works (2026)",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "sun 15 feb",
+          "showtimes": [
+            "13:45"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "\"WUTHERING HEIGHTS\"",
+          "title": "The President'S Cake",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "18:00"
+          ],
+          "day": "monday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "\"Wuthering Heights\"",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "11:00",
+            "13:20",
+            "14:15",
+            "16:30",
+            "17:20",
+            "20:20"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "15:20"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "MARTY SUPREME",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "10:30"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NO OTHER CHOICE",
+          "title": "No Other Choice",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "20:00"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NOUVELLE VAGUE",
+          "title": "The President'S Cake",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "10:30"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "RBO ENCORE: WOOLF WORKS (2026)",
+          "title": "Throne Of Blood",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "13:00"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE PRESIDENT'S CAKE",
+          "title": "Wasteman",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "mon 16 feb",
+          "showtimes": [
+            "20:50"
+          ],
+          "day": "tuesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "\"WUTHERING HEIGHTS\"",
+          "title": "\"Wuthering Heights\"",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "12:00",
+            "14:30",
+            "16:40",
+            "17:30",
+            "20:30"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "H IS FOR HAWK",
+          "title": "H Is For Hawk",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "12:00",
+            "17:40"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "HAMNET",
+          "title": "Hamnet",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "14:50"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "NO OTHER CHOICE",
+          "title": "It'S Never Over, Jeff Buckley",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "20:10"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THE PRESIDENT'S CAKE",
+          "title": "Marty Supreme",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "20:15"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "THRONE OF BLOOD",
+          "title": "No Other Choice",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "11:30"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
-          "title": "WASTEMAN",
+          "title": "The President'S Cake",
           "rating": "U",
           "duration": "",
-          "showtimes": [],
-          "day": "tue 17 feb",
+          "showtimes": [
+            "14:10"
+          ],
+          "day": "wednesday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         }
       ]
