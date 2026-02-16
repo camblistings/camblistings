@@ -500,47 +500,65 @@
         return showDate < new Date();
     }
 
+    
+    
     function renderList() {
-        const container = document.getElementById('mainContent');
-        const selectedKey = dateOptions[selectedDayIndex].key;
-        const query = document.getElementById('movieSearch').value.toLowerCase();
-        container.innerHTML = '';
+    const container = document.getElementById('mainContent');
+    const selectedKey = dateOptions[selectedDayIndex].key;
+    const query = document.getElementById('movieSearch').value.toLowerCase();
+    container.innerHTML = '';
 
-        // Collect all films for the selected day
-        let allFilms = [];
-        cinemaData.cinemas.forEach(cinema => {
-            if (!activeCinemas.has(cinema.name)) return;
+    // Collect all films for the selected day
+    let allFilms = [];
+    cinemaData.cinemas.forEach(cinema => {
+        if (!activeCinemas.has(cinema.name)) return;
 
-            const films = cinema.films.filter(f => {
-                const filmDay = (f.day || 'today').toLowerCase();
-                const dayMatch = selectedKey === 'future' ? 
-                    !dateOptions.slice(0, 7).some(opt => opt.key === filmDay) :
-                    (selectedDayIndex === 0 && filmDay === 'today') || (selectedDayIndex === 1 && filmDay === 'tomorrow') || (filmDay === selectedKey);
-                return dayMatch && f.title.toLowerCase().includes(query);
-            });
+        // DEBUG: Log what we're matching
+        console.log('Selected day index:', selectedDayIndex);
+        console.log('Selected key:', selectedKey);
+        console.log('Cinema:', cinema.name);
+        console.log('Sample film days:', cinema.films.slice(0, 5).map(f => ({ title: f.title, day: f.day })));
 
-            films.forEach(film => {
-                allFilms.push({
-                    ...film,
-                    cinema: cinema.name
-                });
-            });
+        const films = cinema.films.filter(f => {
+            const filmDay = (f.day || 'today').toLowerCase();
+            const dayMatch = selectedKey === 'future' ? 
+                !dateOptions.slice(0, 7).some(opt => opt.key === filmDay) :
+                (selectedDayIndex === 0 && filmDay === 'today') || 
+                (selectedDayIndex === 1 && filmDay === 'tomorrow') || 
+                (filmDay === selectedKey);
+            
+            // DEBUG: Log Wuthering Heights specifically
+            if (f.title.includes('Wuthering')) {
+                console.log('Wuthering Heights:', { filmDay, selectedKey, dayMatch });
+            }
+            
+            return dayMatch && f.title.toLowerCase().includes(query);
         });
 
-        if (allFilms.length === 0) {
-            container.innerHTML = '<div class="no-shows">No screenings found for this filter.</div>';
-            updateJumpMenu();
-            return;
-        }
+        films.forEach(film => {
+            allFilms.push({
+                ...film,
+                cinema: cinema.name
+            });
+        });
+    });
 
-        if (currentView === 'time') {
-            renderTimeView(container, allFilms);
-        } else {
-            renderCinemaView(container, allFilms);
-        }
-
+    if (allFilms.length === 0) {
+        container.innerHTML = '<div class="no-shows">No screenings found for this filter.</div>';
         updateJumpMenu();
+        return;
     }
+
+    if (currentView === 'time') {
+        renderTimeView(container, allFilms);
+    } else {
+        renderCinemaView(container, allFilms);
+    }
+
+    updateJumpMenu();
+}
+    
+   
 
     function renderTimeView(container, allFilms) {
         const timeSlots = groupFilmsByTime(allFilms);
