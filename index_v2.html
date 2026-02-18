@@ -694,6 +694,9 @@
 const res = await fetch(`${dataUrl}?t=${new Date().getTime()}`);
             cinemaData = await res.json();
             
+            // Clear any cached data
+            console.log('🔄 Fresh data loaded:', new Date().toISOString());
+            
             // Load user preferences or use defaults
             const preferences = loadUserPreferences();
             if (preferences && preferences.activeCinemas) {
