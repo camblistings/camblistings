@@ -3,7 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema Hub: Cambridge & Ely - Time View</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Cambridge Cinema Tonight - All Film Showtimes & Listings | Light, Picturehouse, Everyman, Cineworld</title>
+    <meta name="description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for The Light Cambridge, Picturehouse, Everyman, Cineworld Ely. Book tickets instantly.">
+    <meta name="keywords" content="Cambridge cinema, cinema tonight, Cambridge film showtimes, Light Cambridge, Picturehouse Cambridge, Everyman Cambridge, Cineworld Ely, cinema listings, film times, movie tickets, Cambridge entertainment">
+    <meta name="author" content="Cambridge Cinema Hub">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Cambridge Cinema Tonight - All Film Showtimes & Listings">
+    <meta property="og:description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for all Cambridge cinemas. Book tickets instantly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cambridge-films.vercel.app">
+    <meta property="og:image" content="https://cambridge-films.vercel.app/cinema-hub-image.jpg">
+    <meta property="og:site_name" content="Cambridge Cinema Hub">
+    <meta property="og:locale" content="en_GB">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cambridge Cinema Tonight - All Film Showtimes & Listings">
+    <meta name="twitter:description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for all Cambridge cinemas.">
+    <meta name="twitter:image" content="https://cambridge-films.vercel.app/cinema-hub-image.jpg">
+    
+    <!-- Location Meta Tags -->
+    <meta name="geo.region" content="GB-ENG">
+    <meta name="geo.placename" content="Cambridge, England">
+    <meta name="geo.position" content="52.2053;0.1218">
+    <meta name="ICBM" content="52.2053,0.1218">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cambridge Cinema Hub",
+        "description": "Complete Cambridge cinema listings and showtimes for tonight and this week",
+        "url": "https://cambridge-films.vercel.app",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://cambridge-films.vercel.app?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "Cambridge Cinema Hub",
+            "description": "Comprehensive cinema listings for Cambridge and Ely",
+            "areaServed": {
+                "@type": "City",
+                "name": "Cambridge"
+            },
+            "knowsAbout": [
+                "The Light Cambridge",
+                "Arts Picturehouse Cambridge", 
+                "Everyman Cambridge",
+                "Cineworld Ely",
+                "Cinema showtimes",
+                "Film listings",
+                "Movie tickets"
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Additional SEO -->
+    <link rel="canonical" href="https://cambridge-films.vercel.app">
+    <link rel="alternate" href="https://simonjhowarth.github.io/listings-data" hreflang="en">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎬</text></svg>">
     <style>
         :root {
             --primary: #667eea;
@@ -265,7 +334,10 @@
 <div class="container">
     <div class="header-sticky">
         <header>
-            <h1>🎬 Cinema Hub</h1>
+            <h1>🎬 Cambridge Cinema Tonight</h1>
+            <div style="font-size: 0.8rem; color: var(--light-text); margin: 5px 0;">
+                Complete cinema listings for Cambridge & Ely • Real-time showtimes • Instant booking
+            </div>
             <div id="lastUpdate" style="font-size: 0.65rem; color: var(--light-text);"></div>
             <div id="savedIndicator" style="font-size: 0.6rem; color: #48bb78; opacity: 0; transition: opacity 0.3s;">✓ Saved</div>
         </header>
@@ -735,6 +807,65 @@ const res = await fetch(`${dataUrl}?t=${new Date().getTime()}`);
     }
 
     load();
+
+    // SEO: Add structured data for cinemas dynamically
+    function addCinemaStructuredData() {
+        if (!cinemaData || !cinemaData.cinemas) return;
+        
+        const cinemas = cinemaData.cinemas.map(cinema => ({
+            "@type": "MovieTheater",
+            "name": cinema.name,
+            "address": cinema.location,
+            "url": cinema.url || ""
+        }));
+
+        const structuredData = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Cambridge Cinema Listings",
+            "description": "Complete cinema listings for Cambridge and Ely",
+            "itemListElement": cinemas
+        };
+
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.textContent = JSON.stringify(structuredData);
+        document.head.appendChild(script);
+    }
+
+    addCinemaStructuredData();
+
 </script>
+
+<!-- SEO Content -->
+<div style="margin-top: 40px; padding: 20px; background: #f8fafc; border-radius: 8px; font-size: 0.9rem; color: #4a5568;">
+    <h2 style="color: #2d3748; margin-bottom: 10px;">🎬 Cambridge Cinema Guide</h2>
+    <p style="margin-bottom: 10px;">Your complete guide to cinema in Cambridge and Ely. Find all film showtimes, book tickets instantly, and discover what's playing tonight at your local cinemas.</p>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">📍 Cambridge Cinemas Covered:</h3>
+    <ul style="margin-bottom: 10px; padding-left: 20px;">
+        <li><strong>The Light Cambridge</strong> - Latest blockbusters and IMAX screenings</li>
+        <li><strong>Arts Picturehouse Cambridge</strong> - Independent and arthouse films</li>
+        <li><strong>Everyman Cambridge</strong> - Premium cinema experience</li>
+        <li><strong>Cineworld Ely</strong> - Full cinema experience just outside Cambridge</li>
+    </ul>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">🕐 Real-Time Information:</h3>
+    <p style="margin-bottom: 10px;">All showtimes are updated automatically throughout the day. Find exactly what's playing tonight, tomorrow, or any day this week. Filter by time or cinema to find your perfect screening.</p>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">🎯 Why Choose Cambridge Cinema Tonight?</h3>
+    <ul style="padding-left: 20px;">
+        <li>✅ Live showtimes from all Cambridge cinemas</li>
+        <li>✅ Instant ticket booking links</li>
+        <li>✅ Mobile-friendly design</li>
+        <li>✅ No ads, no distractions</li>
+        <li>✅ Updated every 6 hours automatically</li>
+    </ul>
+    
+    <p style="margin-top: 15px; font-size: 0.8rem; color: #718096;">
+        Cambridge Cinema Tonight • Your trusted source for cinema listings in Cambridge, UK
+    </p>
+</div>
+
 </body>
 </html>
