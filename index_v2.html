@@ -327,7 +327,9 @@
     // Parse time string to minutes since midnight
     function timeToMinutes(timeStr) {
         // Handle both colon and dot formats
-        const [hours, minutes] = timeStr.replace('.', ':').split(':').map(Number);
+        const cleanTime = timeStr.replace('.', ':');
+        const [hours, minutes] = cleanTime.split(':').map(Number);
+        console.log(`Time: ${timeStr} -> Clean: ${cleanTime} -> Hours: ${hours}, Minutes: ${minutes}`);
         return hours * 60 + minutes;
     }
 
