@@ -327,9 +327,7 @@
     // Parse time string to minutes since midnight
     function timeToMinutes(timeStr) {
         // Handle both colon and dot formats
-        const cleanTime = timeStr.replace('.', ':');
-        const [hours, minutes] = cleanTime.split(':').map(Number);
-        console.log(`Time: ${timeStr} -> Clean: ${cleanTime} -> Hours: ${hours}, Minutes: ${minutes}`);
+        const [hours, minutes] = timeStr.replace('.', ':').split(':').map(Number);
         return hours * 60 + minutes;
     }
 
@@ -693,9 +691,6 @@
 // We add the timestamp (?t=...) to make sure Safari always grabs the freshest times
 const res = await fetch(`${dataUrl}?t=${new Date().getTime()}`);
             cinemaData = await res.json();
-            
-            // Clear any cached data
-            console.log('🔄 Fresh data loaded:', new Date().toISOString());
             
             // Load user preferences or use defaults
             const preferences = loadUserPreferences();
