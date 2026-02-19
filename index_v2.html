@@ -399,7 +399,12 @@
     // Parse time string to minutes since midnight
     function timeToMinutes(timeStr) {
         // Handle both colon and dot formats
-        const [hours, minutes] = timeStr.replace('.', ':').split(':').map(Number);
+        const cleanTime = timeStr.replace('.', ':');
+        const [hours, minutes] = cleanTime.split(':').map(Number);
+        
+        // Debug logging
+        console.log(`Time: ${timeStr} -> Clean: ${cleanTime} -> Hours: ${hours}, Minutes: ${minutes}`);
+        
         return hours * 60 + minutes;
     }
 
@@ -418,18 +423,6 @@
                 const minutes = timeToMinutes(time);
                 let slot;
 
-                if (minutes >= 9 * 60 && minutes < 12 * 60) {
-                    slot = 'Morning (9am-12pm)';
-                } else if (minutes >= 12 * 60 && minutes < 17 * 60) {
-                    slot = 'Afternoon (12pm-5pm)';
-                } else if (minutes >= 17 * 60 && minutes < 20 * 60) {
-                    slot = 'Evening (5pm-8pm)';
-                } else if (minutes >= 20 * 60 && minutes < 23 * 60) {
-                    slot = 'Late (8pm-11pm)';
-                } else {
-                    slot = 'Night (11pm+)';
-                }
-
                         title: film.title,
                         cinema: film.cinema,
                         rating: film.rating,
@@ -441,7 +434,7 @@
             }
         });
 
-        // Sort by time
+        // Sort by time (simple string comparison)
         allFilms.sort((a, b) => {
             const aTime = a.time.replace('.', ':');
             const bTime = b.time.replace('.', ':');
