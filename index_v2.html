@@ -140,9 +140,9 @@
 <div class="container">
     <div class="header-sticky">
         <header>
-            <h1>🎬 Cambridge Cinema Tonight</h1>
+            <h1>🎬 Cambridge Cinema Listings</h1>
             <div style="font-size: 0.8rem; color: var(--light-text); margin: 5px 0;">
-                Complete cinema listings for Cambridge & Ely • Real-time showtimes • Instant booking
+                Cinema listings for Cambridge & Ely. Please see booking links for final times. No liability accepted for any errors, information subject to change at the last minute. Bookings can only be made with venue.
             </div>
         </header>
         
@@ -206,13 +206,14 @@
         dateOptions = [
             { key: 'today', label: 'Today', date: today },
             { key: 'tomorrow', label: 'Tomorrow', date: new Date(today.getTime() + 24 * 60 * 60 * 1000) },
-            { key: 'wednesday', label: 'Wednesday', date: new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000) },
-            { key: 'thursday', label: 'Thursday', date: new Date(today.getTime() + 3 * 24 * 60 * 60 * 1000) },
-            { key: 'friday', label: 'Friday', date: new Date(today.getTime() + 4 * 24 * 60 * 60 * 1000) },
-            { key: 'saturday', label: 'Saturday', date: new Date(today.getTime() + 5 * 24 * 60 * 60 * 1000) },
-            { key: 'sunday', label: 'Sunday', date: new Date(today.getTime() + 6 * 24 * 60 * 60 * 1000) },
-            { key: 'monday', label: 'Monday', date: new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000) },
-            { key: 'tuesday', label: 'Tuesday', date: new Date(today.getTime() + 8 * 24 * 60 * 60 * 1000) }
+            { key: 'monday', label: 'Monday', date: new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000) },
+            { key: 'tuesday', label: 'Tuesday', date: new Date(today.getTime() + 3 * 24 * 60 * 60 * 1000) },
+            { key: 'wednesday', label: 'Wednesday', date: new Date(today.getTime() + 4 * 24 * 60 * 60 * 1000) },
+            { key: 'thursday', label: 'Thursday', date: new Date(today.getTime() + 5 * 24 * 60 * 60 * 1000) },
+            { key: 'friday', label: 'Friday', date: new Date(today.getTime() + 6 * 24 * 60 * 60 * 1000) },
+            { key: 'saturday', label: 'Saturday', date: new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000) },
+            { key: 'sunday', label: 'Sunday', date: new Date(today.getTime() + 8 * 24 * 60 * 60 * 1000) },
+            { key: 'future', label: 'Future', date: new Date(today.getTime() + 9 * 24 * 60 * 60 * 1000) }
         ];
     }
 
