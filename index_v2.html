@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Cambridge Cinema Tonight - All Film Showtimes & Listings | Light, Picturehouse, Everyman, Cineworld v2.2</title>
+    <meta name="description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for The Light Cambridge, Picturehouse, Everyman, Cineworld Ely. Book tickets instantly.">
+    <meta name="keywords" content="Cambridge cinema, cinema tonight, Cambridge film showtimes, Light Cambridge, Picturehouse Cambridge, Everyman Cambridge, Cineworld Ely, cinema listings, film times, movie tickets, Cambridge entertainment">
+    <meta name="author" content="Cambridge Cinema Hub">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Cambridge Cinema Tonight - All Film Showtimes & Listings">
+    <meta property="og:description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for all Cambridge cinemas. Book tickets instantly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://camblistings.github.io/camblistings">
+    <meta property="og:image" content="https://camblistings.github.io/camblistings/cinema-hub-image.jpg">
+    <meta property="og:site_name" content="Cambridge Cinema Hub">
+    <meta property="og:locale" content="en_GB">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cambridge Cinema Tonight - All Film Showtimes & Listings">
+    <meta name="twitter:description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for all Cambridge cinemas.">
+    <meta name="twitter:image" content="https://camblistings.github.io/camblistings/cinema-hub-image.jpg">
+    
+    <!-- Location Meta Tags -->
+    <meta name="geo.region" content="GB-ENG">
+    <meta name="geo.placename" content="Cambridge, England">
+    <meta name="geo.position" content="52.2053;0.1218">
+    <meta name="ICBM" content="52.2053,0.1218">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cambridge Cinema Hub",
+        "description": "Complete Cambridge cinema listings and showtimes for tonight and this week",
+        "url": "https://camblistings.github.io/camblistings",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://camblistings.github.io/camblistings?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "Cambridge Cinema Hub",
+            "description": "Comprehensive cinema listings for Cambridge and Ely",
+            "areaServed": {
+                "@type": "City",
+                "name": "Cambridge"
+            },
+            "knowsAbout": [
+                "The Light Cambridge",
+                "Arts Picturehouse Cambridge", 
+                "Everyman Cambridge",
+                "Cineworld Ely",
+                "Cinema showtimes",
+                "Film listings",
+                "Movie tickets"
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Additional SEO -->
+    <link rel="canonical" href="https://camblistings.github.io/camblistings">
+    <link rel="alternate" href="https://cambridge-films.vercel.app" hreflang="en">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎬</text></svg>">
+    <style>
+        :root {
+            --primary: #667eea;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1a202c;
+            --light-text: #718096;
+            --header-height: 0px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.3; }
+
+        .container { max-width: 800px; margin: 0 auto; padding: 10px; }
+        
+        .header-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--card);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        h1 { font-size: 1.2rem; font-weight: 800; color: var(--primary); }
+        
+        .view-toggle { display: flex; gap: 5px; margin-bottom: 10px; }
+        .view-btn { padding: 6px 12px; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.8rem; }
+        .view-btn.active { background: var(--primary); color: white; }
+        .view-btn:not(.active) { background: var(--card); color: var(--text); border: 1px solid #e2e8f0; }
+
+        .day-bar { display: flex; gap: 5px; margin-bottom: 15px; flex-wrap: wrap; }
+        .btn { padding: 6px 12px; margin: 2px; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.8rem; }
+        .btn.active { background: var(--primary); color: white; }
+        .btn:not(.active) { background: var(--card); color: var(--text); border: 1px solid #e2e8f0; }
+
+        .search-container { margin-bottom: 15px; }
+        #movieSearch { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 0.9rem; }
+
+        .time-slot-section { margin-bottom: 20px; }
+        .time-slot-label { font-weight: 700; font-size: 0.9rem; color: var(--primary); margin-bottom: 10px; text-transform: uppercase; }
+
+        .film-card { background: var(--card); border-radius: 8px; padding: 12px; margin-bottom: 12px; border: 1px solid #e2e8f0; }
+        .film-header { margin-bottom: 8px; }
+        .film-title { font-size: 1rem; font-weight: 700; color: var(--text); }
+        .film-meta { font-size: 0.8rem; color: var(--light-text); margin-top: 2px; }
+        .cinema-tag { background: #edf2f7; color: #4a5568; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; margin-bottom: 8px; display: inline-block; }
+        .showtime-info { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+        .time-badge { background: var(--primary); color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
+
+        .no-shows { padding: 40px; text-align: center; color: var(--light-text); font-style: italic; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-sticky">
+        <header>
+            <h1>🎬 Cambridge Cinema Tonight</h1>
+            <div style="font-size: 0.8rem; color: var(--light-text); margin: 5px 0;">
+                Complete cinema listings for Cambridge & Ely • Real-time showtimes • Instant booking
+            </div>
+        </header>
+        
+        <div class="view-toggle">
+            <button class="view-btn active" onclick="setView('time')">⏰ By Time</button>
+            <button class="view-btn" onclick="setView('cinema')">🏢 By Cinema</button>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="movieSearch" placeholder="Search film titles..." oninput="renderList()">
+        </div>
+        
+        <div id="cinemaBar"></div>
+    </div>
+
+    <div id="mainContent">Loading...</div>
+</div>
+
+<script>
+    let cinemaData;
+    let selectedKey = 'today';
+    let currentView = 'time';
+    let activeCinemas = new Set();
+
+    async function load() {
+        try {
+            console.log('🔄 Starting load...');
+            
+            const dataUrl = 'website_data_by_cinema.json';
+            console.log('📡 Fetching:', dataUrl);
+            
+            const res = await fetch(`${dataUrl}?t=${new Date().getTime()}`);
+            console.log('📡 Response status:', res.status);
+            
+            if (!res.ok) {
+                throw new Error(`HTTP error! status: ${res.status}`);
+            }
+            
+            cinemaData = await res.json();
+            console.log('✅ Data loaded successfully');
+            console.log('📊 Cinemas:', cinemaData.cinemas?.length || 0);
+            
+            // Initialize all cinemas as active by default
+            cinemaData.cinemas.forEach(cinema => activeCinemas.add(cinema.name));
+            
+            renderList();
+            
+        } catch (error) {
+            console.error('❌ Error:', error);
+            document.getElementById('mainContent').innerHTML = `<div class='no-shows'>Error: ${error.message}</div>`;
+        }
+    }
+
+    function setView(view) {
+        currentView = view;
+        document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+        const viewBtn = document.querySelector(`.view-btn[onclick="setView('${view}')"]`);
+        if (viewBtn) viewBtn.classList.add('active');
+        renderList();
+    }
+
+    function renderList() {
+        const container = document.getElementById('mainContent');
+        
+        if (!cinemaData || !cinemaData.cinemas) {
+            container.innerHTML = '<div class="no-shows">No cinema data available</div>';
+            return;
+        }
+
+        // Render cinema bar first
+        renderCinemaBar();
+
+        const searchTerm = document.getElementById('movieSearch').value.toLowerCase();
+        const allFilms = [];
+        
+        cinemaData.cinemas.forEach(cinema => {
+            cinema.films.forEach(film => {
+                if (film.day === selectedKey) {
+                    if (film.title.toLowerCase().includes(searchTerm)) {
+                        film.showtimes.forEach(time => {
+                            allFilms.push({
+                                title: film.title,
+                                cinema: cinema.name,
+                                rating: film.rating,
+                                duration: film.duration,
+                                booking_url: film.booking_url,
+                                time: time
+                            });
+                        });
+                    }
+                }
+            });
+        });
+
+        // Sort by time
+        allFilms.sort((a, b) => {
+            const aTime = a.time.replace('.', ':');
+            const bTime = b.time.replace('.', ':');
+            return aTime.localeCompare(bTime);
+        });
+
+        if (currentView === 'time') {
+            renderTimeView(container, allFilms);
+        } else {
+            renderCinemaView(container, allFilms);
+        }
+    }
+
+    function renderCinemaBar() {
+        const bar = document.getElementById('cinemaBar');
+        if (!bar || !cinemaData || !cinemaData.cinemas) return;
+        
+        const buttonsHtml = cinemaData.cinemas.map(cinema => `
+            <button class="btn ${activeCinemas.has(cinema.name) ? 'active' : ''}" 
+                    onclick="toggleCinema('${cinema.name}')">
+                ${cinema.name}
+            </button>
+        `).join('');
+        
+        bar.innerHTML = buttonsHtml;
+    }
+
+    function toggleCinema(cinemaName) {
+        if (activeCinemas.has(cinemaName)) {
+            activeCinemas.delete(cinemaName);
+        } else {
+            activeCinemas.add(cinemaName);
+        }
+        renderCinemaBar();
+        renderList();
+    }
+
+    function renderTimeView(container, allFilms) {
+        const filmsHtml = allFilms.map(film => `
+            <div class="film-card">
+                <div class="film-header">
+                    <div class="film-title">${film.title}</div>
+                    <div class="film-meta">${film.rating} • ${film.duration}</div>
+                </div>
+                <div class="cinema-tag">${film.cinema}</div>
+                <div class="showtime-info">
+                    <span class="time-badge">${film.time}</span>
+                    <a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>
+                </div>
+            </div>
+        `).join('');
+
+        container.innerHTML = `
+            <div class="time-slot-section">
+                <div class="time-slot-label">All Showtimes (${selectedKey})</div>
+                ${filmsHtml}
+            </div>
+        `;
+    }
+
+    function renderCinemaView(container, allFilms) {
+        const filmsByCinema = {};
+        allFilms.forEach(film => {
+            if (!filmsByCinema[film.cinema]) {
+                filmsByCinema[film.cinema] = [];
+            }
+            filmsByCinema[film.cinema].push(film);
+        });
+
+        const cinemaHtml = Object.entries(filmsByCinema).map(([cinemaName, films]) => {
+            const filmsList = films.map(film => `
+                <div class="film-card">
+                    <div class="film-header">
+                        <div class="film-title">${film.title}</div>
+                        <div class="film-meta">${film.rating} • ${film.duration}</div>
+                    </div>
+                    <div class="showtime-info">
+                        <span class="time-badge">${film.time}</span>
+                        <a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>
+                    </div>
+                </div>
+            `).join('');
+
+            return `
+                <div class="time-slot-section">
+                    <div class="time-slot-label">${cinemaName}</div>
+                    ${filmsList}
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = cinemaHtml;
+    }
+
+    // Start loading
+    load();
+</script>
+
+<!-- SEO Content -->
+<div style="margin-top: 40px; padding: 20px; background: #f8fafc; border-radius: 8px; font-size: 0.9rem; color: #4a5568;">
+    <h2 style="color: #2d3748; margin-bottom: 10px;">🎬 Cambridge Cinema Guide</h2>
+    <p style="margin-bottom: 10px;">Your complete guide to cinema in Cambridge and Ely. Find all film showtimes, book tickets instantly, and discover what's playing tonight at your local cinemas.</p>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">📍 Cambridge Cinemas Covered:</h3>
+    <ul style="margin-bottom: 10px; padding-left: 20px;">
+        <li><strong>The Light Cambridge</strong> - Latest blockbusters and IMAX screenings</li>
+        <li><strong>Arts Picturehouse Cambridge</strong> - Independent and arthouse films</li>
+        <li><strong>Everyman Cambridge</strong> - Premium cinema experience</li>
+        <li><strong>Cineworld Ely</strong> - Full cinema experience just outside Cambridge</li>
+    </ul>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">🕐 Real-Time Information:</h3>
+    <p style="margin-bottom: 10px;">All showtimes are updated automatically throughout the day. Find exactly what's playing tonight, tomorrow, or any day this week. Filter by time or cinema to find your perfect screening.</p>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">🎯 Why Choose Cambridge Cinema Tonight?</h3>
+    <ul style="padding-left: 20px;">
+        <li>✅ Live showtimes from all Cambridge cinemas</li>
+        <li>✅ Instant ticket booking links</li>
+        <li>✅ Mobile-friendly design</li>
+        <li>✅ No ads, no distractions</li>
+        <li>✅ Updated every 6 hours automatically</li>
+    </ul>
+    
+    <p style="margin-top: 15px; font-size: 0.8rem; color: #718096;">
+        Cambridge Cinema Tonight • Your trusted source for cinema listings in Cambridge, UK
+    </p>
+</div>
+
+</body>
+</html>
