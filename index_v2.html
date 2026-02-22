@@ -258,22 +258,25 @@
         const allFilms = [];
         
         cinemaData.cinemas.forEach(cinema => {
-            cinema.films.forEach(film => {
-                if (film.day === selectedKey) {
-                    if (film.title.toLowerCase().includes(searchTerm)) {
-                        film.showtimes.forEach(time => {
-                            allFilms.push({
-                                title: film.title,
-                                cinema: cinema.name,
-                                rating: film.rating,
-                                duration: film.duration,
-                                booking_url: film.booking_url,
-                                time: time
+            // Only include films from active cinemas
+            if (activeCinemas.has(cinema.name)) {
+                cinema.films.forEach(film => {
+                    if (film.day === selectedKey) {
+                        if (film.title.toLowerCase().includes(searchTerm)) {
+                            film.showtimes.forEach(time => {
+                                allFilms.push({
+                                    title: film.title,
+                                    cinema: cinema.name,
+                                    rating: film.rating,
+                                    duration: film.duration,
+                                    booking_url: film.booking_url,
+                                    time: time
+                                });
                             });
-                        });
+                        }
                     }
-                }
-            });
+                });
+            }
         });
 
         // Sort by time
