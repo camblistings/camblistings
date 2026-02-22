@@ -155,6 +155,7 @@
             <input type="text" id="movieSearch" placeholder="Search film titles..." oninput="renderList()">
         </div>
         
+        <div id="dayBar"></div>
         <div id="cinemaBar"></div>
     </div>
 
@@ -166,6 +167,8 @@
     let selectedKey = 'today';
     let currentView = 'time';
     let activeCinemas = new Set();
+    let selectedDayIndex = 0;
+    let dateOptions = [];
 
     async function load() {
         try {
@@ -188,12 +191,49 @@
             // Initialize all cinemas as active by default
             cinemaData.cinemas.forEach(cinema => activeCinemas.add(cinema.name));
             
+            setupDates();
+            renderDayBar();
             renderList();
             
         } catch (error) {
             console.error('❌ Error:', error);
             document.getElementById('mainContent').innerHTML = `<div class='no-shows'>Error: ${error.message}</div>`;
         }
+    }
+
+    function setupDates() {
+        const today = new Date();
+        dateOptions = [
+            { key: 'today', label: 'Today', date: today },
+            { key: 'tomorrow', label: 'Tomorrow', date: new Date(today.getTime() + 24 * 60 * 60 * 1000) },
+            { key: 'wednesday', label: 'Wednesday', date: new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000) },
+            { key: 'thursday', label: 'Thursday', date: new Date(today.getTime() + 3 * 24 * 60 * 60 * 1000) },
+            { key: 'friday', label: 'Friday', date: new Date(today.getTime() + 4 * 24 * 60 * 60 * 1000) },
+            { key: 'saturday', label: 'Saturday', date: new Date(today.getTime() + 5 * 24 * 60 * 60 * 1000) },
+            { key: 'sunday', label: 'Sunday', date: new Date(today.getTime() + 6 * 24 * 60 * 60 * 1000) },
+            { key: 'monday', label: 'Monday', date: new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000) },
+            { key: 'tuesday', label: 'Tuesday', date: new Date(today.getTime() + 8 * 24 * 60 * 60 * 1000) }
+        ];
+    }
+
+    function renderDayBar() {
+        const bar = document.getElementById('dayBar');
+        if (!bar) return;
+        
+        const buttonsHtml = dateOptions.map((opt, idx) => `
+            <button class="btn ${idx === selectedDayIndex ? 'active' : ''}" onclick="selectDay(${idx})">
+                ${opt.label}
+            </button>
+        `).join('');
+        
+        bar.innerHTML = buttonsHtml;
+    }
+
+    function selectDay(index) {
+        selectedDayIndex = index;
+        selectedKey = dateOptions[index].key;
+        renderDayBar();
+        renderList();
     }
 
     function setView(view) {
