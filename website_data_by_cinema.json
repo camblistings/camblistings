@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T05:03:18.272193",
+  "last_updated": "2026-06-03T17:09:34.234137",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -13,11 +13,6 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "10:00",
-            "13:00",
-            "14:00",
-            "16:00",
-            "17:00",
             "19:00",
             "20:00"
           ],
@@ -30,9 +25,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -44,7 +36,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -55,8 +48,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -67,7 +59,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -78,9 +72,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -117,7 +108,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "today",
@@ -135,45 +126,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "today",
@@ -195,9 +153,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -237,7 +192,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -301,6 +255,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -349,6 +314,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -388,39 +386,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -431,9 +396,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -445,7 +407,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -456,8 +419,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -468,7 +430,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -479,9 +443,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -518,7 +479,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -536,45 +497,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -596,9 +524,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -638,7 +563,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -702,6 +626,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -750,6 +685,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -789,39 +757,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -832,9 +767,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -846,7 +778,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -857,8 +790,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -869,7 +801,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "friday",
@@ -880,9 +814,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -919,7 +850,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "friday",
@@ -937,45 +868,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "friday",
@@ -997,9 +895,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -1039,7 +934,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -1103,6 +997,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -1151,6 +1056,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -1190,39 +1128,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1233,9 +1138,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -1247,7 +1149,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1258,8 +1161,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1270,7 +1172,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1281,9 +1185,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -1320,7 +1221,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1338,45 +1239,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1398,9 +1266,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -1440,7 +1305,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -1504,6 +1368,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -1552,6 +1427,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -1591,39 +1499,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1634,9 +1509,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -1648,7 +1520,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1659,8 +1532,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1671,7 +1543,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1682,9 +1556,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -1721,7 +1592,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1739,45 +1610,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1799,9 +1637,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -1841,7 +1676,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -1905,6 +1739,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -1953,6 +1798,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -1992,39 +1870,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2035,9 +1880,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -2049,7 +1891,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2060,8 +1903,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2072,7 +1914,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2083,9 +1927,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -2122,7 +1963,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2140,45 +1981,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2200,9 +2008,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -2242,7 +2047,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -2306,6 +2110,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -2354,6 +2169,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -2393,39 +2241,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2436,9 +2251,6 @@
           "rating": "15",
           "duration": "1h 50m",
           "showtimes": [
-            "12:15",
-            "14:45",
-            "17:10",
             "20:30"
           ],
           "format": "Standard",
@@ -2450,7 +2262,8 @@
           "rating": "15",
           "duration": "1h 38m",
           "showtimes": [
-            "12:40"
+            "14:40",
+            "17:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2461,8 +2274,7 @@
           "rating": "PG",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "13:00"
+            "11:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2473,7 +2285,9 @@
           "rating": "12A",
           "duration": "2h 0m",
           "showtimes": [
-            "17:50"
+            "11:50",
+            "14:40",
+            "17:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2484,9 +2298,6 @@
           "rating": "12A",
           "duration": "2h 7m",
           "showtimes": [
-            "10:15",
-            "13:20",
-            "16:10",
             "19:40"
           ],
           "format": "Standard",
@@ -2523,7 +2334,7 @@
           "rating": "18",
           "duration": "1h 48m",
           "showtimes": [
-            "15:20"
+            "18:15"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2541,45 +2352,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:10"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The Christophers",
           "rating": "15",
           "duration": "1h 40m",
           "showtimes": [
             "10:00",
             "12:15"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "We'Re Nothing At All (Cantonese)",
-          "rating": "18",
-          "duration": "2h 8m",
-          "showtimes": [
-            "11:10"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Pip And Posy Sandpit Friends",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:45"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2601,9 +2379,6 @@
           "rating": "12A",
           "duration": "2h 21m",
           "showtimes": [
-            "10:20",
-            "13:30",
-            "16:40",
             "19:45"
           ],
           "format": "Standard",
@@ -2643,7 +2418,6 @@
           "rating": "12A",
           "duration": "3h 21m",
           "showtimes": [
-            "15:30",
             "19:30"
           ],
           "format": "Standard",
@@ -2707,6 +2481,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Ghost In The Machine",
+          "rating": "12A",
+          "duration": "1h 36m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Ocean With David Attenborough",
           "rating": "PG",
           "duration": "1h 35m",
@@ -2755,6 +2540,39 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Surviving Earth",
+          "rating": "15",
+          "duration": "1h 36m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Strictly Ballroom: 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 34m",
+          "showtimes": [
+            "19:15"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Bts World Tour \u2018Arirang\u2019 Live Viewing In Busan",
           "rating": "15",
           "duration": "3h 15m",
@@ -2794,39 +2612,6 @@
           "duration": "3h 0m",
           "showtimes": [
             "19:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Strictly Ballroom: 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "19:15"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Surviving Earth",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Attenborough:  A Life On Our Planet + Recorded Q&A",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2845,9 +2630,6 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "10.00",
-            "13.00",
-            "16.00",
             "19.00"
           ],
           "format": "Standard",
@@ -3049,6 +2831,22 @@
           "format": "Standard",
           "day": "future",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "The Odyssey",
+          "rating": "Unknown",
+          "duration": "Unknown",
+          "showtimes": [
+            "11.40",
+            "12.40",
+            "15.20",
+            "16.20",
+            "19.00",
+            "20.00"
+          ],
+          "format": "Standard",
+          "day": "future",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
         }
       ]
     },
@@ -3060,9 +2858,8 @@
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "10:30",
             "19:30"
           ],
           "day": "today",
@@ -3073,7 +2870,6 @@
           "rating": "18",
           "duration": "1h 49m",
           "showtimes": [
-            "12:15",
             "17:15"
           ],
           "day": "today",
@@ -3084,7 +2880,6 @@
           "rating": "15",
           "duration": "1h 45m",
           "showtimes": [
-            "13:00",
             "16:45",
             "21:30"
           ],
@@ -3096,7 +2891,6 @@
           "rating": "12A",
           "duration": "1h 59m",
           "showtimes": [
-            "14:30",
             "17:45"
           ],
           "day": "today",
@@ -3118,8 +2912,6 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "10:00",
-            "13:45",
             "16:00",
             "20:00"
           ],
@@ -3131,19 +2923,7 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "11:45",
-            "15:00",
             "20:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Sheep Detectives",
-          "rating": "PG",
-          "duration": "1h 50m",
-          "showtimes": [
-            "09:15"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3151,21 +2931,9 @@
         {
           "title": "Power Ballad",
           "rating": "15",
-          "duration": "1h 38m",
+          "duration": "1h 39m",
           "showtimes": [
-            "09:45",
-            "13:30",
             "19:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Finding Emily",
-          "rating": "12A",
-          "duration": "1h 51m",
-          "showtimes": [
-            "10:45"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3183,10 +2951,9 @@
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "13:15",
-            "20:30"
+            "19:30"
           ],
           "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3196,8 +2963,7 @@
           "rating": "18",
           "duration": "1h 49m",
           "showtimes": [
-            "18:00",
-            "21:00"
+            "17:15"
           ],
           "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3207,8 +2973,7 @@
           "rating": "15",
           "duration": "1h 45m",
           "showtimes": [
-            "11:45",
-            "17:30",
+            "16:45",
             "21:30"
           ],
           "day": "thursday",
@@ -3219,9 +2984,7 @@
           "rating": "12A",
           "duration": "1h 59m",
           "showtimes": [
-            "09:45",
-            "14:30",
-            "18:30"
+            "17:45"
           ],
           "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3231,7 +2994,8 @@
           "rating": "12A",
           "duration": "2h 8m",
           "showtimes": [
-            "15:30"
+            "15:30",
+            "21:00"
           ],
           "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3241,8 +3005,6 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "10:00",
-            "12:00",
             "16:00",
             "20:00"
           ],
@@ -3254,27 +3016,15 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "10:30",
-            "15:00",
-            "21:15"
+            "20:30"
           ],
           "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Sheep Detectives",
-          "rating": "PG",
-          "duration": "1h 50m",
-          "showtimes": [
-            "09:00"
-          ],
-          "day": "thursday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Amazing Digital Circus: The Last Act",
-          "rating": "12A",
-          "duration": "1h 34m",
+          "title": "Power Ballad",
+          "rating": "15",
+          "duration": "1h 39m",
           "showtimes": [
             "19:00"
           ],
@@ -3282,57 +3032,21 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Power Ballad",
-          "rating": "15",
-          "duration": "1h 38m",
-          "showtimes": [
-            "09:30",
-            "13:00"
-          ],
-          "day": "thursday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "National Theatre Live: The Playboy Of The Western World",
+          "title": "Throwback: Legally Blonde (25Th Anniversary)",
           "rating": "12A",
-          "duration": "2h 30m",
+          "duration": "1h 45m",
           "showtimes": [
-            "12:30"
+            "18:30"
           ],
           "day": "thursday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Savage House",
-          "rating": "15",
-          "duration": "1h 53m",
-          "showtimes": [
-            "11:45",
-            "17:15"
-          ],
-          "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "12:30",
-            "15:45",
             "19:30"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Scary Movie",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "13:30",
-            "18:00",
-            "21:00"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3342,7 +3056,7 @@
           "rating": "18",
           "duration": "1h 49m",
           "showtimes": [
-            "14:30"
+            "17:15"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3352,7 +3066,7 @@
           "rating": "15",
           "duration": "1h 45m",
           "showtimes": [
-            "19:00",
+            "16:45",
             "21:30"
           ],
           "day": "friday",
@@ -3363,9 +3077,7 @@
           "rating": "12A",
           "duration": "1h 59m",
           "showtimes": [
-            "09:45",
-            "14:00",
-            "20:30"
+            "17:45"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3375,7 +3087,8 @@
           "rating": "12A",
           "duration": "2h 8m",
           "showtimes": [
-            "12:00"
+            "15:30",
+            "21:00"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3385,8 +3098,7 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "10:30",
-            "15:00",
+            "16:00",
             "20:00"
           ],
           "day": "friday",
@@ -3397,18 +3109,7 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "11:15",
-            "16:45"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Amazing Digital Circus: The Last Act",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "18:30"
+            "20:30"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3416,55 +3117,29 @@
         {
           "title": "Power Ballad",
           "rating": "15",
-          "duration": "1h 38m",
+          "duration": "1h 39m",
           "showtimes": [
-            "09:30",
-            "16:00"
+            "19:00"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Toddler Club: The Magic Faraway Tree",
-          "rating": "U",
-          "duration": "1h 50m",
+          "title": "Throwback: Legally Blonde (25Th Anniversary)",
+          "rating": "12A",
+          "duration": "1h 45m",
           "showtimes": [
-            "09:00"
+            "18:30"
           ],
           "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Savage House",
-          "rating": "15",
-          "duration": "1h 53m",
-          "showtimes": [
-            "12:10",
-            "21:00"
-          ],
-          "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "12:30",
-            "15:45",
             "19:30"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Scary Movie",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "10:00",
-            "18:30",
-            "21:30"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3473,6 +3148,27 @@
           "title": "Obsession",
           "rating": "18",
           "duration": "1h 49m",
+          "showtimes": [
+            "17:15"
+          ],
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Backrooms",
+          "rating": "15",
+          "duration": "1h 45m",
+          "showtimes": [
+            "16:45",
+            "21:30"
+          ],
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Devil Wears Prada 2",
+          "rating": "12A",
+          "duration": "1h 59m",
           "showtimes": [
             "17:45"
           ],
@@ -3480,34 +3176,12 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Backrooms",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "11:40",
-            "19:00",
-            "20:30"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Devil Wears Prada 2",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:45",
-            "16:45"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Michael",
           "rating": "12A",
           "duration": "2h 8m",
           "showtimes": [
-            "14:15"
+            "15:30",
+            "21:00"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3517,9 +3191,7 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "09:45",
-            "13:45",
-            "15:15",
+            "16:00",
             "20:00"
           ],
           "day": "saturday",
@@ -3530,72 +3202,37 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "11:00",
-            "17:15"
+            "20:30"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Sheep Detectives",
-          "rating": "PG",
-          "duration": "1h 50m",
-          "showtimes": [
-            "09:30"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Amazing Digital Circus: The Last Act",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "12:50"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toddler Club: The Magic Faraway Tree",
-          "rating": "U",
-          "duration": "1h 50m",
-          "showtimes": [
-            "09:00"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Savage House",
+          "title": "Power Ballad",
           "rating": "15",
-          "duration": "1h 53m",
+          "duration": "1h 39m",
           "showtimes": [
-            "17:15"
+            "19:00"
           ],
-          "day": "sunday",
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Throwback: Legally Blonde (25Th Anniversary)",
+          "rating": "12A",
+          "duration": "1h 45m",
+          "showtimes": [
+            "18:30"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "13:10",
-            "15:15",
             "19:30"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Scary Movie",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "11:40",
-            "18:00",
-            "21:30"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3605,7 +3242,7 @@
           "rating": "18",
           "duration": "1h 49m",
           "showtimes": [
-            "16:15"
+            "17:15"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3615,9 +3252,8 @@
           "rating": "15",
           "duration": "1h 45m",
           "showtimes": [
-            "12:45",
-            "19:00",
-            "21:15"
+            "16:45",
+            "21:30"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3627,8 +3263,7 @@
           "rating": "12A",
           "duration": "1h 59m",
           "showtimes": [
-            "13:45",
-            "18:30"
+            "17:45"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3638,7 +3273,8 @@
           "rating": "12A",
           "duration": "2h 8m",
           "showtimes": [
-            "14:15"
+            "15:30",
+            "21:00"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3648,9 +3284,8 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "09:45",
-            "14:45",
-            "20:30"
+            "16:00",
+            "20:00"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3660,28 +3295,7 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "11:00",
-            "16:45"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Sheep Detectives",
-          "rating": "PG",
-          "duration": "1h 50m",
-          "showtimes": [
-            "12:10"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Amazing Digital Circus: The Last Act",
-          "rating": "12A",
-          "duration": "1h 34m",
-          "showtimes": [
-            "09:30"
+            "20:30"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3689,62 +3303,48 @@
         {
           "title": "Power Ballad",
           "rating": "15",
-          "duration": "1h 38m",
+          "duration": "1h 39m",
           "showtimes": [
-            "10:30"
+            "19:00"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Toddler Club: The Magic Faraway Tree",
-          "rating": "U",
-          "duration": "1h 50m",
-          "showtimes": [
-            "09:00"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Throwback: Batman Begins",
+          "title": "Throwback: Legally Blonde (25Th Anniversary)",
           "rating": "12A",
-          "duration": "2h 20m",
+          "duration": "1h 45m",
           "showtimes": [
-            "20:00"
+            "18:30"
           ],
           "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Savage House",
-          "rating": "15",
-          "duration": "1h 53m",
-          "showtimes": [
-            "11:30",
-            "20:30"
-          ],
-          "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "12:00",
-            "15:45",
             "19:30"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Scary Movie",
-          "rating": "15",
-          "duration": "1h 36m",
+          "title": "Obsession",
+          "rating": "18",
+          "duration": "1h 49m",
           "showtimes": [
-            "13:15",
+            "17:15"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Backrooms",
+          "rating": "15",
+          "duration": "1h 45m",
+          "showtimes": [
             "16:45",
             "21:30"
           ],
@@ -3752,34 +3352,11 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Obsession",
-          "rating": "18",
-          "duration": "1h 49m",
-          "showtimes": [
-            "17:45"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Backrooms",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:00",
-            "21:00"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "The Devil Wears Prada 2",
           "rating": "12A",
           "duration": "1h 59m",
           "showtimes": [
-            "09:45",
-            "15:00",
-            "18:15"
+            "17:45"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3789,7 +3366,8 @@
           "rating": "12A",
           "duration": "2h 8m",
           "showtimes": [
-            "15:15"
+            "15:30",
+            "21:00"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3799,8 +3377,7 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "11:00",
-            "14:15",
+            "16:00",
             "20:00"
           ],
           "day": "monday",
@@ -3811,8 +3388,7 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "10:30",
-            "17:15"
+            "20:30"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3820,65 +3396,39 @@
         {
           "title": "Power Ballad",
           "rating": "15",
-          "duration": "1h 38m",
+          "duration": "1h 39m",
           "showtimes": [
-            "09:30",
-            "12:30"
+            "19:00"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Beyond: Finding Emily",
+          "title": "Throwback: Legally Blonde (25Th Anniversary)",
           "rating": "12A",
-          "duration": "1h 51m",
+          "duration": "1h 45m",
           "showtimes": [
-            "14:00"
+            "18:30"
           ],
           "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Savage House",
-          "rating": "15",
-          "duration": "1h 53m",
-          "showtimes": [
-            "11:30",
-            "15:00"
-          ],
-          "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
           "title": "Masters Of The Universe",
           "rating": "12A",
-          "duration": "2h 22m",
+          "duration": "2h 12m",
           "showtimes": [
-            "12:00",
-            "15:45",
             "19:30"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Scary Movie",
-          "rating": "15",
-          "duration": "1h 36m",
-          "showtimes": [
-            "12:30",
-            "17:15",
-            "21:30"
-          ],
-          "day": "tuesday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Obsession",
           "rating": "18",
           "duration": "1h 49m",
           "showtimes": [
-            "20:00"
+            "17:15"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3888,9 +3438,8 @@
           "rating": "15",
           "duration": "1h 45m",
           "showtimes": [
-            "13:15",
-            "19:00",
-            "21:00"
+            "16:45",
+            "21:30"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3900,9 +3449,7 @@
           "rating": "12A",
           "duration": "1h 59m",
           "showtimes": [
-            "09:45",
-            "13:45",
-            "18:15"
+            "17:45"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3912,7 +3459,8 @@
           "rating": "12A",
           "duration": "2h 8m",
           "showtimes": [
-            "15:15"
+            "15:30",
+            "21:00"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3922,9 +3470,8 @@
           "rating": "12A",
           "duration": "2h 12m",
           "showtimes": [
-            "10:45",
-            "14:15",
-            "20:30"
+            "16:00",
+            "20:00"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3934,8 +3481,7 @@
           "rating": "15",
           "duration": "1h 49m",
           "showtimes": [
-            "10:30",
-            "16:45"
+            "20:30"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3943,19 +3489,19 @@
         {
           "title": "Power Ballad",
           "rating": "15",
-          "duration": "1h 38m",
+          "duration": "1h 39m",
           "showtimes": [
-            "09:30"
+            "19:00"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Beyond: Finding Emily",
+          "title": "Throwback: Legally Blonde (25Th Anniversary)",
           "rating": "12A",
-          "duration": "1h 51m",
+          "duration": "1h 45m",
           "showtimes": [
-            "17:45"
+            "18:30"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3973,19 +3519,7 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "15:45",
-            "17:40",
             "20:40"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Colours Of Time",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "12:00"
           ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
@@ -4005,29 +3539,7 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "14:15",
             "20:10"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Christophers",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "11:00",
-            "17:10"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Devil Wears Prada 2",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "13:10"
           ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
@@ -4037,8 +3549,6 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "11:45",
-            "14:40",
             "18:10"
           ],
           "day": "today",
