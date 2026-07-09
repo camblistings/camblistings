@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T04:03:21.687911",
+  "last_updated": "2026-07-09T15:31:22.558152",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -13,10 +13,6 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "11:15",
-            "13:30",
-            "14:40",
-            "15:45",
             "16:50",
             "17:50",
             "19:10"
@@ -26,12 +22,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
+          "showtimes": [
+            "17:40",
+            "20:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Toy Story 5",
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -45,10 +51,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -59,8 +82,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "today",
@@ -71,9 +93,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -86,7 +105,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -110,7 +128,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -143,29 +162,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "today",
@@ -200,38 +197,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "today",
@@ -319,6 +284,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -337,14 +313,15 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
           "showtimes": [
-            "12:00"
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "today",
+          "day": "friday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -352,8 +329,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -367,10 +342,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "friday",
@@ -381,8 +373,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "friday",
@@ -393,9 +384,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -408,7 +396,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -432,7 +419,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "friday",
@@ -465,29 +453,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -522,38 +488,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -641,6 +575,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -659,14 +604,15 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
           "showtimes": [
-            "12:00"
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "friday",
+          "day": "saturday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -674,8 +620,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -689,10 +633,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -703,8 +664,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -715,9 +675,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -730,7 +687,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -754,7 +710,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -787,29 +744,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -844,38 +779,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -963,6 +866,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -981,14 +895,15 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
           "showtimes": [
-            "12:00"
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "saturday",
+          "day": "sunday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -996,8 +911,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -1011,10 +924,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1025,8 +955,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1037,9 +966,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -1052,7 +978,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -1076,7 +1001,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1109,29 +1035,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1166,38 +1070,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1285,6 +1157,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -1303,14 +1186,15 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
           "showtimes": [
-            "12:00"
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "sunday",
+          "day": "monday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1318,8 +1202,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -1333,10 +1215,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1347,8 +1246,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1359,9 +1257,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -1374,7 +1269,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -1398,7 +1292,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1431,29 +1326,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1488,38 +1361,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1607,6 +1448,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -1625,14 +1477,15 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
           "showtimes": [
-            "12:00"
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "monday",
+          "day": "tuesday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1640,8 +1493,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -1655,10 +1506,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1669,8 +1537,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1681,9 +1548,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -1696,7 +1560,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -1720,7 +1583,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1753,29 +1617,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1810,38 +1652,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1929,6 +1739,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -1947,14 +1768,15 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 50m",
           "showtimes": [
-            "12:00"
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "tuesday",
+          "day": "wednesday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1962,8 +1784,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "11:30",
-            "14:00",
             "16:30",
             "17:30",
             "19:30"
@@ -1977,10 +1797,27 @@
           "rating": "12A",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
-            "14:30",
             "17:00",
             "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "10:00",
+            "10:30",
+            "11:30",
+            "13:10",
+            "14:10",
+            "15:50",
+            "16:50",
+            "18:30",
+            "19:30"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -1991,8 +1828,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:10",
-            "14:20"
+            "12:15"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2003,9 +1839,6 @@
           "rating": "15",
           "duration": "1h 46m",
           "showtimes": [
-            "10:15",
-            "12:45",
-            "14:10",
             "16:40",
             "18:10"
           ],
@@ -2018,7 +1851,6 @@
           "rating": "15",
           "duration": "2h 16m",
           "showtimes": [
-            "15:15",
             "19:50"
           ],
           "format": "Standard",
@@ -2042,7 +1874,8 @@
           "rating": "18",
           "duration": "1h 53m",
           "showtimes": [
-            "12:40"
+            "12:40",
+            "20:30"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2075,29 +1908,7 @@
           "rating": "12A",
           "duration": "1h 35m",
           "showtimes": [
-            "10:20"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dear You (Teochew)",
-          "rating": "15",
-          "duration": "1h 58m",
-          "showtimes": [
-            "11:20"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: Les Liaisons Dangereuses",
-          "rating": "15",
-          "duration": "3h 0m",
-          "showtimes": [
-            "11:00"
+            "10:10"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2132,38 +1943,6 @@
           "showtimes": [
             "13:00",
             "20:15"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "10:00",
-            "10:30",
-            "11:30",
-            "13:10",
-            "14:10",
-            "15:50",
-            "16:50",
-            "18:30",
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:10",
-            "17:40",
-            "20:10"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2251,6 +2030,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Summer Holiday",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "12:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
@@ -2263,17 +2053,6 @@
             "18:30",
             "19:30",
             "22:00"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Summer Holiday",
-          "rating": "U",
-          "duration": "1h 47m",
-          "showtimes": [
-            "12:00"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2292,9 +2071,6 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "11.15",
-            "13.30",
-            "15.45",
             "17.50"
           ],
           "format": "Standard",
@@ -2459,7 +2235,6 @@
           "rating": "15",
           "duration": "1h 47m",
           "showtimes": [
-            "12:00",
             "14:45",
             "20:30"
           ],
@@ -2471,8 +2246,6 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:00",
-            "11:30",
             "14:15",
             "17:00",
             "18:00",
@@ -2486,7 +2259,6 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "13:15",
             "20:00"
           ],
           "day": "today",
@@ -2497,7 +2269,6 @@
           "rating": "U",
           "duration": "1h 29m",
           "showtimes": [
-            "09:30",
             "16:30",
             "19:00"
           ],
@@ -2509,7 +2280,6 @@
           "rating": "12A",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
             "15:15",
             "18:20"
           ],
@@ -2527,16 +2297,6 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "A Private Life",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "11:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Jackass: Best And Last",
           "rating": "18",
           "duration": "1h 32m",
@@ -2547,45 +2307,11 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "500 Miles",
-          "rating": "12A",
-          "duration": "1h 42m",
-          "showtimes": [
-            "13:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Devil Wears Prada 2",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "12:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "10:00",
-            "12:40",
-            "16:15",
-            "19:30"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Evil Dead Burn",
           "rating": "18",
           "duration": "1h 51m",
           "showtimes": [
-            "13:40",
-            "18:30",
+            "17:30",
             "21:30"
           ],
           "day": "friday",
@@ -2596,9 +2322,7 @@
           "rating": "15",
           "duration": "1h 47m",
           "showtimes": [
-            "13:10",
-            "15:00",
-            "18:00",
+            "14:45",
             "20:30"
           ],
           "day": "friday",
@@ -2609,11 +2333,10 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "09:30",
-            "12:10",
-            "14:30",
+            "14:15",
             "17:00",
-            "19:00"
+            "18:00",
+            "19:30"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2623,7 +2346,6 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:15",
             "20:00"
           ],
           "day": "friday",
@@ -2634,9 +2356,8 @@
           "rating": "U",
           "duration": "1h 29m",
           "showtimes": [
-            "10:30",
-            "15:30",
-            "17:30"
+            "16:30",
+            "19:00"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2646,8 +2367,8 @@
           "rating": "12A",
           "duration": "1h 50m",
           "showtimes": [
-            "10:45",
-            "15:50"
+            "15:15",
+            "18:20"
           ],
           "day": "friday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2663,26 +2384,13 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Toddler Club: Madagascar",
-          "rating": "U",
-          "duration": "1h 26m",
+          "title": "Jackass: Best And Last",
+          "rating": "18",
+          "duration": "1h 32m",
           "showtimes": [
-            "09:00"
+            "16:00"
           ],
           "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "11:15",
-            "14:00",
-            "17:15",
-            "19:00"
-          ],
-          "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -2690,8 +2398,8 @@
           "rating": "18",
           "duration": "1h 51m",
           "showtimes": [
-            "18:30",
-            "21:00"
+            "17:30",
+            "21:30"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2701,8 +2409,7 @@
           "rating": "15",
           "duration": "1h 47m",
           "showtimes": [
-            "10:45",
-            "16:25",
+            "14:45",
             "20:30"
           ],
           "day": "saturday",
@@ -2713,10 +2420,9 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:00",
-            "12:40",
-            "15:15",
-            "16:50",
+            "14:15",
+            "17:00",
+            "18:00",
             "19:30"
           ],
           "day": "saturday",
@@ -2727,7 +2433,6 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "13:00",
             "20:00"
           ],
           "day": "saturday",
@@ -2738,64 +2443,49 @@
           "rating": "U",
           "duration": "1h 29m",
           "showtimes": [
-            "09:30",
-            "12:00",
-            "13:30",
+            "16:30",
+            "19:00"
+          ],
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Supergirl",
+          "rating": "12A",
+          "duration": "1h 50m",
+          "showtimes": [
+            "15:15",
+            "18:20"
+          ],
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Obsession",
+          "rating": "18",
+          "duration": "1h 49m",
+          "showtimes": [
+            "21:00"
+          ],
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Jackass: Best And Last",
+          "rating": "18",
+          "duration": "1h 32m",
+          "showtimes": [
             "16:00"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Supergirl",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "10:15",
-            "14:30"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Obsession",
-          "rating": "18",
-          "duration": "1h 49m",
-          "showtimes": [
-            "17:45"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toddler Club: Madagascar",
-          "rating": "U",
-          "duration": "1h 26m",
-          "showtimes": [
-            "09:00"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "10:50",
-            "14:00",
-            "16:45",
-            "20:00"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Evil Dead Burn",
           "rating": "18",
           "duration": "1h 51m",
           "showtimes": [
-            "18:30",
+            "17:30",
             "21:30"
           ],
           "day": "sunday",
@@ -2806,233 +2496,195 @@
           "rating": "15",
           "duration": "1h 47m",
           "showtimes": [
-            "13:15",
-            "18:00",
-            "21:00"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toy Story 5",
-          "rating": "PG",
-          "duration": "1h 42m",
-          "showtimes": [
-            "09:00",
-            "11:30",
-            "13:40",
-            "15:00",
-            "16:20",
-            "19:00"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Disclosure Day",
-          "rating": "12A",
-          "duration": "2h 25m",
-          "showtimes": [
-            "11:45",
+            "14:45",
             "20:30"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 29m",
-          "showtimes": [
-            "10:20",
-            "12:50",
-            "15:30",
-            "17:30"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Supergirl",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:50"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toddler Club: Madagascar",
-          "rating": "U",
-          "duration": "1h 26m",
-          "showtimes": [
-            "09:30"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Throwback: Inception",
-          "rating": "12A",
-          "duration": "2h 28m",
-          "showtimes": [
-            "19:30"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "10:45",
-            "13:30",
-            "16:15",
-            "17:45",
-            "19:30"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 51m",
-          "showtimes": [
-            "18:30",
-            "21:30"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "12:40",
-            "14:50",
-            "20:30"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
           "title": "Toy Story 5",
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "09:30",
-            "12:15",
-            "14:30",
-            "17:00",
-            "19:00"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Disclosure Day",
-          "rating": "12A",
-          "duration": "2h 25m",
-          "showtimes": [
-            "11:15",
-            "20:00"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 29m",
-          "showtimes": [
-            "10:15",
-            "15:20",
-            "17:30"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Supergirl",
-          "rating": "12A",
-          "duration": "1h 50m",
-          "showtimes": [
-            "15:50"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Obsession",
-          "rating": "18",
-          "duration": "1h 49m",
-          "showtimes": [
-            "21:00"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Beyond: The Last Viking",
-          "rating": "15",
-          "duration": "1h 56m",
-          "showtimes": [
-            "13:00"
-          ],
-          "day": "monday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "09:45",
-            "12:30",
-            "16:00",
-            "19:15"
-          ],
-          "day": "tuesday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Evil Dead Burn",
-          "rating": "18",
-          "duration": "1h 51m",
-          "showtimes": [
-            "14:40",
-            "18:15",
-            "21:15"
-          ],
-          "day": "tuesday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "12:00",
-            "17:45",
-            "20:20"
-          ],
-          "day": "tuesday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toy Story 5",
-          "rating": "PG",
-          "duration": "1h 42m",
-          "showtimes": [
-            "09:20",
-            "12:50",
             "14:15",
-            "16:45",
-            "18:45"
+            "17:00",
+            "18:00",
+            "19:30"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Disclosure Day",
+          "rating": "12A",
+          "duration": "2h 25m",
+          "showtimes": [
+            "20:00"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 29m",
+          "showtimes": [
+            "16:30",
+            "19:00"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Supergirl",
+          "rating": "12A",
+          "duration": "1h 50m",
+          "showtimes": [
+            "15:15",
+            "18:20"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Obsession",
+          "rating": "18",
+          "duration": "1h 49m",
+          "showtimes": [
+            "21:00"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Jackass: Best And Last",
+          "rating": "18",
+          "duration": "1h 32m",
+          "showtimes": [
+            "16:00"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 51m",
+          "showtimes": [
+            "17:30",
+            "21:30"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Invite",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:45",
+            "20:30"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toy Story 5",
+          "rating": "PG",
+          "duration": "1h 42m",
+          "showtimes": [
+            "14:15",
+            "17:00",
+            "18:00",
+            "19:30"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Disclosure Day",
+          "rating": "12A",
+          "duration": "2h 25m",
+          "showtimes": [
+            "20:00"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 29m",
+          "showtimes": [
+            "16:30",
+            "19:00"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Supergirl",
+          "rating": "12A",
+          "duration": "1h 50m",
+          "showtimes": [
+            "15:15",
+            "18:20"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Obsession",
+          "rating": "18",
+          "duration": "1h 49m",
+          "showtimes": [
+            "21:00"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Jackass: Best And Last",
+          "rating": "18",
+          "duration": "1h 32m",
+          "showtimes": [
+            "16:00"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Evil Dead Burn",
+          "rating": "18",
+          "duration": "1h 51m",
+          "showtimes": [
+            "17:30",
+            "21:30"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Invite",
+          "rating": "15",
+          "duration": "1h 47m",
+          "showtimes": [
+            "14:45",
+            "20:30"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toy Story 5",
+          "rating": "PG",
+          "duration": "1h 42m",
+          "showtimes": [
+            "14:15",
+            "17:00",
+            "18:00",
+            "19:30"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3042,8 +2694,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:00",
-            "19:45"
+            "20:00"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3053,9 +2704,8 @@
           "rating": "U",
           "duration": "1h 29m",
           "showtimes": [
-            "10:15",
-            "15:15",
-            "17:15"
+            "16:30",
+            "19:00"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3065,43 +2715,30 @@
           "rating": "12A",
           "duration": "1h 50m",
           "showtimes": [
-            "10:30",
-            "15:30"
+            "15:15",
+            "18:20"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Devil Wears Prada 2",
-          "rating": "12A",
-          "duration": "1h 59m",
+          "title": "Obsession",
+          "rating": "18",
+          "duration": "1h 49m",
           "showtimes": [
-            "13:15"
+            "21:00"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Beyond: The Last Viking",
-          "rating": "15",
-          "duration": "1h 56m",
+          "title": "Jackass: Best And Last",
+          "rating": "18",
+          "duration": "1h 32m",
           "showtimes": [
-            "20:45"
+            "16:00"
           ],
           "day": "tuesday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "10:45",
-            "12:45",
-            "16:15",
-            "20:00"
-          ],
-          "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3109,8 +2746,7 @@
           "rating": "18",
           "duration": "1h 51m",
           "showtimes": [
-            "13:30",
-            "18:30",
+            "17:30",
             "21:30"
           ],
           "day": "wednesday",
@@ -3121,9 +2757,8 @@
           "rating": "15",
           "duration": "1h 47m",
           "showtimes": [
-            "13:10",
-            "15:00",
-            "18:00"
+            "14:45",
+            "20:30"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3133,11 +2768,10 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "09:30",
-            "12:15",
-            "14:30",
+            "14:15",
             "17:00",
-            "19:00"
+            "18:00",
+            "19:30"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3147,8 +2781,7 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "11:15",
-            "20:30"
+            "20:00"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3158,9 +2791,8 @@
           "rating": "U",
           "duration": "1h 29m",
           "showtimes": [
-            "10:20",
-            "15:30",
-            "17:30"
+            "16:30",
+            "19:00"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3170,7 +2802,8 @@
           "rating": "12A",
           "duration": "1h 50m",
           "showtimes": [
-            "15:50"
+            "15:15",
+            "18:20"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3186,11 +2819,11 @@
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Throwback: Inception",
-          "rating": "12A",
-          "duration": "2h 28m",
+          "title": "Jackass: Best And Last",
+          "rating": "18",
+          "duration": "1h 32m",
           "showtimes": [
-            "19:30"
+            "16:00"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3203,36 +2836,6 @@
       "address": "38-39 St Andrew's Street, Cambridge, CB2 3AR",
       "url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
       "films": [
-        {
-          "title": "500 Miles",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "13:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "A Private Life",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "16:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Disclosure Day",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "12:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
         {
           "title": "Eos: David Hockney At The Royal Academy Of Arts",
           "rating": "U",
@@ -3268,19 +2871,8 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "13:30",
             "17:10",
             "20:40"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Last Viking",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "11:00"
           ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
@@ -3290,18 +2882,7 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "15:50",
             "18:20"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Virginia Woolf\u2019S Night And Day",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "15:00"
           ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
