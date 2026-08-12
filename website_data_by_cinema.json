@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T02:34:20.010615",
+  "last_updated": "2026-08-12T13:29:39.363485",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -13,9 +13,6 @@
           "rating": "12A",
           "duration": "2h 24m",
           "showtimes": [
-            "10:10",
-            "11:00",
-            "13:15",
             "14:10",
             "15:40",
             "16:20",
@@ -33,30 +30,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -75,13 +53,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -92,9 +69,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "today",
@@ -157,6 +144,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -166,17 +164,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "today",
@@ -238,22 +225,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -282,39 +269,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -326,57 +280,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "today",
@@ -395,11 +303,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -410,30 +386,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -452,13 +409,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -469,9 +425,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -534,6 +500,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -543,17 +520,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -615,22 +581,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "thursday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -659,39 +625,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -703,57 +636,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -772,11 +659,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -787,30 +742,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "friday",
@@ -829,13 +765,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "friday",
@@ -846,9 +781,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "friday",
@@ -911,6 +856,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -920,17 +876,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "friday",
@@ -992,22 +937,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "friday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1036,39 +981,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -1080,57 +992,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1149,11 +1015,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1164,30 +1098,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1206,13 +1121,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1223,9 +1137,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1288,6 +1212,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -1297,17 +1232,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1369,22 +1293,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "saturday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1413,39 +1337,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -1457,57 +1348,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1526,11 +1371,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -1541,30 +1454,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1583,13 +1477,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1600,9 +1493,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1665,6 +1568,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -1674,17 +1588,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1746,22 +1649,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "sunday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1790,39 +1693,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -1834,57 +1704,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1903,11 +1727,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1918,30 +1810,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1960,13 +1833,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1977,9 +1849,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2042,6 +1924,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -2051,17 +1944,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2123,22 +2005,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "monday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2167,39 +2049,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -2211,57 +2060,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2280,11 +2083,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -2295,30 +2166,11 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10:00",
-            "12:30",
-            "13:30",
             "16:10",
             "17:00",
             "18:50",
             "19:50",
             "20:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "10:00",
-            "11:10",
-            "12:10",
-            "13:30",
-            "14:20",
-            "16:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2337,13 +2189,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Minions & Monsters",
+          "title": "Paw Patrol: The Dino Movie",
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "10:15",
-            "15:10",
-            "17:20"
+            "14:20",
+            "16:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2354,9 +2205,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "10:20",
-            "12:45",
             "15:50"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "15:10",
+            "17:20"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2419,6 +2280,17 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -2428,17 +2300,6 @@
             "17:00",
             "19:20",
             "21:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2500,22 +2361,22 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
           "showtimes": [
-            "20:00"
+            "15:10"
           ],
           "format": "Standard",
           "day": "tuesday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
           "showtimes": [
-            "15:10"
+            "20:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2544,39 +2405,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "I'M Game (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Bethlehem Kudumba Unit (Malayalam)",
           "rating": "Unknown",
           "duration": "3h 0m",
@@ -2588,57 +2416,11 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Mutiny",
+          "title": "One Night Only",
           "rating": "Unknown",
-          "duration": "1h 35m",
+          "duration": "1h 41m",
           "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
+            "19:40"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2657,11 +2439,79 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
           "showtimes": [
-            "19:40"
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "Unknown",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2680,8 +2530,6 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "10.00",
-            "13.30",
             "17.00",
             "20.30"
           ],
@@ -2907,7 +2755,6 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "10:30",
             "12:00",
             "13:45",
             "16:15",
@@ -2923,7 +2770,6 @@
           "rating": "U",
           "duration": "1h 28m",
           "showtimes": [
-            "09:45",
             "13:30",
             "15:45"
           ],
@@ -2948,18 +2794,7 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "09:15",
             "14:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 29m",
-          "showtimes": [
-            "10:00"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2991,26 +2826,6 @@
           "duration": "1h 57m",
           "showtimes": [
             "20:15"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Family Film Club: Beauty And The Beast",
-          "rating": "U",
-          "duration": "1h 27m",
-          "showtimes": [
-            "11:15"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toddler Club: Dr Seuss' The Lorax",
-          "rating": "U",
-          "duration": "1h 27m",
-          "showtimes": [
-            "09:00"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3684,8 +3499,6 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "10:45",
-            "14:00",
             "17:10",
             "20:15"
           ],
@@ -3697,7 +3510,6 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "10:40",
             "18:00"
           ],
           "day": "today",
@@ -3708,7 +3520,6 @@
           "rating": "U",
           "duration": "",
           "showtimes": [
-            "12:15",
             "16:00"
           ],
           "day": "today",
@@ -3720,16 +3531,6 @@
           "duration": "",
           "showtimes": [
             "19:45"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Summer Book",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "13:00"
           ],
           "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
