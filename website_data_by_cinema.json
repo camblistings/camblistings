@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T13:31:05.011930",
+  "last_updated": "2026-08-14T02:34:29.547802",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -13,13 +13,32 @@
           "rating": "12A",
           "duration": "2h 24m",
           "showtimes": [
-            "14:10",
-            "15:40",
-            "16:20",
-            "17:15",
+            "10:10",
+            "10:20",
+            "12:10",
+            "13:20",
+            "15:20",
+            "16:30",
+            "17:40",
             "18:15",
-            "19:30",
-            "20:20"
+            "19:40",
+            "20:40",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:15",
+            "14:40",
+            "17:00",
+            "19:20",
+            "21:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -30,11 +49,12 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "10:45",
+            "14:20",
             "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
+            "18:00",
+            "19:45",
+            "20:50"
           ],
           "format": "Standard",
           "day": "today",
@@ -45,8 +65,23 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "14:20",
-            "16:30"
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
           ],
           "format": "Standard",
           "day": "today",
@@ -57,8 +92,7 @@
           "rating": "18",
           "duration": "1h 26m",
           "showtimes": [
-            "18:40",
-            "20:50"
+            "22:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -69,7 +103,20 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "15:50"
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -81,17 +128,6 @@
           "duration": "1h 55m",
           "showtimes": [
             "13:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
           ],
           "format": "Standard",
           "day": "today",
@@ -124,34 +160,7 @@
           "rating": "12A",
           "duration": "1h 24m",
           "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "12:15",
-            "14:40",
-            "17:00",
-            "19:20",
-            "21:30"
+            "18:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -257,17 +266,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "One Night Only",
           "rating": "Unknown",
           "duration": "1h 41m",
@@ -279,8 +277,19 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Spa Weekend",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 37m",
           "showtimes": [
             "16:30",
@@ -338,7 +347,7 @@
         },
         {
           "title": "Mutiny",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
             "18:30",
@@ -393,123 +402,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Odyssey",
-          "rating": "15",
-          "duration": "2h 52m",
-          "showtimes": [
-            "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "14:20",
-            "16:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Ice Cream Man",
-          "rating": "18",
-          "duration": "1h 26m",
-          "showtimes": [
-            "18:40",
-            "20:50"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Toy Story 5",
-          "rating": "PG",
-          "duration": "1h 42m",
-          "showtimes": [
-            "15:50"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 55m",
-          "showtimes": [
-            "13:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "17:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Thudakkam (Malayalam)",
-          "rating": "15",
-          "duration": "2h 17m",
-          "showtimes": [
-            "21:20"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Katseye: Wild Hearts",
-          "rating": "12A",
-          "duration": "1h 24m",
-          "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "The End Of Oak Street",
           "rating": "12A",
           "duration": "1h 40m",
@@ -521,242 +413,7 @@
             "21:30"
           ],
           "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Lady",
-          "rating": "15",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Who Framed Roger Rabbit",
-          "rating": "PG",
-          "duration": "1h 44m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "All Wishes Come True (Mandarin)",
-          "rating": "12A",
-          "duration": "2h 23m",
-          "showtimes": [
-            "13:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Mystery Screening 35",
-          "rating": "15",
-          "duration": "Unknown",
-          "showtimes": [
-            "20:40"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "James: Getting Away With It + Live-Streamed Performance",
-          "rating": "15",
-          "duration": "2h 7m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "David Byrne'S American Utopia + Recorded Intro",
-          "rating": "12A",
-          "duration": "1h 55m",
-          "showtimes": [
-            "15:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "James: Getting Away With It",
-          "rating": "15",
-          "duration": "1h 37m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Nt Live: The Playboy Of The Western World",
-          "rating": "12A",
-          "duration": "2h 30m",
-          "showtimes": [
-            "19:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Khalifa (Malayalam)",
-          "rating": "Unknown",
-          "duration": "2h 50m",
-          "showtimes": [
-            "17:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "One Night Only",
-          "rating": "Unknown",
-          "duration": "1h 41m",
-          "showtimes": [
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Spa Weekend",
-          "rating": "Unknown",
-          "duration": "1h 37m",
-          "showtimes": [
-            "16:30",
-            "18:50"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Insidious: Out Of The Further",
-          "rating": "15",
-          "duration": "1h 45m",
-          "showtimes": [
-            "19:20",
-            "21:40"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Dog Stars",
-          "rating": "15",
-          "duration": "2h 0m",
-          "showtimes": [
-            "17:10",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Trainspotting (30Th Anniversary)",
-          "rating": "18",
-          "duration": "1h 34m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Ghost: 2 Big To Rig",
-          "rating": "15",
-          "duration": "1h 55m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Mutiny",
-          "rating": "Unknown",
-          "duration": "1h 35m",
-          "showtimes": [
-            "18:30",
-            "21:10"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Subbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "18:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Bitter Christmas",
-          "rating": "15",
-          "duration": "1h 51m",
-          "showtimes": [
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Kiki'S Delivery Service (Dubbed)",
-          "rating": "U",
-          "duration": "1h 44m",
-          "showtimes": [
-            "13:40"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Momo And The Time Thieves",
-          "rating": "PG",
-          "duration": "1h 33m",
-          "showtimes": [
-            "10:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
+          "day": "saturday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -764,11 +421,12 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "10:45",
+            "14:20",
             "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
+            "18:00",
+            "19:45",
+            "20:50"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -779,8 +437,23 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "14:20",
-            "16:30"
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -791,8 +464,7 @@
           "rating": "18",
           "duration": "1h 26m",
           "showtimes": [
-            "18:40",
-            "20:50"
+            "22:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -803,7 +475,20 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "15:50"
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -815,17 +500,6 @@
           "duration": "1h 55m",
           "showtimes": [
             "13:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -858,34 +532,7 @@
           "rating": "12A",
           "duration": "1h 24m",
           "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "12:15",
-            "14:40",
-            "17:00",
-            "19:20",
-            "21:30"
+            "18:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -991,17 +638,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "One Night Only",
           "rating": "Unknown",
           "duration": "1h 41m",
@@ -1013,8 +649,19 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Spa Weekend",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 37m",
           "showtimes": [
             "16:30",
@@ -1072,7 +719,7 @@
         },
         {
           "title": "Mutiny",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
             "18:30",
@@ -1127,15 +774,31 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:15",
+            "14:40",
+            "17:00",
+            "19:20",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "10:45",
+            "14:20",
             "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
+            "18:00",
+            "19:45",
+            "20:50"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1146,8 +809,23 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "14:20",
-            "16:30"
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1158,8 +836,7 @@
           "rating": "18",
           "duration": "1h 26m",
           "showtimes": [
-            "18:40",
-            "20:50"
+            "22:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1170,7 +847,20 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "15:50"
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1182,17 +872,6 @@
           "duration": "1h 55m",
           "showtimes": [
             "13:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1225,34 +904,7 @@
           "rating": "12A",
           "duration": "1h 24m",
           "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "12:15",
-            "14:40",
-            "17:00",
-            "19:20",
-            "21:30"
+            "18:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -1358,17 +1010,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "One Night Only",
           "rating": "Unknown",
           "duration": "1h 41m",
@@ -1380,8 +1021,19 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Spa Weekend",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 37m",
           "showtimes": [
             "16:30",
@@ -1439,7 +1091,7 @@
         },
         {
           "title": "Mutiny",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
             "18:30",
@@ -1494,15 +1146,31 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:15",
+            "14:40",
+            "17:00",
+            "19:20",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "10:45",
+            "14:20",
             "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
+            "18:00",
+            "19:45",
+            "20:50"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1513,8 +1181,23 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "14:20",
-            "16:30"
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1525,8 +1208,7 @@
           "rating": "18",
           "duration": "1h 26m",
           "showtimes": [
-            "18:40",
-            "20:50"
+            "22:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1537,7 +1219,20 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "15:50"
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1549,17 +1244,6 @@
           "duration": "1h 55m",
           "showtimes": [
             "13:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1592,34 +1276,7 @@
           "rating": "12A",
           "duration": "1h 24m",
           "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "12:15",
-            "14:40",
-            "17:00",
-            "19:20",
-            "21:30"
+            "18:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -1725,17 +1382,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "One Night Only",
           "rating": "Unknown",
           "duration": "1h 41m",
@@ -1747,8 +1393,19 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Spa Weekend",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 37m",
           "showtimes": [
             "16:30",
@@ -1806,7 +1463,7 @@
         },
         {
           "title": "Mutiny",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
             "18:30",
@@ -1861,15 +1518,31 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:15",
+            "14:40",
+            "17:00",
+            "19:20",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "10:45",
+            "14:20",
             "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
+            "18:00",
+            "19:45",
+            "20:50"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1880,8 +1553,23 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "14:20",
-            "16:30"
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1892,8 +1580,7 @@
           "rating": "18",
           "duration": "1h 26m",
           "showtimes": [
-            "18:40",
-            "20:50"
+            "22:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1904,7 +1591,20 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "15:50"
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1916,17 +1616,6 @@
           "duration": "1h 55m",
           "showtimes": [
             "13:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1959,34 +1648,7 @@
           "rating": "12A",
           "duration": "1h 24m",
           "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "12:15",
-            "14:40",
-            "17:00",
-            "19:20",
-            "21:30"
+            "18:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -2092,17 +1754,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "One Night Only",
           "rating": "Unknown",
           "duration": "1h 41m",
@@ -2114,8 +1765,19 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Spa Weekend",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 37m",
           "showtimes": [
             "16:30",
@@ -2173,7 +1835,7 @@
         },
         {
           "title": "Mutiny",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
             "18:30",
@@ -2228,15 +1890,31 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:15",
+            "14:40",
+            "17:00",
+            "19:20",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "The Odyssey",
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "10:45",
+            "14:20",
             "16:10",
-            "17:00",
-            "18:50",
-            "19:50",
-            "20:30"
+            "18:00",
+            "19:45",
+            "20:50"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2247,8 +1925,23 @@
           "rating": "U",
           "duration": "1h 30m",
           "showtimes": [
-            "14:20",
-            "16:30"
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2259,8 +1952,7 @@
           "rating": "18",
           "duration": "1h 26m",
           "showtimes": [
-            "18:40",
-            "20:50"
+            "22:00"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2271,7 +1963,20 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "15:50"
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2283,17 +1988,6 @@
           "duration": "1h 55m",
           "showtimes": [
             "13:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Minions & Monsters",
-          "rating": "U",
-          "duration": "1h 30m",
-          "showtimes": [
-            "15:10"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2326,34 +2020,7 @@
           "rating": "12A",
           "duration": "1h 24m",
           "showtimes": [
-            "17:30",
-            "19:40"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Baby Born: Join-In Cinema",
-          "rating": "U",
-          "duration": "Unknown",
-          "showtimes": [
-            "10:15"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "12:15",
-            "14:40",
-            "17:00",
-            "19:20",
-            "21:30"
+            "18:30"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -2459,17 +2126,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Bethlehem Kudumba Unit (Malayalam)",
-          "rating": "Unknown",
-          "duration": "3h 0m",
-          "showtimes": [
-            "13:20"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "One Night Only",
           "rating": "Unknown",
           "duration": "1h 41m",
@@ -2481,8 +2137,19 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Spa Weekend",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 37m",
           "showtimes": [
             "16:30",
@@ -2540,7 +2207,7 @@
         },
         {
           "title": "Mutiny",
-          "rating": "Unknown",
+          "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
             "18:30",
@@ -2592,6 +2259,378 @@
           ],
           "format": "Standard",
           "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:15",
+            "14:40",
+            "17:00",
+            "19:20",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Odyssey",
+          "rating": "15",
+          "duration": "2h 52m",
+          "showtimes": [
+            "10:45",
+            "14:20",
+            "16:10",
+            "18:00",
+            "19:45",
+            "20:50"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Paw Patrol: The Dino Movie",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:20",
+            "11:40",
+            "12:40",
+            "13:50",
+            "14:50",
+            "16:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Baby Born: Join-In Cinema",
+          "rating": "U",
+          "duration": "Unknown",
+          "showtimes": [
+            "10:15"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Ice Cream Man",
+          "rating": "18",
+          "duration": "1h 26m",
+          "showtimes": [
+            "22:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Toy Story 5",
+          "rating": "PG",
+          "duration": "1h 42m",
+          "showtimes": [
+            "10:30",
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 30m",
+          "showtimes": [
+            "10:00",
+            "13:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Moana",
+          "rating": "PG",
+          "duration": "1h 55m",
+          "showtimes": [
+            "13:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Invite",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Thudakkam (Malayalam)",
+          "rating": "15",
+          "duration": "2h 17m",
+          "showtimes": [
+            "21:20"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Katseye: Wild Hearts",
+          "rating": "12A",
+          "duration": "1h 24m",
+          "showtimes": [
+            "18:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Lady",
+          "rating": "15",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:10"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Who Framed Roger Rabbit",
+          "rating": "PG",
+          "duration": "1h 44m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "All Wishes Come True (Mandarin)",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "13:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mystery Screening 35",
+          "rating": "15",
+          "duration": "Unknown",
+          "showtimes": [
+            "20:40"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "James: Getting Away With It + Live-Streamed Performance",
+          "rating": "15",
+          "duration": "2h 7m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "David Byrne'S American Utopia + Recorded Intro",
+          "rating": "12A",
+          "duration": "1h 55m",
+          "showtimes": [
+            "15:10"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "James: Getting Away With It",
+          "rating": "15",
+          "duration": "1h 37m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Nt Live: The Playboy Of The Western World",
+          "rating": "12A",
+          "duration": "2h 30m",
+          "showtimes": [
+            "19:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Khalifa (Malayalam)",
+          "rating": "Unknown",
+          "duration": "2h 50m",
+          "showtimes": [
+            "17:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "One Night Only",
+          "rating": "Unknown",
+          "duration": "1h 41m",
+          "showtimes": [
+            "19:40"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bethlehem Kudumba Unit (Malayalam)",
+          "rating": "12A",
+          "duration": "2h 33m",
+          "showtimes": [
+            "13:20"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Spa Weekend",
+          "rating": "15",
+          "duration": "1h 37m",
+          "showtimes": [
+            "16:30",
+            "18:50"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Insidious: Out Of The Further",
+          "rating": "15",
+          "duration": "1h 45m",
+          "showtimes": [
+            "19:20",
+            "21:40"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Dog Stars",
+          "rating": "15",
+          "duration": "2h 0m",
+          "showtimes": [
+            "17:10",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Trainspotting (30Th Anniversary)",
+          "rating": "18",
+          "duration": "1h 34m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Ghost: 2 Big To Rig",
+          "rating": "15",
+          "duration": "1h 55m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Mutiny",
+          "rating": "15",
+          "duration": "1h 35m",
+          "showtimes": [
+            "18:30",
+            "21:10"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Subbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "18:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Bitter Christmas",
+          "rating": "15",
+          "duration": "1h 51m",
+          "showtimes": [
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Kiki'S Delivery Service (Dubbed)",
+          "rating": "U",
+          "duration": "1h 44m",
+          "showtimes": [
+            "13:40"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Momo And The Time Thieves",
+          "rating": "PG",
+          "duration": "1h 33m",
+          "showtimes": [
+            "10:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         }
       ]
@@ -2607,24 +2646,12 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "17.00",
-            "20.30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/imax"
-        },
-        {
-          "title": "The Odyssey",
-          "rating": "15",
-          "duration": "2h 52m",
-          "showtimes": [
             "10.45",
             "14.20",
             "18.00"
           ],
           "format": "Standard",
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         },
         {
@@ -2635,7 +2662,7 @@
             "21.30"
           ],
           "format": "Standard",
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         },
         {
@@ -2763,10 +2790,33 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
+            "12.30",
+            "16.10",
+            "19.50"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10.00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/imax"
+        },
+        {
+          "title": "The Odyssey",
+          "rating": "15",
+          "duration": "2h 52m",
+          "showtimes": [
             "10.00",
             "10.40",
             "10.50",
-            "12.30",
             "13.30",
             "13.40",
             "14.20",
@@ -2776,17 +2826,6 @@
             "19.45",
             "19.50",
             "20.30"
-          ],
-          "format": "Standard",
-          "day": "future",
-          "booking_url": "https://cambridge.thelight.co.uk/imax"
-        },
-        {
-          "title": "The End Of Oak Street",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "10.00"
           ],
           "format": "Standard",
           "day": "future",
@@ -2835,15 +2874,52 @@
       "address": "Unit 42, Grand Arcade, Cambridge, CB2 3BJ",
       "films": [
         {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:15",
+            "14:30",
+            "18:45",
+            "21:15"
+          ],
+          "day": "today",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Tony",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:45",
+            "16:30",
+            "20:15"
+          ],
+          "day": "today",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Sunny Dancer",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "15:15",
+            "18:00"
+          ],
+          "day": "today",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
           "title": "Spider-Man: Brand New Day",
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
+            "10:00",
             "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
+            "13:15",
+            "15:30",
+            "17:00",
+            "19:15",
             "20:45"
           ],
           "day": "today",
@@ -2854,8 +2930,9 @@
           "rating": "U",
           "duration": "1h 28m",
           "showtimes": [
-            "13:30",
-            "15:45"
+            "09:15",
+            "11:30",
+            "13:45"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2866,11 +2943,8 @@
           "duration": "2h 53m",
           "showtimes": [
             "10:45",
-            "12:30",
-            "15:15",
-            "17:00",
-            "19:00",
-            "20:15"
+            "16:00",
+            "19:45"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2880,100 +2954,55 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "17:30"
+            "09:30"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
+          "title": "Toddler Club: The Gruffalo'S Child + The Scarecrow'S Wedding",
+          "rating": "U",
+          "duration": "0h 51m",
           "showtimes": [
-            "14:45"
+            "09:00"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "21:20"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
+          "title": "The End Of Oak Street",
           "rating": "12A",
-          "duration": "2h 25m",
+          "duration": "1h 40m",
           "showtimes": [
-            "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
-            "20:45"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 28m",
-          "showtimes": [
-            "13:30",
-            "15:45"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Odyssey",
-          "rating": "15",
-          "duration": "2h 53m",
-          "showtimes": [
-            "10:45",
-            "12:30",
-            "15:15",
-            "17:00",
-            "19:00",
+            "10:15",
+            "14:30",
+            "16:30",
             "20:15"
           ],
-          "day": "friday",
+          "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Toy Story 5",
-          "rating": "PG",
-          "duration": "1h 42m",
-          "showtimes": [
-            "17:30"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "14:45"
-          ],
-          "day": "friday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Invite",
+          "title": "Tony",
           "rating": "15",
-          "duration": "1h 47m",
+          "duration": "1h 46m",
           "showtimes": [
+            "12:45",
+            "18:45",
             "21:20"
           ],
-          "day": "friday",
+          "day": "saturday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Sunny Dancer",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "15:15",
+            "18:00"
+          ],
+          "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -2981,11 +3010,12 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
+            "10:00",
             "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
+            "13:15",
+            "15:30",
+            "17:00",
+            "19:15",
             "20:45"
           ],
           "day": "saturday",
@@ -2996,8 +3026,9 @@
           "rating": "U",
           "duration": "1h 28m",
           "showtimes": [
-            "13:30",
-            "15:45"
+            "09:15",
+            "11:30",
+            "13:45"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3008,11 +3039,8 @@
           "duration": "2h 53m",
           "showtimes": [
             "10:45",
-            "12:30",
-            "15:15",
-            "17:00",
-            "19:00",
-            "20:15"
+            "16:00",
+            "19:45"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3022,98 +3050,53 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "17:30"
+            "09:30"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
+          "title": "Toddler Club: The Gruffalo'S Child + The Scarecrow'S Wedding",
+          "rating": "U",
+          "duration": "0h 51m",
           "showtimes": [
-            "14:45"
+            "09:00"
           ],
           "day": "saturday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "21:20"
-          ],
-          "day": "saturday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
+          "title": "The End Of Oak Street",
           "rating": "12A",
-          "duration": "2h 25m",
+          "duration": "1h 40m",
           "showtimes": [
-            "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
+            "10:15",
+            "14:30",
+            "18:45",
+            "21:15"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Tony",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:45",
+            "16:30",
             "20:45"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Paw Patrol: The Dino Movie",
-          "rating": "U",
-          "duration": "1h 28m",
-          "showtimes": [
-            "13:30",
-            "15:45"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Odyssey",
+          "title": "Sunny Dancer",
           "rating": "15",
-          "duration": "2h 53m",
+          "duration": "1h 46m",
           "showtimes": [
-            "10:45",
-            "12:30",
             "15:15",
-            "17:00",
-            "19:00",
-            "20:15"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Toy Story 5",
-          "rating": "PG",
-          "duration": "1h 42m",
-          "showtimes": [
-            "17:30"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
-          "showtimes": [
-            "14:45"
-          ],
-          "day": "sunday",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 47m",
-          "showtimes": [
-            "21:20"
+            "18:00"
           ],
           "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3123,14 +3106,14 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
+            "10:00",
             "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
-            "20:45"
+            "13:15",
+            "15:30",
+            "17:00",
+            "20:15"
           ],
-          "day": "monday",
+          "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3138,10 +3121,11 @@
           "rating": "U",
           "duration": "1h 28m",
           "showtimes": [
-            "13:30",
-            "15:45"
+            "09:15",
+            "11:30",
+            "13:45"
           ],
-          "day": "monday",
+          "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3150,13 +3134,10 @@
           "duration": "2h 53m",
           "showtimes": [
             "10:45",
-            "12:30",
-            "15:15",
-            "17:00",
-            "19:00",
-            "20:15"
+            "16:00",
+            "19:45"
           ],
-          "day": "monday",
+          "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3164,27 +3145,63 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "17:30"
+            "09:30"
           ],
-          "day": "monday",
+          "day": "sunday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "Moana",
-          "rating": "PG",
-          "duration": "1h 56m",
+          "title": "Toddler Club: The Gruffalo'S Child + The Scarecrow'S Wedding",
+          "rating": "U",
+          "duration": "0h 51m",
           "showtimes": [
-            "14:45"
+            "09:00",
+            "19:15"
+          ],
+          "day": "sunday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "13:00",
+            "16:45",
+            "20:30"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Invite",
+          "title": "Tony",
           "rating": "15",
-          "duration": "1h 47m",
+          "duration": "1h 46m",
           "showtimes": [
-            "21:20"
+            "14:45",
+            "19:00",
+            "21:30"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Teenage Sex And Death At Camp Miasma",
+          "rating": "15",
+          "duration": "1h 52m",
+          "showtimes": [
+            "21:00"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Sunny Dancer",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:15",
+            "18:30"
           ],
           "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3194,14 +3211,13 @@
           "rating": "12A",
           "duration": "2h 25m",
           "showtimes": [
-            "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
-            "20:45"
+            "10:15",
+            "13:30",
+            "15:45",
+            "17:15",
+            "20:00"
           ],
-          "day": "tuesday",
+          "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3209,10 +3225,10 @@
           "rating": "U",
           "duration": "1h 28m",
           "showtimes": [
-            "13:30",
-            "15:45"
+            "09:00",
+            "14:00"
           ],
-          "day": "tuesday",
+          "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3220,14 +3236,11 @@
           "rating": "15",
           "duration": "2h 53m",
           "showtimes": [
-            "10:45",
-            "12:30",
-            "15:15",
-            "17:00",
-            "19:00",
-            "20:15"
+            "11:30",
+            "16:15",
+            "19:30"
           ],
-          "day": "tuesday",
+          "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3235,9 +3248,19 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "17:30"
+            "09:45"
           ],
-          "day": "tuesday",
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 29m",
+          "showtimes": [
+            "10:30"
+          ],
+          "day": "monday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3245,17 +3268,63 @@
           "rating": "PG",
           "duration": "1h 56m",
           "showtimes": [
-            "14:45"
+            "11:15"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Family Film Club: Pirates Of The Caribbean: Curse Of The Black Pearl",
+          "rating": "12A",
+          "duration": "2h 23m",
+          "showtimes": [
+            "15:15"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toddler Club: Storks",
+          "rating": "U",
+          "duration": "1h 27m",
+          "showtimes": [
+            "09:15"
+          ],
+          "day": "monday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "10:15",
+            "14:30",
+            "18:45",
+            "21:15"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Invite",
+          "title": "Tony",
           "rating": "15",
-          "duration": "1h 47m",
+          "duration": "1h 46m",
           "showtimes": [
-            "21:20"
+            "12:50",
+            "16:30",
+            "20:15"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Sunny Dancer",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "15:15",
+            "20:45"
           ],
           "day": "tuesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3266,11 +3335,123 @@
           "duration": "2h 25m",
           "showtimes": [
             "12:00",
-            "13:45",
-            "16:15",
-            "18:00",
-            "19:30",
+            "13:15",
+            "15:30",
+            "17:00",
+            "19:45"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Paw Patrol: The Dino Movie",
+          "rating": "U",
+          "duration": "1h 28m",
+          "showtimes": [
+            "09:00",
+            "13:45"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Odyssey",
+          "rating": "15",
+          "duration": "2h 53m",
+          "showtimes": [
+            "10:45",
+            "16:00",
+            "19:15"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toy Story 5",
+          "rating": "PG",
+          "duration": "1h 42m",
+          "showtimes": [
+            "11:15"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Minions & Monsters",
+          "rating": "U",
+          "duration": "1h 29m",
+          "showtimes": [
+            "09:30"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Nimrods: A Green Day Comedy",
+          "rating": "15",
+          "duration": "1h 56m",
+          "showtimes": [
+            "18:00"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Little Mermaid (2023)",
+          "rating": "PG",
+          "duration": "2h 16m",
+          "showtimes": [
+            "10:00"
+          ],
+          "day": "tuesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "12:45",
+            "16:30",
             "20:45"
+          ],
+          "day": "wednesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Tony",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "14:15",
+            "18:45",
+            "21:20"
+          ],
+          "day": "wednesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Sunny Dancer",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "15:15",
+            "18:00"
+          ],
+          "day": "wednesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "rating": "12A",
+          "duration": "2h 25m",
+          "showtimes": [
+            "09:45",
+            "12:00",
+            "13:15",
+            "15:30",
+            "17:00",
+            "20:15"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3280,8 +3461,8 @@
           "rating": "U",
           "duration": "1h 28m",
           "showtimes": [
-            "13:30",
-            "15:45"
+            "09:00",
+            "13:45"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3291,12 +3472,9 @@
           "rating": "15",
           "duration": "2h 53m",
           "showtimes": [
-            "10:45",
-            "12:30",
-            "15:15",
-            "17:00",
-            "19:00",
-            "20:15"
+            "10:30",
+            "16:00",
+            "19:45"
           ],
           "day": "wednesday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3306,9 +3484,111 @@
           "rating": "PG",
           "duration": "1h 42m",
           "showtimes": [
-            "17:30"
+            "11:15"
           ],
           "day": "wednesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toddler Club: Storks",
+          "rating": "U",
+          "duration": "1h 27m",
+          "showtimes": [
+            "09:30"
+          ],
+          "day": "wednesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Raya And The Last Dragon",
+          "rating": "U",
+          "duration": "1h 47m",
+          "showtimes": [
+            "10:00",
+            "19:15"
+          ],
+          "day": "wednesday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The End Of Oak Street",
+          "rating": "12A",
+          "duration": "1h 40m",
+          "showtimes": [
+            "14:45",
+            "19:00",
+            "21:30"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Tony",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "13:00",
+            "16:45",
+            "21:00"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Sunny Dancer",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "12:15",
+            "18:30"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "rating": "12A",
+          "duration": "2h 25m",
+          "showtimes": [
+            "10:30",
+            "15:45",
+            "17:15",
+            "20:30"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Paw Patrol: The Dino Movie",
+          "rating": "U",
+          "duration": "1h 28m",
+          "showtimes": [
+            "09:00",
+            "14:00"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "The Odyssey",
+          "rating": "15",
+          "duration": "2h 53m",
+          "showtimes": [
+            "11:30",
+            "16:15",
+            "20:00"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toy Story 5",
+          "rating": "PG",
+          "duration": "1h 42m",
+          "showtimes": [
+            "09:45"
+          ],
+          "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -3316,19 +3596,39 @@
           "rating": "PG",
           "duration": "1h 56m",
           "showtimes": [
-            "14:45"
+            "11:15"
           ],
-          "day": "wednesday",
+          "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
-          "title": "The Invite",
-          "rating": "15",
-          "duration": "1h 47m",
+          "title": "Family Film Club: Pirates Of The Caribbean: Curse Of The Black Pearl",
+          "rating": "12A",
+          "duration": "2h 23m",
           "showtimes": [
-            "21:20"
+            "15:15"
           ],
-          "day": "wednesday",
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Toddler Club: Storks",
+          "rating": "U",
+          "duration": "1h 27m",
+          "showtimes": [
+            "09:15"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
+        },
+        {
+          "title": "Aladdin (2019)",
+          "rating": "PG",
+          "duration": "2h 9m",
+          "showtimes": [
+            "10:00"
+          ],
+          "day": "thursday",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         }
       ]
@@ -3340,57 +3640,6 @@
       "url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
       "films": [
         {
-          "title": "Big Night Out: Mamma Mia!",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "20:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Cape Fear",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "20:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "17:15",
-            "20:15"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Invite",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "17:10"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Odyssey",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "16:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
           "title": "Spider-Man: Brand New Day",
           "rating": "U",
           "duration": "",
@@ -3400,7 +3649,7 @@
             "17:20",
             "20:00"
           ],
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -3410,7 +3659,7 @@
           "showtimes": [
             "17:15"
           ],
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -3421,7 +3670,7 @@
             "11:30",
             "19:45"
           ],
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -3431,7 +3680,7 @@
           "showtimes": [
             "15:10"
           ],
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -3444,7 +3693,7 @@
             "17:30",
             "20:30"
           ],
-          "day": "friday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -3841,6 +4090,72 @@
             "20:50"
           ],
           "day": "wednesday",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "No Other Choice",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "20:00"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "Soul To Soul (2026 Re-Release)",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "18:00"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "11:30",
+            "14:50",
+            "17:00"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "The Invite",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "12:20"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "The Odyssey",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "13:50",
+            "19:50"
+          ],
+          "day": "thursday",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "Tony",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "11:30",
+            "14:40",
+            "17:20",
+            "20:15"
+          ],
+          "day": "thursday",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         }
       ]
