@@ -3,7 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema Hub: Cambridge & Ely - Time View</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Cambridge Cinema Tonight - All Film Showtimes & Listings | Light, Picturehouse, Everyman, Cineworld v2.2</title>
+    <meta name="description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for The Light Cambridge, Picturehouse, Everyman, Cineworld Ely. Book tickets instantly.">
+    <meta name="keywords" content="Cambridge cinema, cinema tonight, Cambridge film showtimes, Light Cambridge, Picturehouse Cambridge, Everyman Cambridge, Cineworld Ely, cinema listings, film times, movie tickets, Cambridge entertainment">
+    <meta name="author" content="Cambridge Cinema Hub">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Cambridge Cinema Tonight - All Film Showtimes & Listings">
+    <meta property="og:description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for all Cambridge cinemas. Book tickets instantly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://camblistings.github.io/camblistings">
+    <meta property="og:image" content="https://camblistings.github.io/camblistings/cinema-hub-image.jpg">
+    <meta property="og:site_name" content="Cambridge Cinema Hub">
+    <meta property="og:locale" content="en_GB">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cambridge Cinema Tonight - All Film Showtimes & Listings">
+    <meta name="twitter:description" content="Complete Cambridge cinema listings for tonight and this week. Real-time showtimes for all Cambridge cinemas.">
+    <meta name="twitter:image" content="https://camblistings.github.io/camblistings/cinema-hub-image.jpg">
+    
+    <!-- Location Meta Tags -->
+    <meta name="geo.region" content="GB-ENG">
+    <meta name="geo.placename" content="Cambridge, England">
+    <meta name="geo.position" content="52.2053;0.1218">
+    <meta name="ICBM" content="52.2053,0.1218">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cambridge Cinema Hub",
+        "description": "Complete Cambridge cinema listings and showtimes for tonight and this week",
+        "url": "https://camblistings.github.io/camblistings",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://camblistings.github.io/camblistings?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "Cambridge Cinema Hub",
+            "description": "Comprehensive cinema listings for Cambridge and Ely",
+            "areaServed": {
+                "@type": "City",
+                "name": "Cambridge"
+            },
+            "knowsAbout": [
+                "The Light Cambridge",
+                "Arts Picturehouse Cambridge", 
+                "Everyman Cambridge",
+                "Cineworld Ely",
+                "Cinema showtimes",
+                "Film listings",
+                "Movie tickets"
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Additional SEO -->
+    <link rel="canonical" href="https://camblistings.github.io/camblistings">
+    <link rel="alternate" href="https://cambridge-films.vercel.app" hreflang="en">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎬</text></svg>">
     <style>
         :root {
             --primary: #667eea;
@@ -18,256 +87,163 @@
         body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.3; }
 
         .container { max-width: 800px; margin: 0 auto; padding: 10px; }
-
-        /* Sticky Header for Filters */
+        
         .header-sticky {
             position: sticky;
             top: 0;
-            background: var(--bg);
-            z-index: 1000;
-            padding-bottom: 5px;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        header { padding: 5px 0; display: flex; justify-content: space-between; align-items: center; }
-        h1 { font-size: 1.2rem; font-weight: 800; }
-
-        /* --- Search Bar --- */
-        #movieSearch {
-            width: 100%;
-            padding: 8px 12px;
-            border-radius: 8px;
-            border: 1px solid #e2e8f0;
-            margin: 5px 0;
-            font-size: 0.9rem;
-        }
-
-        /* View Toggle */
-        .view-toggle {
-            display: flex;
-            gap: 8px;
-            margin: 5px 0;
-        }
-        .view-btn {
-            flex: 1;
-            padding: 6px 12px;
-            border: 1px solid #e2e8f0;
-            background: white;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--light-text);
-            transition: all 0.2s;
-        }
-        .view-btn.active {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
-
-        /* Wrapping Buttons */
-        .filter-label { font-size: 0.65rem; font-weight: 700; color: var(--light-text); text-transform: uppercase; margin-top: 5px; display: block; }
-        .scroll-bar {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            padding: 4px 0;
-        }
-
-        .btn {
-            padding: 4px 10px;
-            background: white;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            color: var(--light-text);
-            font-size: 0.75rem;
-        }
-        .btn.active { background: var(--primary); color: white; border-color: var(--primary); }
-
-        /* --- Time Slot Sections --- */
-        .time-slot-section {
-            margin-bottom: 25px;
-            scroll-margin-top: calc(var(--header-height, 200px) + 40px);
-        }
-
-        .time-slot-label {
-            position: sticky !important;
-            top: calc(var(--header-height, 200px) + 20px) !important;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 6px 12px;
-            font-size: 0.8rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            z-index: 950 !important;
-            margin: 15px -10px 8px -10px;
-            border-radius: 8px;
-            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
-        }
-
-        /* --- Film Cards --- */
-        .film-card {
+            z-index: 100;
             background: var(--card);
-            border-radius: 8px;
             padding: 10px;
-            margin-bottom: 8px;
-            border-left: 4px solid var(--primary);
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-
-        .film-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 6px;
-        }
-
-        .film-title { 
-            font-size: 0.9rem; 
-            font-weight: 700; 
-            flex: 1; 
-            padding-right: 8px;
-            line-height: 1.2;
-        }
-        .film-meta { 
-            font-size: 0.7rem; 
-            color: var(--light-text); 
-            white-space: nowrap;
-            background: #f1f5f9;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-
-        .cinema-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 4px;
-            margin-top: 6px;
-        }
-
-        .cinema-tag {
-            background: #edf2f7;
-            color: var(--primary);
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.65rem;
-            font-weight: 600;
-            border: 1px solid #e2e8f0;
-        }
-
-        .showtime-info {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            margin-top: 4px;
-            font-size: 0.7rem;
-            color: var(--light-text);
-        }
-
-        .time-badge {
-            background: var(--primary);
-            color: white;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 0.65rem;
-        }
-
-        /* --- Cinema Sections (for cinema view) --- */
-        .cinema-section { 
-            margin-bottom: 30px; 
-            scroll-margin-top: calc(var(--header-height, 200px) + 40px);
-        }
-
-        .cinema-label {
-            position: sticky !important;
-            top: calc(var(--header-height, 200px) + 20px) !important;
-            background: #edf2f7 !important;
-            padding: 4px 10px;
-            font-size: 0.75rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: var(--primary);
-            z-index: 950 !important;
-            margin: 10px -10px 5px -10px;
-            border-bottom: 1px solid #cbd5e0;
+            margin-bottom: 10px;
+            border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
-        .film-row {
-            background: var(--card);
-            border-bottom: 1px solid #f1f5f9;
-            padding: 8px 5px;
-        }
-
-        .film-header {
+        header {
             display: flex;
             justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 4px;
+            align-items: center;
+            margin-bottom: 10px;
         }
 
-        .showtimes-container { display: flex; flex-wrap: wrap; gap: 4px; }
-        .time-pill {
-            padding: 3px 8px;
-            background: #f1f5f9;
-            color: var(--primary);
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 0.75rem;
-            border: 1px solid #e2e8f0;
-        }
-        .time-pill.past { opacity: 0.3; text-decoration: line-through; pointer-events: none; }
+        h1 { font-size: 1.2rem; font-weight: 800; color: var(--primary); }
+        
+        .view-toggle { display: flex; gap: 5px; margin-bottom: 10px; }
+        .view-btn { padding: 6px 12px; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.8rem; }
+        .view-btn.active { background: var(--primary); color: white; }
+        .view-btn:not(.active) { background: var(--card); color: var(--text); border: 1px solid #e2e8f0; }
 
-        /* Back to Top Button */
-        #backToTop {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 45px;
-            height: 45px;
-            background: var(--primary);
+        .day-bar { display: flex; gap: 5px; margin-bottom: 15px; flex-wrap: wrap; }
+        .btn { padding: 6px 12px; margin: 2px; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.8rem; }
+        .btn.active { background: var(--primary); color: white; }
+        .btn:not(.active) { background: var(--card); color: var(--text); border: 1px solid #e2e8f0; }
+
+        .search-container { margin-bottom: 15px; }
+        #movieSearch { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 0.9rem; }
+
+        .time-slot-section { margin-bottom: 20px; }
+        .time-slot-label { font-weight: 700; font-size: 0.9rem; color: var(--primary); margin-bottom: 10px; text-transform: uppercase; }
+
+        .film-card { background: var(--card); border-radius: 8px; padding: 12px; margin-bottom: 12px; border: 1px solid #e2e8f0; }
+        .film-header { margin-bottom: 8px; }
+        .film-title { font-size: 1rem; font-weight: 700; color: var(--text); }
+        .film-meta { font-size: 0.8rem; color: var(--light-text); margin-top: 2px; }
+        .cinema-tag { background: #edf2f7; color: #4a5568; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; margin-bottom: 8px; display: inline-block; }
+        .showtime-info { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+        .time-badge { background: var(--primary); color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
+
+        .no-shows { padding: 40px; text-align: center; color: var(--light-text); font-style: italic; }
+        
+        .future-film { border-left: 3px solid #f59e0b; }
+        .future-badge { background: #fef3c7; color: #92400e; }
+        
+        .past-screening { 
+            opacity: 0.4; 
+            text-decoration: line-through;
+            filter: grayscale(100%);
+        }
+        
+        .past-time-badge {
+            background: #e2e8f0;
+            color: #718096;
+            text-decoration: line-through;
+        }
+        
+        .rating-btn {
+            background: #f97316;
             color: white;
             border: none;
-            border-radius: 50%;
-            font-size: 1.2rem;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
             cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 8px;
+        }
+        
+        .rating-btn:hover {
+            background: #ea580c;
+        }
+        
+        .banner-ad {
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            margin-bottom: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: opacity 0.3s, transform 0.3s;
-            opacity: 0;
-            pointer-events: none;
-            z-index: 2000;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            text-decoration: none;
         }
-
-        #backToTop.visible {
-            opacity: 1;
-            pointer-events: auto;
-            transform: translateY(0);
+        
+        .banner-ad:hover {
+            opacity: 0.9;
         }
-
-        #backToTop:hover {
-            transform: scale(1.1);
-            background: #5a67d8;
+        
+        .banner-ad img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.3;
         }
-
-        .no-shows { padding: 40px; text-align: center; color: var(--light-text); font-style: italic; }
+        
+        .banner-ad-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        
+        .banner-ad h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .banner-ad p {
+            font-size: 0.9rem;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .banner-ad .cta {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 10px;
+            display: inline-block;
+            backdrop-filter: blur(10px);
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <a href="contact.html" class="banner-ad" id="bannerAd">
+        <div class="banner-ad-content">
+            <h3>🎬 Advertise Your Film</h3>
+            <p>Reach thousands of Cambridge cinema-goers</p>
+            <div class="cta">Contact us for rates →</div>
+        </div>
+    </a>
+    
     <div class="header-sticky">
         <header>
-            <h1>🎬 Cinema Hub</h1>
-            <div id="lastUpdate" style="font-size: 0.65rem; color: var(--light-text);"></div>
-            <div id="savedIndicator" style="font-size: 0.6rem; color: #48bb78; opacity: 0; transition: opacity 0.3s;">✓ Saved</div>
+            <h1>🎬 Cambridge Cinema Listings</h1>
+            <div style="font-size: 0.8rem; color: var(--light-text); margin: 5px 0;">
+                Cinema listings for Cambridge & Ely. Please see booking links for final times. No liability accepted for any errors, information subject to change at the last minute. Bookings can only be made with venue.
+            </div>
+            <div style="margin-top: 8px;">
+                <a href="contact.html" style="color: var(--primary); text-decoration: none; font-size: 0.85rem; font-weight: 500;">📬 Contact for Advertising</a>
+            </div>
         </header>
         
         <div class="view-toggle">
@@ -275,324 +251,368 @@
             <button class="view-btn" onclick="setView('cinema')">🏢 By Cinema</button>
         </div>
         
-        <input type="text" id="movieSearch" placeholder="Search film titles..." oninput="renderList()">
-
-        <span class="filter-label">Cinemas</span>
-        <div id="cinemaBar" class="scroll-bar"></div>
-        
-        <span class="filter-label">Days</span>
-        <div id="dayBar" class="scroll-bar"></div>
-
-        <div id="jumpContainer" style="margin-top: 5px; display: flex; align-items: center; gap: 8px;">
-            <span class="filter-label" style="margin: 0;">Jump to:</span>
-            <select id="jumpMenu" onchange="jumpToSection(this.value)" style="flex: 1; font-size: 0.75rem; padding: 2px; border-radius: 4px; border: 1px solid #e2e8f0; background: white;">
-                <option value="">Select a section...</option>
-            </select>
+        <div class="search-container">
+            <input type="text" id="movieSearch" placeholder="Search film titles..." oninput="renderList()">
         </div>
+        
+        <div id="dayBar"></div>
+        <div id="cinemaBar"></div>
     </div>
 
-    <div id="mainContent"></div>
+    <div id="mainContent">Loading...</div>
 </div>
 
-<button id="backToTop" onclick="scrollToTop()" title="Go to top">↑</button>
-
 <script>
-    let cinemaData = null;
-    let selectedDayIndex = 0;
+    let cinemaData;
+    let selectedKey = 'today';
+    let currentView = 'time';
     let activeCinemas = new Set();
-    let currentView = 'time'; // 'time' or 'cinema'
-    const dateOptions = [];
+    let selectedDayIndex = 0;
+    let dateOptions = [];
+
+    async function load() {
+        try {
+            console.log('🔄 Starting load...');
+            
+            const dataUrl = 'website_data_by_cinema.json';
+            console.log('📡 Fetching:', dataUrl);
+            
+            const res = await fetch(`${dataUrl}?t=${new Date().getTime()}`);
+            console.log('📡 Response status:', res.status);
+            
+            if (!res.ok) {
+                throw new Error(`HTTP error! status: ${res.status}`);
+            }
+            
+            cinemaData = await res.json();
+            
+            // Initialize all cinemas as active by default
+            cinemaData.cinemas.forEach(cinema => activeCinemas.add(cinema.name));
+            
+            // Show update info
+            const lastUpdated = cinemaData.last_updated || 'Unknown';
+            const updateSource = cinemaData.update_source || 'Unknown';
+            
+            // Add update info to header
+            const headerDiv = document.querySelector('header div');
+            if (headerDiv) {
+                const updateInfo = document.createElement('div');
+                updateInfo.style.cssText = 'font-size: 0.7rem; color: #666; margin-top: 3px;';
+                updateInfo.innerHTML = `Last updated: ${new Date(lastUpdated).toLocaleString()} | Source: ${updateSource}`;
+                headerDiv.appendChild(updateInfo);
+            }
+            
+            setupDates();
+            renderDayBar();
+            renderList();
+            setupBannerAd();
+            
+        } catch (error) {
+            console.error('❌ Error:', error);
+            document.getElementById('mainContent').innerHTML = `<div class='no-shows'>Error: ${error.message}</div>`;
+        }
+    }
 
     function setupDates() {
+        const today = new Date();
+        dateOptions = [
+            { key: 'today', label: 'Today', date: today },
+            { key: 'tomorrow', label: 'Tomorrow', date: new Date(today.getTime() + 24 * 60 * 60 * 1000) },
+            { key: 'monday', label: 'Monday', date: new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000) },
+            { key: 'tuesday', label: 'Tuesday', date: new Date(today.getTime() + 3 * 24 * 60 * 60 * 1000) },
+            { key: 'wednesday', label: 'Wednesday', date: new Date(today.getTime() + 4 * 24 * 60 * 60 * 1000) },
+            { key: 'thursday', label: 'Thursday', date: new Date(today.getTime() + 5 * 24 * 60 * 60 * 1000) },
+            { key: 'friday', label: 'Friday', date: new Date(today.getTime() + 6 * 24 * 60 * 60 * 1000) },
+            { key: 'future', label: 'Future', date: new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000) }
+        ];
+    }
+
+    function isScreeningPast(timeStr, dayKey) {
+        // Get current time
         const now = new Date();
-        for (let i = 0; i < 7; i++) {
-            const d = new Date();
-            d.setDate(now.getDate() + i);
-            let label = i === 0 ? "Today" : i === 1 ? "Tomorrow" : d.toLocaleDateString('en-GB', { weekday: 'short' });
-            dateOptions.push({ label, key: d.toLocaleDateString('en-GB', { weekday: 'long' }).toLowerCase() });
+        
+        // Parse the screening time
+        const [hours, minutes] = timeStr.replace('.', ':').split(':').map(Number);
+        
+        // Determine the screening date based on the selected day
+        let screeningDate;
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        
+        if (dayKey === 'today') {
+            screeningDate = new Date(today);
+        } else if (dayKey === 'tomorrow') {
+            screeningDate = new Date(today.getTime() + 24 * 60 * 60 * 1000);
+        } else if (dayKey === 'future') {
+            // For future films, assume they're in the future (don't grey out)
+            return false;
+        } else {
+            // For specific days, calculate the date
+            const dayMap = {
+                'monday': 1, 'tuesday': 2, 'wednesday': 3, 'thursday': 4,
+                'friday': 5, 'saturday': 6, 'sunday': 0
+            };
+            const targetDay = dayMap[dayKey];
+            const currentDay = today.getDay();
+            
+            // Calculate days until target day
+            let daysUntil = (targetDay - currentDay + 7) % 7;
+            if (daysUntil === 0) daysUntil = 7; // If today, make it next week
+            
+            screeningDate = new Date(today.getTime() + daysUntil * 24 * 60 * 60 * 1000);
         }
-        dateOptions.push({ label: "Future", key: "future" });
+        
+        // Set the screening time
+        screeningDate.setHours(hours, minutes, 0, 0);
+        
+        // Check if screening time has passed
+        return now > screeningDate;
     }
 
-    // Function to measure header height and set CSS variable
-    function updateHeaderHeight() {
-        const header = document.querySelector('.header-sticky');
-        if (header) {
-            const height = header.offsetHeight;
-            document.documentElement.style.setProperty('--header-height', `${height}px`);
-            console.log(`Header height set to: ${height}px`);
-        }
+    function shouldShowRating(filmTitle) {
+        // Skip events that won't have Rotten Tomatoes reviews
+        const skipPatterns = [
+            /national theatre live/i,
+            /nt live/i,
+            /exhibition on screen/i,
+            /opera/i,
+            /ballet/i,
+            /royal opera/i,
+            /met opera/i,
+            /q&a/i,
+            /live broadcast/i,
+            /event cinema/i,
+            / encore/i,
+            /double bill/i,
+            /anniversary/i,
+            /4k restoration/i,
+            /premiere/i,
+            /festival/i,
+            /the movie/i,
+            /plus q&a/i,
+            /broadcast/i
+        ];
+        
+        return !skipPatterns.some(pattern => pattern.test(filmTitle));
     }
 
-    // Parse time string to minutes since midnight
-    function timeToMinutes(timeStr) {
-        const [hours, minutes] = timeStr.split(':').map(Number);
-        return hours * 60 + minutes;
+    function getRottenTomatoesUrl(filmTitle) {
+        // Clean up the title for URL search
+        const cleanTitle = filmTitle
+            .replace(/:.*$/, '') // Remove subtitles after colon
+            .replace(/\([^)]*\)/g, '') // Remove content in parentheses
+            .replace(/\s+/g, ' ') // Normalize spaces
+            .trim();
+        
+        // Create Rotten Tomatoes search URL
+        const encodedTitle = encodeURIComponent(cleanTitle);
+        return `https://www.rottentomatoes.com/search?search=${encodedTitle}`;
     }
 
-    // Group films by time slots
-    function groupFilmsByTime(films) {
-        const timeSlots = {
-            'Morning (9am-12pm)': [],
-            'Afternoon (12pm-5pm)': [],
-            'Evening (5pm-8pm)': [],
-            'Late (8pm-11pm)': [],
-            'Night (11pm+)': []
-        };
-
-        films.forEach(film => {
-            film.showtimes.forEach(time => {
-                const minutes = timeToMinutes(time);
-                let slot;
-
-                if (minutes >= 9 * 60 && minutes < 12 * 60) {
-                    slot = 'Morning (9am-12pm)';
-                } else if (minutes >= 12 * 60 && minutes < 17 * 60) {
-                    slot = 'Afternoon (12pm-5pm)';
-                } else if (minutes >= 17 * 60 && minutes < 20 * 60) {
-                    slot = 'Evening (5pm-8pm)';
-                } else if (minutes >= 20 * 60 && minutes < 23 * 60) {
-                    slot = 'Late (8pm-11pm)';
-                } else {
-                    slot = 'Night (11pm+)';
-                }
-
-                // Check if this film+time combination already exists
-                const existing = timeSlots[slot].find(item => 
-                    item.title === film.title && 
-                    item.cinema === film.cinema && 
-                    item.rating === film.rating &&
-                    item.duration === film.duration
-                );
-
-                if (existing) {
-                    existing.times.push(time);
-                } else {
-                    timeSlots[slot].push({
-                        title: film.title,
-                        cinema: film.cinema,
-                        rating: film.rating,
-                        duration: film.duration,
-                        booking_url: film.booking_url,
-                        times: [time]
+    async function setupBannerAd() {
+        // Get current film titles from all cinemas
+        const currentFilms = new Set();
+        if (cinemaData && cinemaData.cinemas) {
+            cinemaData.cinemas.forEach(cinema => {
+                if (activeCinemas.has(cinema.name)) {
+                    cinema.films.forEach(film => {
+                        if (film.day === selectedKey) {
+                            currentFilms.add(film.title);
+                        }
                     });
                 }
             });
-        });
+        }
+        
+        // Select a random current film for the banner
+        const filmArray = Array.from(currentFilms);
+        const randomFilm = filmArray.length > 0 ? filmArray[Math.floor(Math.random() * filmArray.length)] : null;
+        
+        // Update banner
+        const bannerContainer = document.getElementById('bannerAd');
+        if (bannerContainer) {
+            if (randomFilm) {
+                bannerContainer.innerHTML = `
+                    <div class="banner-ad-content">
+                        <h3>🎬 ${randomFilm}</h3>
+                        <p>Now showing at Cambridge cinemas</p>
+                        <div class="cta">Advertise with us →</div>
+                    </div>
+                `;
+            } else {
+                // Fallback to generic banner
+                bannerContainer.innerHTML = `
+                    <div class="banner-ad-content">
+                        <h3>🎬 Advertise Your Film</h3>
+                        <p>Reach thousands of Cambridge cinema-goers</p>
+                        <div class="cta">Contact us for rates →</div>
+                    </div>
+                `;
+            }
+        }
+    }
 
-        // Sort films within each slot by time
-        Object.keys(timeSlots).forEach(slot => {
-            timeSlots[slot].sort((a, b) => {
-                const aTime = a.times[0];
-                const bTime = b.times[0];
-                return timeToMinutes(aTime) - timeToMinutes(bTime);
-            });
-        });
+    function renderDayBar() {
+        const bar = document.getElementById('dayBar');
+        if (!bar) return;
+        
+        const buttonsHtml = dateOptions.map((opt, idx) => `
+            <button class="btn ${idx === selectedDayIndex ? 'active' : ''}" onclick="selectDay(${idx})">
+                ${opt.label}
+            </button>
+        `).join('');
+        
+        bar.innerHTML = buttonsHtml;
+    }
 
-        return timeSlots;
+    function selectDay(index) {
+        selectedDayIndex = index;
+        selectedKey = dateOptions[index].key;
+        renderDayBar();
+        renderList();
+        setupBannerAd(); // Update banner for new day's films
     }
 
     function setView(view) {
         currentView = view;
         document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
-        event.target.classList.add('active');
-        saveUserPreferences();
+        const viewBtn = document.querySelector(`.view-btn[onclick="setView('${view}')"]`);
+        if (viewBtn) viewBtn.classList.add('active');
         renderList();
     }
 
-    function renderDayBar() {
-        const bar = document.getElementById('dayBar');
-        bar.innerHTML = dateOptions.map((opt, idx) => `
-            <button class="btn ${idx === selectedDayIndex ? 'active' : ''}" onclick="selectDay(${idx})">
-                ${opt.label}
-            </button>
-        `).join('');
-    }
+    function renderList() {
+        const container = document.getElementById('mainContent');
+        
+        if (!cinemaData || !cinemaData.cinemas) {
+            container.innerHTML = '<div class="no-shows">No cinema data available</div>';
+            return;
+        }
 
-    function selectDay(i) { 
-        selectedDayIndex = i; 
-        saveUserPreferences();
-        renderDayBar(); 
-        renderList();
+        // Render cinema bar first
+        renderCinemaBar();
+
+        const searchTerm = document.getElementById('movieSearch').value.toLowerCase();
+        const allFilms = [];
+        
+        cinemaData.cinemas.forEach(cinema => {
+            // Only include films from active cinemas
+            if (activeCinemas.has(cinema.name)) {
+                cinema.films.forEach(film => {
+                    if (film.day === selectedKey) {
+                        if (film.title.toLowerCase().includes(searchTerm)) {
+                            // Handle future films without showtimes differently
+                            if (selectedKey === 'future' && (!film.showtimes || film.showtimes.length === 0)) {
+                                allFilms.push({
+                                    title: film.title,
+                                    cinema: cinema.name,
+                                    rating: film.rating,
+                                    duration: film.duration,
+                                    booking_url: film.booking_url,
+                                    time: film.from_date || 'Coming Soon',
+                                    isFuture: true
+                                });
+                            } else {
+                                // Regular films with showtimes
+                                film.showtimes.forEach(time => {
+                                    allFilms.push({
+                                        title: film.title,
+                                        cinema: cinema.name,
+                                        rating: film.rating,
+                                        duration: film.duration,
+                                        booking_url: film.booking_url,
+                                        time: time
+                                    });
+                                });
+                            }
+                        }
+                    }
+                });
+            }
+        });
+
+        // Sort by time (future films go to end, past screenings go to end)
+        allFilms.sort((a, b) => {
+            const aIsPast = !a.isFuture && isScreeningPast(a.time, selectedKey);
+            const bIsPast = !b.isFuture && isScreeningPast(b.time, selectedKey);
+            
+            if (a.isFuture && !b.isFuture) return 1;
+            if (!a.isFuture && b.isFuture) return -1;
+            if (a.isFuture && b.isFuture) return 0; // Keep future films in original order
+            
+            if (aIsPast && !bIsPast) return 1; // Past screenings go to end
+            if (!aIsPast && bIsPast) return -1;
+            if (aIsPast && bIsPast) return 0; // Keep past screenings in original order
+            
+            const aTime = a.time.replace('.', ':');
+            const bTime = b.time.replace('.', ':');
+            return aTime.localeCompare(bTime);
+        });
+
+        if (currentView === 'time') {
+            renderTimeView(container, allFilms);
+        } else {
+            renderCinemaView(container, allFilms);
+        }
     }
 
     function renderCinemaBar() {
         const bar = document.getElementById('cinemaBar');
-        if (!bar || !cinemaData) return;
-
-        let html = `<button class="btn ${activeCinemas.size === cinemaData.cinemas.length ? 'active' : ''}" onclick="toggleAllCinemas()">ALL</button>`;
+        if (!bar || !cinemaData || !cinemaData.cinemas) return;
         
-        html += cinemaData.cinemas.map(c => {
-            let shortName = c.name
-                .replace('The Light Cambridge - Regular Screens', 'The Light')
-                .replace('The Light Cambridge - IMAX', 'IMAX')
-                .replace('Arts Picturehouse Cambridge', 'Picturehouse')
-                .replace('Everyman Cambridge', 'Everyman')
-                .replace('Cineworld Ely', 'Ely');
-
-            return `
-                <button class="btn ${activeCinemas.has(c.name) ? 'active' : ''}" onclick="toggleCinema('${c.name}')">
-                    ${shortName}
-                </button>
-            `;
-        }).join('');
-        bar.innerHTML = html;
+        const buttonsHtml = cinemaData.cinemas.map(cinema => `
+            <button class="btn ${activeCinemas.has(cinema.name) ? 'active' : ''}" 
+                    onclick="toggleCinema('${cinema.name}')">
+                ${cinema.name}
+            </button>
+        `).join('');
+        
+        bar.innerHTML = buttonsHtml;
     }
 
-    function toggleCinema(name) {
-        if (activeCinemas.has(name)) {
-            if (activeCinemas.size > 1) activeCinemas.delete(name);
+    function toggleCinema(cinemaName) {
+        if (activeCinemas.has(cinemaName)) {
+            activeCinemas.delete(cinemaName);
         } else {
-            activeCinemas.add(name);
+            activeCinemas.add(cinemaName);
         }
-        saveUserPreferences();
         renderCinemaBar();
         renderList();
+        setupBannerAd(); // Update banner for filtered films
     }
-
-    function toggleAllCinemas() {
-        if (activeCinemas.size === cinemaData.cinemas.length) {
-            const first = cinemaData.cinemas[0].name;
-            activeCinemas.clear(); activeCinemas.add(first);
-        } else {
-            cinemaData.cinemas.forEach(c => activeCinemas.add(c.name));
-        }
-        saveUserPreferences();
-        renderCinemaBar();
-        renderList();
-    }
-
-    function saveUserPreferences() {
-        const preferences = {
-            activeCinemas: Array.from(activeCinemas),
-            selectedDayIndex: selectedDayIndex,
-            currentView: currentView
-        };
-        localStorage.setItem('cinemaPreferences', JSON.stringify(preferences));
-        
-        // Show saved indicator briefly
-        const indicator = document.getElementById('savedIndicator');
-        if (indicator) {
-            indicator.style.opacity = '1';
-            setTimeout(() => {
-                indicator.style.opacity = '0';
-            }, 1000);
-        }
-    }
-
-    function loadUserPreferences() {
-        const saved = localStorage.getItem('cinemaPreferences');
-        if (saved) {
-            try {
-                const preferences = JSON.parse(saved);
-                return preferences;
-            } catch (e) {
-                console.error('Error loading preferences:', e);
-            }
-        }
-        return null;
-    }
-
-    function isPast(showTime) {
-        const [hours, minutes] = showTime.split(':').map(Number);
-        const showDate = new Date();
-        showDate.setHours(hours, minutes, 0, 0);
-        return showDate < new Date();
-    }
-
-    
-    
-    function renderList() {
-    const container = document.getElementById('mainContent');
-    const selectedKey = dateOptions[selectedDayIndex].key;
-    const query = document.getElementById('movieSearch').value.toLowerCase();
-    container.innerHTML = '';
-
-    // Collect all films for the selected day
-    let allFilms = [];
-    cinemaData.cinemas.forEach(cinema => {
-        if (!activeCinemas.has(cinema.name)) return;
-
-        // DEBUG: Log what we're matching
-        console.log('Selected day index:', selectedDayIndex);
-        console.log('Selected key:', selectedKey);
-        console.log('Cinema:', cinema.name);
-        console.log('Sample film days:', cinema.films.slice(0, 5).map(f => ({ title: f.title, day: f.day })));
-
-        const films = cinema.films.filter(f => {
-            const filmDay = (f.day || 'today').toLowerCase();
-            const dayMatch = selectedKey === 'future' ? 
-                !dateOptions.slice(0, 7).some(opt => opt.key === filmDay) :
-                (selectedDayIndex === 0 && filmDay === 'today') || 
-                (selectedDayIndex === 1 && filmDay === 'tomorrow') || 
-                (filmDay === selectedKey);
-            
-            // DEBUG: Log Wuthering Heights specifically
-            if (f.title.includes('Wuthering')) {
-                console.log('Wuthering Heights:', { filmDay, selectedKey, dayMatch });
-            }
-            
-            return dayMatch && f.title.toLowerCase().includes(query);
-        });
-
-        films.forEach(film => {
-            allFilms.push({
-                ...film,
-                cinema: cinema.name
-            });
-        });
-    });
-
-    if (allFilms.length === 0) {
-        container.innerHTML = '<div class="no-shows">No screenings found for this filter.</div>';
-        updateJumpMenu();
-        return;
-    }
-
-    if (currentView === 'time') {
-        renderTimeView(container, allFilms);
-    } else {
-        renderCinemaView(container, allFilms);
-    }
-
-    updateJumpMenu();
-}
-    
-   
 
     function renderTimeView(container, allFilms) {
-        const timeSlots = groupFilmsByTime(allFilms);
-        
-        Object.entries(timeSlots).forEach(([slotName, films]) => {
-            if (films.length === 0) return;
-
-            const div = document.createElement('div');
-            div.className = 'time-slot-section';
-            div.id = slotName.replace(/\s+/g, '-').toLowerCase();
-
-            const filmsHtml = films.map(film => `
-                <div class="film-card">
-                    <div class="film-header">
-                        <div class="film-title">${film.title}</div>
-                        <div class="film-meta">${film.rating} • ${film.duration}</div>
-                    </div>
-                    <div class="cinema-list">
-                        <span class="cinema-tag">${film.cinema}</span>
-                    </div>
-                    <div class="showtime-info">
-                        <span class="time-badge">${film.times.join(', ')}</span>
-                        <a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>
-                    </div>
+        const filmsHtml = allFilms.map(film => {
+            const isPast = !film.isFuture && isScreeningPast(film.time, selectedKey);
+            const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
+            const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
+            const showRating = shouldShowRating(film.title);
+            const ratingUrl = showRating ? getRottenTomatoesUrl(film.title) : '';
+            
+            return `
+            <div class="film-card ${filmClass}">
+                <div class="film-header">
+                    <div class="film-title">${film.title}</div>
+                    <div class="film-meta">${film.rating} • ${film.duration}</div>
                 </div>
-            `).join('');
+                <div class="cinema-tag">${film.cinema}</div>
+                <div class="showtime-info">
+                    <span class="time-badge ${timeClass}">${film.time}</span>
+                    ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
+                    ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
+                </div>
+            </div>
+        `}).join('');
 
-            div.innerHTML = `<div class="time-slot-label">${slotName}</div>` + filmsHtml;
-            container.appendChild(div);
-        });
+        container.innerHTML = `
+            <div class="time-slot-section">
+                <div class="time-slot-label">All Showtimes (${selectedKey})</div>
+                ${filmsHtml}
+            </div>
+        `;
     }
 
     function renderCinemaView(container, allFilms) {
-        // Group films by cinema
         const filmsByCinema = {};
         allFilms.forEach(film => {
             if (!filmsByCinema[film.cinema]) {
@@ -601,121 +621,72 @@
             filmsByCinema[film.cinema].push(film);
         });
 
-        Object.entries(filmsByCinema).forEach(([cinemaName, films]) => {
-            const div = document.createElement('div');
-            div.className = 'cinema-section';
-            div.id = cinemaName.replace(/\s+/g, '-').toLowerCase();
-
-            const rowsHtml = films.map(f => `
-                <div class="film-row">
+        const cinemaHtml = Object.entries(filmsByCinema).map(([cinemaName, films]) => {
+            const filmsList = films.map(film => {
+                const isPast = !film.isFuture && isScreeningPast(film.time, selectedKey);
+                const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
+                const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
+                const showRating = shouldShowRating(film.title);
+                const ratingUrl = showRating ? getRottenTomatoesUrl(film.title) : '';
+                
+                return `
+                <div class="film-card ${filmClass}">
                     <div class="film-header">
-                        <div class="film-title">${f.title}</div>
-                        <div class="film-meta">${f.rating} • ${f.duration}</div>
+                        <div class="film-title">${film.title}</div>
+                        <div class="film-meta">${film.rating} • ${film.duration}</div>
                     </div>
-                    <div class="showtimes-container">
-                        ${f.showtimes.map(t => `
-                            <a href="${f.booking_url}" class="time-pill ${isPast(t) ? 'past' : ''}" target="_blank">${t}</a>
-                        `).join('')}
+                    <div class="showtime-info">
+                        <span class="time-badge ${timeClass}">${film.time}</span>
+                        ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
+                        ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                     </div>
                 </div>
-            `).join('');
+            `}).join('');
 
-            div.innerHTML = `<div class="cinema-label">${cinemaName}</div>` + rowsHtml;
-            container.appendChild(div);
-        });
+            return `
+                <div class="time-slot-section">
+                    <div class="time-slot-label">${cinemaName}</div>
+                    ${filmsList}
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = cinemaHtml;
     }
 
-    function updateJumpMenu() {
-        const menu = document.getElementById('jumpMenu');
-        const sections = currentView === 'time' ? 
-            document.querySelectorAll('.time-slot-section') : 
-            document.querySelectorAll('.cinema-section');
-        
-        let html = '<option value="">Select a section...</option>';
-        sections.forEach(section => {
-            const name = section.querySelector('.time-slot-label, .cinema-label').innerText;
-            html += `<option value="${section.id}">${name}</option>`;
-        });
-        menu.innerHTML = html;
-    }
-
-    function jumpToSection(id) {
-        if (!id) return;
-        const target = document.getElementById(id);
-        if (target) {
-            target.scrollIntoView();
-            setTimeout(() => { document.getElementById('jumpMenu').value = ""; }, 1000);
-        }
-    }
-
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-
-    window.addEventListener('scroll', () => {
-        const btn = document.getElementById('backToTop');
-        if (window.scrollY > 300) {
-            btn.classList.add('visible');
-        } else {
-            btn.classList.remove('visible');
-        }
-    });
-
-    async function load() {
-        try {
-            // Pointing to your public data repository
-            const dataUrl = 'website_data_by_cinema.json';
-
-// We add the timestamp (?t=...) to make sure Safari always grabs the freshest times
-const res = await fetch(`${dataUrl}?t=${new Date().getTime()}`);
-            cinemaData = await res.json();
-            
-            // Load user preferences or use defaults
-            const preferences = loadUserPreferences();
-            if (preferences && preferences.activeCinemas) {
-                // Restore saved cinema preferences
-                activeCinemas.clear();
-                preferences.activeCinemas.forEach(name => {
-                    if (cinemaData.cinemas.some(c => c.name === name)) {
-                        activeCinemas.add(name);
-                    }
-                });
-                
-                // If no valid cinemas were restored, default to first cinema
-                if (activeCinemas.size === 0) {
-                    activeCinemas.add(cinemaData.cinemas[0].name);
-                }
-                
-                // Restore other preferences
-                selectedDayIndex = preferences.selectedDayIndex || 0;
-                currentView = preferences.currentView || 'time';
-                
-                // Update view toggle buttons
-                document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
-                const viewBtn = document.querySelector(`.view-btn[onclick="setView('${currentView}')"]`);
-                if (viewBtn) viewBtn.classList.add('active');
-            } else {
-                // Default: all cinemas selected
-                cinemaData.cinemas.forEach(c => activeCinemas.add(c.name));
-            }
-            
-            document.getElementById('lastUpdate').innerText = `Updated: ${new Date(cinemaData.last_updated).toLocaleTimeString()}`;
-            setupDates();
-            renderCinemaBar();
-            renderDayBar();
-            renderList();
-            
-            setTimeout(updateHeaderHeight, 100);
-            window.addEventListener('resize', updateHeaderHeight);
-        } catch (e) {
-            document.getElementById('mainContent').innerHTML = "<div class='no-shows'>Error: Connect to your JSON file.</div>";
-        }
-    }
-
+    // Start loading
     load();
 </script>
+
+<!-- SEO Content -->
+<div style="margin-top: 40px; padding: 20px; background: #f8fafc; border-radius: 8px; font-size: 0.9rem; color: #4a5568;">
+    <h2 style="color: #2d3748; margin-bottom: 10px;">🎬 Cambridge Cinema Guide</h2>
+    <p style="margin-bottom: 10px;">Your complete guide to cinema in Cambridge and Ely. Find all film showtimes, book tickets instantly, and discover what's playing tonight at your local cinemas.</p>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">📍 Cambridge Cinemas Covered:</h3>
+    <ul style="margin-bottom: 10px; padding-left: 20px;">
+        <li><strong>The Light Cambridge</strong> - Latest blockbusters and IMAX screenings</li>
+        <li><strong>Arts Picturehouse Cambridge</strong> - Independent and arthouse films</li>
+        <li><strong>Everyman Cambridge</strong> - Premium cinema experience</li>
+        <li><strong>Cineworld Ely</strong> - Full cinema experience just outside Cambridge</li>
+    </ul>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">🕐 Real-Time Information:</h3>
+    <p style="margin-bottom: 10px;">All showtimes are updated automatically throughout the day. Find exactly what's playing tonight, tomorrow, or any day this week. Filter by time or cinema to find your perfect screening.</p>
+    
+    <h3 style="color: #2d3748; margin-bottom: 8px;">🎯 Why Choose Cambridge Cinema Tonight?</h3>
+    <ul style="padding-left: 20px;">
+        <li>✅ Live showtimes from all Cambridge cinemas</li>
+        <li>✅ Instant ticket booking links</li>
+        <li>✅ Mobile-friendly design</li>
+        <li>✅ No ads, no distractions</li>
+        <li>✅ Updated every 6 hours automatically</li>
+    </ul>
+    
+    <p style="margin-top: 15px; font-size: 0.8rem; color: #718096;">
+        Cambridge Cinema Tonight • Your trusted source for cinema listings in Cambridge, UK
+    </p>
+</div>
+
 </body>
 </html>

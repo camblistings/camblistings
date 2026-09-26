@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26T16:06:53.167229",
+  "last_updated": "2026-09-26T20:04:18.709793",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -13,6 +13,8 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
+            "13:00",
+            "15:30",
             "18:00",
             "20:30"
           ],
@@ -25,7 +27,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "19:30"
+            "10:15",
+            "13:15",
+            "16:15",
+            "19:15"
           ],
           "format": "Standard",
           "day": "today",
@@ -36,8 +41,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18:15",
-            "19:50",
             "22:00"
           ],
           "format": "Standard",
@@ -49,8 +52,6 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:30",
-            "19:45",
             "22:10"
           ],
           "format": "Standard",
@@ -75,7 +76,9 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "18:40"
+            "11:50",
+            "15:00",
+            "17:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -86,7 +89,9 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "19:00"
+            "14:10",
+            "16:50",
+            "19:40"
           ],
           "format": "Standard",
           "day": "today",
@@ -153,7 +158,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "16:40",
+            "10:20",
             "20:15"
           ],
           "format": "Standard",
@@ -393,11 +398,28 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Heart Of The Beast",
+          "rating": "12A",
+          "duration": "1h 41m",
+          "showtimes": [
+            "13:00",
+            "15:30",
+            "18:00",
+            "20:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Sense And Sensibility",
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "19:30"
+            "10:15",
+            "13:15",
+            "16:15",
+            "19:15"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -408,8 +430,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18:15",
-            "19:50",
             "22:00"
           ],
           "format": "Standard",
@@ -421,8 +441,6 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:30",
-            "19:45",
             "22:10"
           ],
           "format": "Standard",
@@ -447,7 +465,9 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "18:40"
+            "11:50",
+            "15:00",
+            "17:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -458,7 +478,9 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "19:00"
+            "14:10",
+            "16:50",
+            "19:40"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -525,7 +547,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "16:40",
+            "10:20",
             "20:15"
           ],
           "format": "Standard",
@@ -769,7 +791,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "19:30"
+            "10:15",
+            "13:15",
+            "16:15",
+            "19:15"
           ],
           "format": "Standard",
           "day": "monday",
@@ -780,8 +805,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18:15",
-            "19:50",
             "22:00"
           ],
           "format": "Standard",
@@ -793,8 +816,6 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:30",
-            "19:45",
             "22:10"
           ],
           "format": "Standard",
@@ -819,7 +840,9 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "18:40"
+            "11:50",
+            "15:00",
+            "17:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -830,7 +853,9 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "19:00"
+            "14:10",
+            "16:50",
+            "19:40"
           ],
           "format": "Standard",
           "day": "monday",
@@ -897,7 +922,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "16:40",
+            "10:20",
             "20:15"
           ],
           "format": "Standard",
@@ -1141,7 +1166,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "19:30"
+            "10:15",
+            "13:15",
+            "16:15",
+            "19:15"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1152,8 +1180,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18:15",
-            "19:50",
             "22:00"
           ],
           "format": "Standard",
@@ -1165,8 +1191,6 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:30",
-            "19:45",
             "22:10"
           ],
           "format": "Standard",
@@ -1191,7 +1215,9 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "18:40"
+            "11:50",
+            "15:00",
+            "17:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1202,7 +1228,9 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "19:00"
+            "14:10",
+            "16:50",
+            "19:40"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -1269,7 +1297,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "16:40",
+            "10:20",
             "20:15"
           ],
           "format": "Standard",
@@ -1513,7 +1541,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "19:30"
+            "10:15",
+            "13:15",
+            "16:15",
+            "19:15"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -1524,8 +1555,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18:15",
-            "19:50",
             "22:00"
           ],
           "format": "Standard",
@@ -1537,8 +1566,6 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:30",
-            "19:45",
             "22:10"
           ],
           "format": "Standard",
@@ -1563,7 +1590,9 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "18:40"
+            "11:50",
+            "15:00",
+            "17:30"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -1574,7 +1603,9 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "19:00"
+            "14:10",
+            "16:50",
+            "19:40"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -1641,7 +1672,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "16:40",
+            "10:20",
             "20:15"
           ],
           "format": "Standard",
@@ -1885,7 +1916,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "19:30"
+            "10:15",
+            "13:15",
+            "16:15",
+            "19:15"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -1896,8 +1930,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18:15",
-            "19:50",
             "22:00"
           ],
           "format": "Standard",
@@ -1909,8 +1941,6 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:30",
-            "19:45",
             "22:10"
           ],
           "format": "Standard",
@@ -1935,7 +1965,9 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "18:40"
+            "11:50",
+            "15:00",
+            "17:30"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -1946,7 +1978,9 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "19:00"
+            "14:10",
+            "16:50",
+            "19:40"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -2013,7 +2047,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "16:40",
+            "10:20",
             "20:15"
           ],
           "format": "Standard",
@@ -2265,7 +2299,6 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "18.15",
             "22.00"
           ],
           "format": "Standard",
@@ -2512,7 +2545,6 @@
           "rating": "U",
           "duration": "2h 12m",
           "showtimes": [
-            "16:30",
             "19:30"
           ],
           "day": "today",
@@ -2534,29 +2566,7 @@
           "rating": "12A",
           "duration": "2h 10m",
           "showtimes": [
-            "16:00",
             "20:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Pressure",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "15:30",
-            "18:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Shaun The Sheep: The Beast Of Mossy Bottom",
-          "rating": "U",
-          "duration": "1h 20m",
-          "showtimes": [
-            "15:15"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -2576,18 +2586,7 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "17:30",
             "21:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "The Odyssey",
-          "rating": "15",
-          "duration": "2h 53m",
-          "showtimes": [
-            "14:45"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -3212,48 +3211,6 @@
       "address": "38-39 St Andrew's Street, Cambridge, CB2 3AR",
       "url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
       "films": [
-        {
-          "title": "Bad Apples",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "18:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Laser Projection",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "18:20",
-            "20:40"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Resident Evil",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "20:50"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Sense And Sensibility (2026)",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "17:00",
-            "20:00"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
         {
           "title": "Bad Apples",
           "rating": "U",
