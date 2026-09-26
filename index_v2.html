@@ -148,11 +148,93 @@
             color: #718096;
             text-decoration: line-through;
         }
+        
+        .rating-btn {
+            background: #f97316;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 8px;
+        }
+        
+        .rating-btn:hover {
+            background: #ea580c;
+        }
+        
+        .banner-ad {
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .banner-ad:hover {
+            opacity: 0.9;
+        }
+        
+        .banner-ad img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.3;
+        }
+        
+        .banner-ad-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        
+        .banner-ad h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .banner-ad p {
+            font-size: 0.9rem;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .banner-ad .cta {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 10px;
+            display: inline-block;
+            backdrop-filter: blur(10px);
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <a href="contact.html" class="banner-ad" id="bannerAd">
+        <div class="banner-ad-content">
+            <h3>🎬 Advertise Your Film</h3>
+            <p>Reach thousands of Cambridge cinema-goers</p>
+            <div class="cta">Contact us for rates →</div>
+        </div>
+    </a>
+    
     <div class="header-sticky">
         <header>
             <h1>🎬 Cambridge Cinema Listings</h1>
@@ -223,6 +305,7 @@
             setupDates();
             renderDayBar();
             renderList();
+            setupBannerAd();
             
         } catch (error) {
             console.error('❌ Error:', error);
@@ -286,6 +369,89 @@
         return now > screeningDate;
     }
 
+    function shouldShowRating(filmTitle) {
+        // Skip events that won't have Rotten Tomatoes reviews
+        const skipPatterns = [
+            /national theatre live/i,
+            /nt live/i,
+            /exhibition on screen/i,
+            /opera/i,
+            /ballet/i,
+            /royal opera/i,
+            /met opera/i,
+            /q&a/i,
+            /live broadcast/i,
+            /event cinema/i,
+            / encore/i,
+            /double bill/i,
+            /anniversary/i,
+            /4k restoration/i,
+            /premiere/i,
+            /festival/i,
+            /the movie/i,
+            /plus q&a/i,
+            /broadcast/i
+        ];
+        
+        return !skipPatterns.some(pattern => pattern.test(filmTitle));
+    }
+
+    function getRottenTomatoesUrl(filmTitle) {
+        // Clean up the title for URL search
+        const cleanTitle = filmTitle
+            .replace(/:.*$/, '') // Remove subtitles after colon
+            .replace(/\([^)]*\)/g, '') // Remove content in parentheses
+            .replace(/\s+/g, ' ') // Normalize spaces
+            .trim();
+        
+        // Create Rotten Tomatoes search URL
+        const encodedTitle = encodeURIComponent(cleanTitle);
+        return `https://www.rottentomatoes.com/search?search=${encodedTitle}`;
+    }
+
+    async function setupBannerAd() {
+        // Get current film titles from all cinemas
+        const currentFilms = new Set();
+        if (cinemaData && cinemaData.cinemas) {
+            cinemaData.cinemas.forEach(cinema => {
+                if (activeCinemas.has(cinema.name)) {
+                    cinema.films.forEach(film => {
+                        if (film.day === selectedKey) {
+                            currentFilms.add(film.title);
+                        }
+                    });
+                }
+            });
+        }
+        
+        // Select a random current film for the banner
+        const filmArray = Array.from(currentFilms);
+        const randomFilm = filmArray.length > 0 ? filmArray[Math.floor(Math.random() * filmArray.length)] : null;
+        
+        // Update banner
+        const bannerContainer = document.getElementById('bannerAd');
+        if (bannerContainer) {
+            if (randomFilm) {
+                bannerContainer.innerHTML = `
+                    <div class="banner-ad-content">
+                        <h3>🎬 ${randomFilm}</h3>
+                        <p>Now showing at Cambridge cinemas</p>
+                        <div class="cta">Advertise with us →</div>
+                    </div>
+                `;
+            } else {
+                // Fallback to generic banner
+                bannerContainer.innerHTML = `
+                    <div class="banner-ad-content">
+                        <h3>🎬 Advertise Your Film</h3>
+                        <p>Reach thousands of Cambridge cinema-goers</p>
+                        <div class="cta">Contact us for rates →</div>
+                    </div>
+                `;
+            }
+        }
+    }
+
     function renderDayBar() {
         const bar = document.getElementById('dayBar');
         if (!bar) return;
@@ -304,6 +470,7 @@
         selectedKey = dateOptions[index].key;
         renderDayBar();
         renderList();
+        setupBannerAd(); // Update banner for new day's films
     }
 
     function setView(view) {
@@ -411,6 +578,7 @@
         }
         renderCinemaBar();
         renderList();
+        setupBannerAd(); // Update banner for filtered films
     }
 
     function renderTimeView(container, allFilms) {
@@ -418,6 +586,8 @@
             const isPast = !film.isFuture && isScreeningPast(film.time, selectedKey);
             const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
             const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
+            const showRating = shouldShowRating(film.title);
+            const ratingUrl = showRating ? getRottenTomatoesUrl(film.title) : '';
             
             return `
             <div class="film-card ${filmClass}">
@@ -429,6 +599,7 @@
                 <div class="showtime-info">
                     <span class="time-badge ${timeClass}">${film.time}</span>
                     ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
+                    ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                 </div>
             </div>
         `}).join('');
@@ -455,6 +626,8 @@
                 const isPast = !film.isFuture && isScreeningPast(film.time, selectedKey);
                 const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
                 const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
+                const showRating = shouldShowRating(film.title);
+                const ratingUrl = showRating ? getRottenTomatoesUrl(film.title) : '';
                 
                 return `
                 <div class="film-card ${filmClass}">
@@ -465,6 +638,7 @@
                     <div class="showtime-info">
                         <span class="time-badge ${timeClass}">${film.time}</span>
                         ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
+                        ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                     </div>
                 </div>
             `}).join('');
