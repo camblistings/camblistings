@@ -444,68 +444,6 @@
         return `https://www.rottentomatoes.com/search?search=${encodedTitle}`;
     }
 
-    async function fetchRottenTomatoesRating(filmTitle) {
-        try {
-            const searchUrl = getRottenTomatoesUrl(filmTitle);
-            const response = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(searchUrl)}`);
-            if (!response.ok) throw new Error('Failed to fetch');
-            
-            const html = await response.text();
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            
-            // Look for first movie result with rating
-            const movieResults = doc.querySelectorAll('search-page-media-row');
-            if (movieResults.length > 0) {
-                const firstResult = movieResults[0];
-                const scoreElement = firstResult.querySelector('score-icon');
-                const titleElement = firstResult.querySelector('a');
-                
-                if (scoreElement && titleElement) {
-                    const score = scoreElement.getAttribute('criticsscore') || 'N/A';
-                    const title = titleElement.textContent.trim();
-                    const url = titleElement.href;
-                    
-                    return {
-                        score: score,
-                        title: title,
-                        url: url
-                    };
-                }
-            }
-            
-            return null;
-        } catch (error) {
-            console.log('Failed to fetch rating:', error);
-            return null;
-        }
-    }
-
-    async function showRatingPopover(filmTitle, button) {
-        const popoverId = `rating-${filmTitle.replace(/\s+/g, '-').toLowerCase()}`;
-        const popover = document.getElementById(popoverId);
-        
-        if (!popover) return;
-        
-        popover.style.display = 'block';
-        popover.innerHTML = '<div style="text-align: center; color: #666;">Loading rating...</div>';
-        
-        const rating = await fetchRottenTomatoesRating(filmTitle);
-        
-        if (rating) {
-            const scoreColor = rating.score >= 60 ? '#16a34a' : (rating.score >= 40 ? '#ea580c' : '#dc2626');
-            popover.innerHTML = `
-                <div style="text-align: center;">
-                    <div style="font-weight: bold; margin-bottom: 5px;">${rating.title}</div>
-                    <div style="font-size: 1.5rem; color: ${scoreColor}; font-weight: bold;">${rating.score}%</div>
-                    <a href="${rating.url}" target="_blank" style="color: var(--primary); text-decoration: none; font-size: 0.8rem;">View on Rotten Tomatoes →</a>
-                </div>
-            `;
-        } else {
-            popover.innerHTML = '<div style="text-align: center; color: #666;">No rating found</div>';
-        }
-    }
-
     function setupBannerAd() {
         // Get current film titles from all cinemas
         const currentFilms = new Set();
@@ -690,43 +628,22 @@
             const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
             const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
             const showRating = shouldShowRating(film.title);
+            const ratingUrl = showRating ? getRottenTomatoesUrl(film.title) : '';
             
-            if (showRating) {
-                return `
-                <div class="film-card ${filmClass}">
-                    <div class="film-header">
-                        <div class="film-title">${film.title}</div>
-                        <div class="film-meta">${film.rating} • ${film.duration}</div>
-                    </div>
-                    <div class="cinema-tag">${film.cinema}</div>
-                    <div class="showtime-info">
-                        <span class="time-badge ${timeClass}">${film.time}</span>
-                        ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
-                        <div class="rating-popover">
-                            <button class="rating-btn" onclick="showRatingPopover('${film.title.replace(/'/g, "\\'")}', this)">🍅 Rating</button>
-                            <div class="rating-popover-content" id="rating-${film.title.replace(/\s+/g, '-').toLowerCase()}">
-                                <div style="text-align: center; color: #666;">Loading rating...</div>
-                            </div>
-                        </div>
-                    </div>
+            return `
+            <div class="film-card ${filmClass}">
+                <div class="film-header">
+                    <div class="film-title">${film.title}</div>
+                    <div class="film-meta">${film.rating} • ${film.duration}</div>
                 </div>
-            `;
-            } else {
-                return `
-                <div class="film-card ${filmClass}">
-                    <div class="film-header">
-                        <div class="film-title">${film.title}</div>
-                        <div class="film-meta">${film.rating} • ${film.duration}</div>
-                    </div>
-                    <div class="cinema-tag">${film.cinema}</div>
-                    <div class="showtime-info">
-                        <span class="time-badge ${timeClass}">${film.time}</span>
-                        ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
-                    </div>
+                <div class="cinema-tag">${film.cinema}</div>
+                <div class="showtime-info">
+                    <span class="time-badge ${timeClass}">${film.time}</span>
+                    ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
+                    ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                 </div>
-            `;
-            }
-        }).join('');
+            </div>
+        `}).join('');
 
         container.innerHTML = `
             <div class="time-slot-section">
@@ -751,41 +668,21 @@
                 const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
                 const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
                 const showRating = shouldShowRating(film.title);
+                const ratingUrl = showRating ? getRottenTomatoesUrl(film.title) : '';
                 
-                if (showRating) {
-                    return `
-                    <div class="film-card ${filmClass}">
-                        <div class="film-header">
-                            <div class="film-title">${film.title}</div>
-                            <div class="film-meta">${film.rating} • ${film.duration}</div>
-                        </div>
-                        <div class="showtime-info">
-                            <span class="time-badge ${timeClass}">${film.time}</span>
-                            ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
-                            <div class="rating-popover">
-                                <button class="rating-btn" onclick="showRatingPopover('${film.title.replace(/'/g, "\\'")}', this)">🍅 Rating</button>
-                                <div class="rating-popover-content" id="rating-${film.title.replace(/\s+/g, '-').toLowerCase()}">
-                                    <div style="text-align: center; color: #666;">Loading rating...</div>
-                                </div>
-                            </div>
-                        </div>
+                return `
+                <div class="film-card ${filmClass}">
+                    <div class="film-header">
+                        <div class="film-title">${film.title}</div>
+                        <div class="film-meta">${film.rating} • ${film.duration}</div>
                     </div>
-                `;
-                } else {
-                    return `
-                    <div class="film-card ${filmClass}">
-                        <div class="film-header">
-                            <div class="film-title">${film.title}</div>
-                            <div class="film-meta">${film.rating} • ${film.duration}</div>
-                        </div>
-                        <div class="showtime-info">
-                            <span class="time-badge ${timeClass}">${film.time}</span>
-                            ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
-                        </div>
+                    <div class="showtime-info">
+                        <span class="time-badge ${timeClass}">${film.time}</span>
+                        ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
+                        ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                     </div>
-                `;
-                }
-            }).join('');
+                </div>
+            `}).join('');
 
             return `
                 <div class="time-slot-section">
