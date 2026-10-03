@@ -350,16 +350,33 @@
 
     function setupDates() {
         const today = new Date();
+        const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const currentDay = today.getDay();
+        
+        // Calculate days dynamically based on current day
         dateOptions = [
             { key: 'today', label: 'Today', date: today },
-            { key: 'tomorrow', label: 'Tomorrow', date: new Date(today.getTime() + 24 * 60 * 60 * 1000) },
-            { key: 'monday', label: 'Monday', date: new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000) },
-            { key: 'tuesday', label: 'Tuesday', date: new Date(today.getTime() + 3 * 24 * 60 * 60 * 1000) },
-            { key: 'wednesday', label: 'Wednesday', date: new Date(today.getTime() + 4 * 24 * 60 * 60 * 1000) },
-            { key: 'thursday', label: 'Thursday', date: new Date(today.getTime() + 5 * 24 * 60 * 60 * 1000) },
-            { key: 'friday', label: 'Friday', date: new Date(today.getTime() + 6 * 24 * 60 * 60 * 1000) },
-            { key: 'future', label: 'Future', date: new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000) }
+            { key: 'tomorrow', label: 'Tomorrow', date: new Date(today.getTime() + 24 * 60 * 60 * 1000) }
         ];
+        
+        // Add next 5 weekdays dynamically
+        for (let i = 2; i <= 6; i++) {
+            const targetDate = new Date(today.getTime() + i * 24 * 60 * 60 * 1000);
+            const targetDay = targetDate.getDay();
+            const dayName = dayNames[targetDay].toLowerCase();
+            dateOptions.push({
+                key: dayName,
+                label: dayNames[targetDay],
+                date: targetDate
+            });
+        }
+        
+        // Add future option
+        dateOptions.push({
+            key: 'future',
+            label: 'Future',
+            date: new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000)
+        });
     }
 
     function isScreeningPast(timeStr, dayKey) {
@@ -382,19 +399,15 @@
             // For future films, assume they're in the future (don't grey out)
             return false;
         } else {
-            // For specific days, calculate the date
-            const dayMap = {
-                'monday': 1, 'tuesday': 2, 'wednesday': 3, 'thursday': 4,
-                'friday': 5, 'saturday': 6, 'sunday': 0
-            };
-            const targetDay = dayMap[dayKey];
-            const currentDay = today.getDay();
-            
-            // Calculate days until target day
-            let daysUntil = (targetDay - currentDay + 7) % 7;
-            if (daysUntil === 0) daysUntil = 7; // If today, make it next week
-            
-            screeningDate = new Date(today.getTime() + daysUntil * 24 * 60 * 60 * 1000);
+            // For specific days, use the date from dateOptions
+            const dayOption = dateOptions.find(d => d.key === dayKey);
+            if (dayOption) {
+                screeningDate = new Date(dayOption.date);
+                screeningDate.setHours(0, 0, 0, 0);
+            } else {
+                // If day not found, assume it's future
+                return false;
+            }
         }
         
         // Set the screening time
@@ -444,6 +457,83 @@
         return `https://www.rottentomatoes.com/search?search=${encodedTitle}`;
     }
 
+    function getDayKeyForScraperDay(scraperDayLabel) {
+        // Map scraper day labels to frontend day keys
+        const today = new Date();
+        const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+        
+        // Handle Today/Tomorrow
+        if (scraperDayLabel.toLowerCase() === 'today') return 'today';
+        if (scraperDayLabel.toLowerCase() === 'tomorrow') return 'tomorrow';
+        
+        // Handle date patterns like "Wed 30 Sep"
+        const dateMatch = scraperDayLabel.match(/([A-Za-z]+)\s+\d+/);
+        if (dateMatch) {
+            const dayName = dateMatch[1].toLowerCase();
+            if (dayNames.includes(dayName)) {
+                // Find the corresponding dynamic day key
+                const dayOption = dateOptions.find(d => d.key === dayName);
+                return dayOption ? dayOption.key : 'future';
+            }
+        }
+        
+        // Handle raw day names
+        const dayName = scraperDayLabel.toLowerCase();
+        if (dayNames.includes(dayName)) {
+            const dayOption = dateOptions.find(d => d.key === dayName);
+            return dayOption ? dayOption.key : 'future';
+        }
+        
+        return 'future';
+    }
+
+    function getDayKeyForScraperDate(scraperDate) {
+        // Calculate day key based on actual date
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        
+        // Parse scraper date (handle formats like "Wed 30 Sep", "today", "tomorrow")
+        if (scraperDate.toLowerCase() === 'today') return 'today';
+        if (scraperDate.toLowerCase() === 'tomorrow') return 'tomorrow';
+        
+        // Try to parse the date
+        const dateMatch = scraperDate.match(/([A-Za-z]+)\s+(\d+)\s+([A-Za-z]+)/);
+        if (dateMatch) {
+            const dayName = dateMatch[1];
+            const dayNum = parseInt(dateMatch[2]);
+            const monthName = dateMatch[3];
+            
+            // Create date object
+            const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+            const monthIndex = months.findIndex(m => monthName.toLowerCase().startsWith(m));
+            
+            if (monthIndex !== -1) {
+                const year = today.getFullYear();
+                const scraperDateObj = new Date(year, monthIndex, dayNum);
+                scraperDateObj.setHours(0, 0, 0, 0);
+                
+                // Calculate day difference
+                const diffTime = scraperDateObj - today;
+                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                if (diffDays === 0) return 'today';
+                if (diffDays === 1) return 'tomorrow';
+                if (diffDays >= 2 && diffDays <= 6) {
+                    // Return the dynamic day key
+                    const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+                    const targetDay = scraperDateObj.getDay();
+                    const dayNameKey = dayNames[targetDay];
+                    const dayOption = dateOptions.find(d => d.key === dayNameKey);
+                    return dayOption ? dayOption.key : 'future';
+                }
+                return 'future';
+            }
+        }
+        
+        // Fallback to day name matching
+        return getDayKeyForScraperDay(scraperDate);
+    }
+
     function setupBannerAd() {
         // Get current film titles from all cinemas
         const currentFilms = new Set();
@@ -451,7 +541,8 @@
             cinemaData.cinemas.forEach(cinema => {
                 if (activeCinemas.has(cinema.name)) {
                     cinema.films.forEach(film => {
-                        if (film.day === selectedKey) {
+                        const dayKey = getDayKeyForScraperDate(film.day);
+                        if (dayKey === selectedKey) {
                             currentFilms.add(film.title);
                         }
                     });
@@ -540,7 +631,8 @@
             // Only include films from active cinemas
             if (activeCinemas.has(cinema.name)) {
                 cinema.films.forEach(film => {
-                    if (film.day === selectedKey) {
+                    const dayKey = getDayKeyForScraperDate(film.day);
+                    if (dayKey === selectedKey) {
                         if (film.title.toLowerCase().includes(searchTerm)) {
                             // Handle future films without showtimes differently
                             if (selectedKey === 'future' && (!film.showtimes || film.showtimes.length === 0)) {
