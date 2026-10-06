@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T15:57:14.992068",
+  "last_updated": "2026-10-06T20:50:26.876385",
   "location": "Cambridge, UK",
   "cinemas": [
     {
@@ -13,8 +13,10 @@
           "rating": "15",
           "duration": "2h 10m",
           "showtimes": [
-            "17:00",
-            "19:50"
+            "10:00",
+            "13:00",
+            "16:00",
+            "19:20"
           ],
           "format": "Standard",
           "day": "today",
@@ -25,8 +27,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "today",
@@ -37,7 +41,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "today",
@@ -48,6 +53,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -60,8 +67,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "today",
@@ -84,8 +94,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -107,7 +120,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "today",
@@ -130,7 +143,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "today",
@@ -186,7 +199,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "today",
@@ -227,22 +240,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "today",
@@ -434,66 +437,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -537,6 +480,66 @@
           "showtimes": [
             "19:00",
             "19:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
           ],
           "format": "Standard",
           "day": "today",
@@ -553,7 +556,7 @@
             "19:20"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -561,11 +564,13 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -573,10 +578,11 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -584,11 +590,13 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -596,11 +604,14 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -612,7 +623,7 @@
             "12:45"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -620,11 +631,14 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -635,7 +649,7 @@
             "10:50"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -643,10 +657,10 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -658,7 +672,7 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -666,10 +680,10 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -680,7 +694,7 @@
             "12:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -691,7 +705,7 @@
             "19:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -702,7 +716,7 @@
             "10:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -714,7 +728,7 @@
             "11:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -722,10 +736,10 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -737,7 +751,7 @@
             "19:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -748,7 +762,7 @@
             "14:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -759,18 +773,7 @@
             "16:45"
           ],
           "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -778,10 +781,11 @@
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -792,7 +796,7 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -803,7 +807,7 @@
             "19:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -814,7 +818,7 @@
             "20:45"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -825,7 +829,7 @@
             "10:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -836,7 +840,7 @@
             "16:10"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -848,7 +852,7 @@
             "19:15"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -859,7 +863,7 @@
             "15:15"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -870,7 +874,7 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -881,7 +885,7 @@
             "12:40"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -894,7 +898,7 @@
             "21:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -905,7 +909,7 @@
             "19:45"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -916,7 +920,7 @@
             "10:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -930,7 +934,7 @@
             "19:20"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -944,7 +948,7 @@
             "19:45"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -955,7 +959,7 @@
             "13:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -966,67 +970,7 @@
             "19:15"
           ],
           "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1038,7 +982,7 @@
             "16:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1052,7 +996,7 @@
             "20:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1063,7 +1007,7 @@
             "17:00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1075,7 +1019,67 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "today",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1090,7 +1094,7 @@
             "19:50"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1098,11 +1102,13 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1110,10 +1116,11 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1121,11 +1128,13 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1133,11 +1142,14 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1149,7 +1161,7 @@
             "12:45"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1157,11 +1169,14 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1172,7 +1187,7 @@
             "10:50"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1180,10 +1195,10 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1195,7 +1210,7 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1203,10 +1218,10 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1217,7 +1232,7 @@
             "12:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1228,7 +1243,7 @@
             "19:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1239,7 +1254,7 @@
             "10:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1251,7 +1266,7 @@
             "11:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1259,10 +1274,10 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1274,7 +1289,7 @@
             "19:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1285,7 +1300,7 @@
             "14:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1296,18 +1311,7 @@
             "16:45"
           ],
           "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1315,10 +1319,11 @@
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1329,7 +1334,7 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1340,7 +1345,7 @@
             "19:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1351,7 +1356,7 @@
             "20:45"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1362,7 +1367,7 @@
             "10:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1373,7 +1378,7 @@
             "16:10"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1385,7 +1390,7 @@
             "19:15"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1396,7 +1401,7 @@
             "15:15"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1407,7 +1412,7 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1418,7 +1423,7 @@
             "12:40"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1431,7 +1436,7 @@
             "21:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1442,7 +1447,7 @@
             "19:45"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1453,7 +1458,7 @@
             "10:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1467,7 +1472,7 @@
             "19:20"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1481,7 +1486,7 @@
             "19:45"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1492,7 +1497,7 @@
             "13:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1503,67 +1508,7 @@
             "19:15"
           ],
           "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1575,7 +1520,7 @@
             "16:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1589,7 +1534,7 @@
             "20:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1600,7 +1545,7 @@
             "17:00"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1612,7 +1557,67 @@
             "19:30"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tomorrow",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tomorrow",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "tomorrow",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "tomorrow",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
@@ -1633,8 +1638,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1645,7 +1652,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1656,6 +1664,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -1668,8 +1678,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1692,8 +1705,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1715,7 +1731,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1738,7 +1754,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1794,7 +1810,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -1835,22 +1851,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -2042,66 +2048,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -2145,6 +2091,66 @@
           "showtimes": [
             "19:00",
             "19:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
           ],
           "format": "Standard",
           "day": "friday",
@@ -2169,8 +2175,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2181,7 +2189,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2192,6 +2201,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -2204,8 +2215,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2228,8 +2242,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2251,7 +2268,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2274,7 +2291,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2330,7 +2347,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2371,22 +2388,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2578,66 +2585,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -2681,6 +2628,66 @@
           "showtimes": [
             "19:00",
             "19:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -2705,8 +2712,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2717,7 +2726,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2728,6 +2738,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -2740,8 +2752,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2764,8 +2779,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2787,7 +2805,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2810,7 +2828,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2866,7 +2884,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -2907,22 +2925,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -3114,66 +3122,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -3217,6 +3165,66 @@
           "showtimes": [
             "19:00",
             "19:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -3240,8 +3248,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3252,7 +3262,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3263,6 +3274,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -3275,8 +3288,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3299,8 +3315,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3322,7 +3341,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3345,7 +3364,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3401,7 +3420,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3442,22 +3461,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3649,66 +3658,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -3752,6 +3701,66 @@
           "showtimes": [
             "19:00",
             "19:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
           ],
           "format": "Standard",
           "day": "monday",
@@ -3775,8 +3784,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3787,7 +3798,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3798,6 +3810,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -3810,8 +3824,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3834,8 +3851,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3857,7 +3877,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3880,7 +3900,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3936,7 +3956,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -3977,22 +3997,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -4184,66 +4194,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "tuesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -4287,6 +4237,66 @@
           "showtimes": [
             "19:00",
             "19:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "tuesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
           ],
           "format": "Standard",
           "day": "tuesday",
@@ -4311,8 +4321,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4323,7 +4335,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4334,6 +4347,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -4346,8 +4361,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4370,8 +4388,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4393,7 +4414,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4416,7 +4437,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4472,7 +4493,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4513,22 +4534,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "wednesday",
@@ -4720,66 +4731,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "wednesday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -4829,6 +4780,66 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "wednesday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Digger",
           "rating": "15",
           "duration": "2h 10m",
@@ -4846,8 +4857,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -4858,7 +4871,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -4869,6 +4883,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -4881,8 +4897,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -4905,8 +4924,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -4928,7 +4950,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -4951,7 +4973,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -5007,7 +5029,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -5048,22 +5070,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "thursday",
@@ -5255,66 +5267,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "thursday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -5364,6 +5316,66 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "thursday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Digger",
           "rating": "15",
           "duration": "2h 10m",
@@ -5381,8 +5393,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5393,7 +5407,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5404,6 +5419,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -5416,8 +5433,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5440,8 +5460,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5463,7 +5486,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5486,7 +5509,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5542,7 +5565,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5583,22 +5606,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "friday",
@@ -5790,66 +5803,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "friday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -5899,6 +5852,66 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "friday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Digger",
           "rating": "15",
           "duration": "2h 10m",
@@ -5916,8 +5929,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -5928,7 +5943,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -5939,6 +5955,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -5951,8 +5969,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -5975,8 +5996,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -5998,7 +6022,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -6021,7 +6045,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -6077,7 +6101,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -6118,22 +6142,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "saturday",
@@ -6325,66 +6339,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "saturday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -6434,6 +6388,66 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "saturday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Digger",
           "rating": "15",
           "duration": "2h 10m",
@@ -6451,8 +6465,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6463,7 +6479,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6474,6 +6491,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -6486,8 +6505,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6510,8 +6532,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6533,7 +6558,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6556,7 +6581,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6612,7 +6637,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6653,22 +6678,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "sunday",
@@ -6860,66 +6875,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "sunday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -6969,6 +6924,66 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "sunday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
           "title": "Digger",
           "rating": "15",
           "duration": "2h 10m",
@@ -6986,8 +7001,10 @@
           "rating": "U",
           "duration": "2h 11m",
           "showtimes": [
-            "16:30",
-            "19:20"
+            "11:10",
+            "14:00",
+            "16:15",
+            "19:40"
           ],
           "format": "Standard",
           "day": "monday",
@@ -6998,7 +7015,8 @@
           "rating": "12A",
           "duration": "3h 5m",
           "showtimes": [
-            "19:00"
+            "11:30",
+            "15:20"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7009,6 +7027,8 @@
           "rating": "15",
           "duration": "1h 57m",
           "showtimes": [
+            "11:20",
+            "14:00",
             "16:45",
             "19:30"
           ],
@@ -7021,8 +7041,11 @@
           "rating": "12A",
           "duration": "1h 41m",
           "showtimes": [
-            "16:50",
-            "20:00"
+            "10:20",
+            "12:50",
+            "15:15",
+            "17:40",
+            "20:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7045,8 +7068,11 @@
           "rating": "15",
           "duration": "1h 35m",
           "showtimes": [
-            "17:50",
-            "20:10"
+            "10:50",
+            "13:15",
+            "15:30",
+            "17:45",
+            "20:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7068,7 +7094,7 @@
           "rating": "12A",
           "duration": "1h 40m",
           "showtimes": [
-            "16:40"
+            "13:45"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7091,7 +7117,7 @@
           "rating": "15",
           "duration": "2h 52m",
           "showtimes": [
-            "19:40"
+            "13:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7147,7 +7173,7 @@
           "rating": "15",
           "duration": "1h 53m",
           "showtimes": [
-            "19:15"
+            "17:00"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7188,22 +7214,12 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "The Route To Cappyness",
-          "rating": "U",
-          "duration": "1h 39m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Deadline (Mandarin)",
           "rating": "15",
           "duration": "1h 58m",
           "showtimes": [
-            "17:00"
+            "11:00",
+            "19:10"
           ],
           "format": "Standard",
           "day": "monday",
@@ -7395,66 +7411,6 @@
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         },
         {
-          "title": "Arrietty (Subbed)",
-          "rating": "U",
-          "duration": "1h 35m",
-          "showtimes": [
-            "17:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Whalefall",
-          "rating": "15",
-          "duration": "1h 46m",
-          "showtimes": [
-            "16:30",
-            "19:00",
-            "21:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Street Fighter",
-          "rating": "12A",
-          "duration": "1h 59m",
-          "showtimes": [
-            "14:30",
-            "17:15",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "Dracula 4K Restoration",
-          "rating": "12A",
-          "duration": "1h 33m",
-          "showtimes": [
-            "17:45",
-            "20:00"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
-          "title": "The Shining (Theatrical Cut)",
-          "rating": "15",
-          "duration": "1h 59m",
-          "showtimes": [
-            "19:30"
-          ],
-          "format": "Standard",
-          "day": "monday",
-          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
-        },
-        {
           "title": "Lalka",
           "rating": "Unknown",
           "duration": "2h 42m",
@@ -7502,6 +7458,66 @@
           "format": "Standard",
           "day": "monday",
           "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Street Fighter",
+          "rating": "12A",
+          "duration": "1h 59m",
+          "showtimes": [
+            "14:30",
+            "17:15",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Dracula 4K Restoration",
+          "rating": "12A",
+          "duration": "1h 33m",
+          "showtimes": [
+            "17:45",
+            "20:00"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "The Shining (Theatrical Cut)",
+          "rating": "15",
+          "duration": "1h 59m",
+          "showtimes": [
+            "19:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Arrietty (Subbed)",
+          "rating": "U",
+          "duration": "1h 35m",
+          "showtimes": [
+            "17:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
+        },
+        {
+          "title": "Whalefall",
+          "rating": "15",
+          "duration": "1h 46m",
+          "showtimes": [
+            "16:30",
+            "19:00",
+            "21:30"
+          ],
+          "format": "Standard",
+          "day": "monday",
+          "booking_url": "https://cambridge.thelight.co.uk/cinema/nowshowing"
         }
       ]
     },
@@ -7516,24 +7532,12 @@
           "rating": "15",
           "duration": "2h 10m",
           "showtimes": [
-            "17.00",
-            "19.50"
-          ],
-          "format": "Standard",
-          "day": "today",
-          "booking_url": "https://cambridge.thelight.co.uk/imax"
-        },
-        {
-          "title": "Digger",
-          "rating": "15",
-          "duration": "2h 10m",
-          "showtimes": [
             "10.00",
             "13.00",
             "16.00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         },
         {
@@ -7544,7 +7548,7 @@
             "19.00"
           ],
           "format": "Standard",
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         },
         {
@@ -7558,7 +7562,7 @@
             "19.50"
           ],
           "format": "Standard",
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://cambridge.thelight.co.uk/imax"
         },
         {
@@ -7756,9 +7760,6 @@
           "rating": "15",
           "duration": "1h 54m",
           "showtimes": [
-            "14:45",
-            "16:45",
-            "18:45",
             "20:30"
           ],
           "day": "today",
@@ -7769,8 +7770,6 @@
           "rating": "15",
           "duration": "2h 9m",
           "showtimes": [
-            "13:45",
-            "17:30",
             "20:00"
           ],
           "day": "today",
@@ -7791,39 +7790,7 @@
           "rating": "U",
           "duration": "2h 12m",
           "showtimes": [
-            "17:00",
             "19:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Heart Of The Beast",
-          "rating": "12A",
-          "duration": "1h 41m",
-          "showtimes": [
-            "14:15",
-            "18:15"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Pressure",
-          "rating": "12A",
-          "duration": "1h 40m",
-          "showtimes": [
-            "16:15"
-          ],
-          "day": "today",
-          "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
-        },
-        {
-          "title": "Practical Magic 2",
-          "rating": "12A",
-          "duration": "2h 10m",
-          "showtimes": [
-            "15:15"
           ],
           "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
@@ -7847,7 +7814,7 @@
             "17:15",
             "21:00"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7860,7 +7827,7 @@
             "16:30",
             "20:00"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7874,7 +7841,7 @@
             "19:00",
             "19:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7886,7 +7853,7 @@
             "14:45",
             "18:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7898,7 +7865,7 @@
             "12:45",
             "18:00"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7908,7 +7875,7 @@
           "showtimes": [
             "15:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7918,7 +7885,7 @@
           "showtimes": [
             "21:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7928,7 +7895,7 @@
           "showtimes": [
             "11:45"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7938,7 +7905,7 @@
           "showtimes": [
             "20:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7952,7 +7919,7 @@
             "18:45",
             "20:30"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7965,7 +7932,7 @@
             "17:30",
             "20:00"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7978,7 +7945,7 @@
             "17:00",
             "19:30"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -7989,7 +7956,7 @@
             "10:00",
             "15:15"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -8000,7 +7967,7 @@
             "14:15",
             "21:00"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -8011,7 +7978,7 @@
             "10:15",
             "16:15"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -8022,7 +7989,7 @@
             "12:15",
             "18:00"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -8033,7 +8000,7 @@
             "12:45",
             "21:30"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.everymancinema.com/venues-list/g02am-everyman-cambridge/"
         },
         {
@@ -8579,48 +8546,6 @@
       "url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge",
       "films": [
         {
-          "title": "Digger",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "18:00",
-            "20:40"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Preview",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "20:50"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "Sense And Sensibility (2026)",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "17:50",
-            "20:40"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
-          "title": "The Lost Children Of Tuam",
-          "rating": "U",
-          "duration": "",
-          "showtimes": [
-            "18:30"
-          ],
-          "day": "today",
-          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
-        },
-        {
           "title": "15 100 Min",
           "rating": "U",
           "duration": "",
@@ -8628,7 +8553,7 @@
             "12:15",
             "17:40"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8638,7 +8563,7 @@
           "showtimes": [
             "12:00"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8650,7 +8575,7 @@
             "17:40",
             "20:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8660,7 +8585,7 @@
           "showtimes": [
             "15:30"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8670,7 +8595,7 @@
           "showtimes": [
             "13:10"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8680,7 +8605,7 @@
           "showtimes": [
             "20:00"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8692,7 +8617,7 @@
             "17:15",
             "20:10"
           ],
-          "day": "wednesday",
+          "day": "today",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8702,7 +8627,7 @@
           "showtimes": [
             "20:10"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8712,7 +8637,7 @@
           "showtimes": [
             "12:00"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8724,7 +8649,7 @@
             "17:40",
             "20:30"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8735,7 +8660,7 @@
             "12:00",
             "15:30"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8747,7 +8672,7 @@
             "17:15",
             "20:10"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -8758,7 +8683,7 @@
             "12:30",
             "17:45"
           ],
-          "day": "thursday",
+          "day": "tomorrow",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
@@ -9426,6 +9351,16 @@
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
         },
         {
+          "title": "Possible Love",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "19:45"
+          ],
+          "day": "future",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
           "title": "The Last Metro",
           "rating": "U",
           "duration": "",
@@ -9961,6 +9896,16 @@
           "duration": "",
           "showtimes": [
             "11:00"
+          ],
+          "day": "future",
+          "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
+        },
+        {
+          "title": "Nightborn",
+          "rating": "U",
+          "duration": "",
+          "showtimes": [
+            "18:15"
           ],
           "day": "future",
           "booking_url": "https://www.picturehouses.com/cinema/arts-picturehouse-cambridge"
