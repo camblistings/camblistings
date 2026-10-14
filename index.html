@@ -166,54 +166,6 @@
             background: #ea580c;
         }
         
-        .rating-btn.has-tooltip {
-            position: relative;
-        }
-        
-        .rating-tooltip {
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #1e293b;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            white-space: nowrap;
-            z-index: 1000;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-            margin-bottom: 8px;
-        }
-        
-        .rating-tooltip::after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            border: 6px solid transparent;
-            border-top-color: #1e293b;
-        }
-        
-        .rating-content {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        
-        .rating-title {
-            font-weight: bold;
-            margin-bottom: 4px;
-            max-width: 200px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        
-        .rating-score {
-            font-size: 0.9rem;
-        }
-        
         .banner-ad {
             width: 100%;
             height: 120px;
@@ -505,59 +457,6 @@
         return `https://www.rottentomatoes.com/search?search=${encodedTitle}`;
     }
 
-    async function fetchFilmRating(filmTitle) {
-        try {
-            // Use OMDb API to get film rating (free tier)
-            const apiKey = '8730e0d'; // Free OMDb API key
-            const cleanTitle = filmTitle
-                .replace(/:.*$/, '')
-                .replace(/\([^)]*\)/g, '')
-                .replace(/\s+/g, ' ')
-                .trim();
-            
-            const response = await fetch(`https://www.omdbapi.com/?t=${encodeURIComponent(cleanTitle)}&apikey=${apiKey}`);
-            const data = await response.json();
-            
-            if (data.Response === 'True') {
-                return {
-                    imdbRating: data.imdbRating,
-                    metascore: data.Metascore,
-                    rottenTomatoes: data.Ratings?.find(r => r.Source === 'Rotten Tomatoes')?.Value
-                };
-            }
-            return null;
-        } catch (error) {
-            console.error('Error fetching rating:', error);
-            return null;
-        }
-    }
-
-    async function showRatingTooltip(element, filmTitle) {
-        const rating = await fetchFilmRating(filmTitle);
-        if (rating) {
-            const tooltip = document.createElement('div');
-            tooltip.className = 'rating-tooltip';
-            tooltip.innerHTML = `
-                <div class="rating-content">
-                    <div class="rating-title">${filmTitle}</div>
-                    ${rating.rottenTomatoes ? `<div class="rating-score">🍅 ${rating.rottenTomatoes}</div>` : ''}
-                    ${rating.imdbRating ? `<div class="rating-score">⭐ ${rating.imdbRating}/10</div>` : ''}
-                    ${rating.metascore ? `<div class="rating-score">📊 ${rating.metascore}/100</div>` : ''}
-                </div>
-            `;
-            element.appendChild(tooltip);
-            element.classList.add('has-tooltip');
-        }
-    }
-
-    function hideRatingTooltip(element) {
-        const tooltip = element.querySelector('.rating-tooltip');
-        if (tooltip) {
-            tooltip.remove();
-            element.classList.remove('has-tooltip');
-        }
-    }
-
     function getDayKeyForScraperDay(scraperDayLabel) {
         // Map scraper day labels to frontend day keys
         const today = new Date();
@@ -833,7 +732,7 @@
                 <div class="showtime-info">
                     <span class="time-badge ${timeClass}">${film.time}</span>
                     ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
-                    ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn" onmouseenter="showRatingTooltip(this, '${film.title.replace(/'/g, "\\'")}')" onmouseleave="hideRatingTooltip(this)">🍅 Rating</a>` : ''}
+                    ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                 </div>
             </div>
         `}).join('');
@@ -872,7 +771,7 @@
                     <div class="showtime-info">
                         <span class="time-badge ${timeClass}">${film.time}</span>
                         ${!film.isFuture && !isPast ? `<a href="${film.booking_url}" target="_blank" style="color: var(--primary); text-decoration: none;">Book →</a>` : (film.isFuture ? '<span style="color: var(--light-text); font-size: 0.8rem;">Coming Soon</span>' : '<span style="color: var(--light-text); font-size: 0.8rem;">Passed</span>')}
-                        ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn" onmouseenter="showRatingTooltip(this, '${film.title.replace(/'/g, "\\'")}')" onmouseleave="hideRatingTooltip(this)">🍅 Rating</a>` : ''}
+                        ${showRating ? `<a href="${ratingUrl}" target="_blank" class="rating-btn">🍅 Rating</a>` : ''}
                     </div>
                 </div>
             `}).join('');
