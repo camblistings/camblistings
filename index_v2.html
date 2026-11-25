@@ -350,7 +350,7 @@
 
 <script>
     let cinemaData;
-    let selectedKey = 'today';
+    let selectedKey = new Date().toISOString().split('T')[0]; // Use YYYY-MM-DD format
     let currentView = 'time';
     let activeCinemas = new Set();
     let selectedDayIndex = 0;
@@ -402,51 +402,39 @@
     function setupDates() {
         const today = new Date();
         const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        const currentDay = today.getDay();
+        const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-        // Get all unique dates from the data
-        const allDates = new Set();
-        cinemaData.cinemas.forEach(cinema => {
-            cinema.films.forEach(film => {
-                if (film.day && film.day.match(/^\d{4}-\d{2}-\d{2}$/)) {
-                    allDates.add(film.day);
-                }
-            });
-        });
+        // Fixed date options: Today, Tomorrow, next 5 days, Future
+        // All keys are YYYY-MM-DD for consistent comparison
+        const todayStr = today.toISOString().split('T')[0];
+        const tomorrow = new Date(today.getTime() + 24 * 60 * 60 * 1000);
+        const tomorrowStr = tomorrow.toISOString().split('T')[0];
 
-        // Convert dates to Date objects and sort
-        const sortedDates = Array.from(allDates)
-            .map(dateStr => new Date(dateStr))
-            .sort((a, b) => a - b);
+        dateOptions = [
+            { key: todayStr, label: 'Today', date: today },
+            { key: tomorrowStr, label: 'Tomorrow', date: tomorrow }
+        ];
 
-        // Build date options based on actual data
-        dateOptions = [];
+        // Add next 5 days with format "Thurs 26 Nov"
+        for (let i = 2; i <= 6; i++) {
+            const targetDate = new Date(today.getTime() + i * 24 * 60 * 60 * 1000);
+            const dayName = dayNames[targetDate.getDay()].substring(0, 4); // "Thurs", "Fri", etc.
+            const dayNum = targetDate.getDate();
+            const monthName = monthNames[targetDate.getMonth()];
+            const label = `${dayName} ${dayNum} ${monthName}`;
+            const key = targetDate.toISOString().split('T')[0]; // Use YYYY-MM-DD as key
+            dateOptions.push({ key: key, label: label, date: targetDate });
+        }
 
-        sortedDates.forEach(date => {
-            const dateStr = date.toISOString().split('T')[0];
-            const daysDiff = Math.floor((date - today) / (24 * 60 * 60 * 1000));
-
-            if (daysDiff === 0) {
-                dateOptions.push({ key: 'today', label: 'Today', date: date });
-            } else if (daysDiff === 1) {
-                dateOptions.push({ key: 'tomorrow', label: 'Tomorrow', date: date });
-            } else if (daysDiff <= 7) {
-                const dayName = dayNames[date.getDay()].toLowerCase();
-                const label = dayNames[date.getDay()];
-                dateOptions.push({ key: dayName, label: label, date: date });
-            } else {
-                // For dates beyond 7 days, use date string
-                const label = date.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
-                dateOptions.push({ key: dateStr, label: label, date: date });
-            }
-        });
-
-        // Add future option if needed
+        // Add future option
         dateOptions.push({
             key: 'future',
             label: 'Future',
             date: new Date(today.getTime() + 30 * 24 * 60 * 60 * 1000)
         });
+
+        // Set selectedKey to today's date
+        selectedKey = todayStr;
     }
 
     function isScreeningPast(timeStr, filmDay) {
@@ -460,19 +448,10 @@
         let screeningDate;
         if (filmDay && filmDay.match(/^\d{4}-\d{2}-\d{2}$/)) {
             screeningDate = new Date(filmDay);
+        } else if (filmDay === 'future') {
+            return false;
         } else {
-            // Fallback for old format
-            const today = new Date();
-            today.setHours(0, 0, 0, 0);
-            if (filmDay === 'today') {
-                screeningDate = new Date(today);
-            } else if (filmDay === 'tomorrow') {
-                screeningDate = new Date(today.getTime() + 24 * 60 * 60 * 1000);
-            } else if (filmDay === 'future') {
-                return false;
-            } else {
-                return false;
-            }
+            return false;
         }
 
         // Set the screening time
@@ -553,30 +532,21 @@
     }
 
     function getDayKeyForScraperDate(scraperDate) {
-        // Handle YYYY-MM-DD format (new format)
+        // For YYYY-MM-DD format, return as-is for direct comparison
         if (scraperDate.match(/^\d{4}-\d{2}-\d{2}$/)) {
-            const filmDate = new Date(scraperDate);
-            const today = new Date();
-            today.setHours(0, 0, 0, 0);
-
-            const daysDiff = Math.floor((filmDate - today) / (24 * 60 * 60 * 1000));
-
-            if (daysDiff === 0) return 'today';
-            if (daysDiff === 1) return 'tomorrow';
-            if (daysDiff <= 7) {
-                const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-                return dayNames[filmDate.getDay()];
-            }
-            return 'future';
+            return scraperDate;
         }
 
-        // Calculate day key based on actual date (old format)
+        // Handle old format (backward compatibility)
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
-        // Parse scraper date (handle formats like "Wed 30 Sep", "today", "tomorrow")
-        if (scraperDate.toLowerCase() === 'today') return 'today';
-        if (scraperDate.toLowerCase() === 'tomorrow') return 'tomorrow';
+        if (scraperDate.toLowerCase() === 'today') return today.toISOString().split('T')[0];
+        if (scraperDate.toLowerCase() === 'tomorrow') {
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            return tomorrow.toISOString().split('T')[0];
+        }
         
         // Try to parse the date
         const dateMatch = scraperDate.match(/([A-Za-z]+)\s+(\d+)\s+([A-Za-z]+)/);
@@ -757,7 +727,8 @@
                                         rating: film.rating,
                                         duration: film.duration,
                                         booking_url: film.booking_url,
-                                        time: time
+                                        time: time,
+                                        filmDay: film.day
                                     });
                                 });
                             }
@@ -769,8 +740,8 @@
 
         // Sort by time (future films go to end, past screenings go to end)
         allFilms.sort((a, b) => {
-            const aIsPast = !a.isFuture && isScreeningPast(a.time, selectedKey);
-            const bIsPast = !b.isFuture && isScreeningPast(b.time, selectedKey);
+            const aIsPast = !a.isFuture && isScreeningPast(a.time, a.filmDay);
+            const bIsPast = !b.isFuture && isScreeningPast(b.time, b.filmDay);
             
             if (a.isFuture && !b.isFuture) return 1;
             if (!a.isFuture && b.isFuture) return -1;
@@ -819,7 +790,7 @@
 
     function renderTimeView(container, allFilms) {
         const filmsHtml = allFilms.map(film => {
-            const isPast = !film.isFuture && isScreeningPast(film.time, selectedKey);
+            const isPast = !film.isFuture && isScreeningPast(film.time, film.filmDay);
             const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
             const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
             const showRating = shouldShowRating(film.title);
@@ -842,7 +813,7 @@
 
         container.innerHTML = `
             <div class="time-slot-section">
-                <div class="time-slot-label">All Showtimes (${selectedKey})</div>
+                <div class="time-slot-label">All Showtimes (${dateOptions.find(d => d.key === selectedKey)?.label || selectedKey})</div>
                 ${filmsHtml}
             </div>
         `;
@@ -859,7 +830,7 @@
 
         const cinemaHtml = Object.entries(filmsByCinema).map(([cinemaName, films]) => {
             const filmsList = films.map(film => {
-                const isPast = !film.isFuture && isScreeningPast(film.time, selectedKey);
+                const isPast = !film.isFuture && isScreeningPast(film.time, film.filmDay);
                 const timeClass = film.isFuture ? 'future-badge' : (isPast ? 'past-time-badge' : '');
                 const filmClass = film.isFuture ? 'future-film' : (isPast ? 'past-screening' : '');
                 const showRating = shouldShowRating(film.title);
